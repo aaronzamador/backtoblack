@@ -24,7 +24,7 @@ p{
     line-height:40px;
     font-family: open-sans, sans-serif;
     color:#2B3A2B;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal; 
 }
 
@@ -226,6 +226,7 @@ h2 img{
     margin:0;
     z-index:1;
     height:100%;
+    padding-bottom:220px;
 }
 
 #hole{
@@ -319,13 +320,13 @@ h4{
     ;
 }
 
-.first{
-    grid-area:first;
-}
-.first img{
+.first img, .second img, .third img, .fourth img{
     max-width:100%;
 }
 
+.first{
+    grid-area:first;
+}
 .second{
     grid-area:second;
 }
@@ -338,36 +339,32 @@ h4{
 .fourth{
     grid-area:fourth;
 }
-
-
-
-
-.talmbout{
-    margin-top:-20px;
-    padding-bottom:40px;
+.first, .second, .third, .fourth{
+    padding:0px 0px 80px 0px;
+}
+h5{
+    margin-top:25px;
+    font-family: gopher, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:32px;
+    padding:0px 0px 0px 0px;
 }
 
-.titletag{
-    margin-top:-70px;
-    display:flex;
-    padding-bottom:80px;
-}
+
 
 .tag{
-    padding-right:7px;
+    margin-top:-35px;
+    padding-right:10px;
     font-family: gopher, sans-serif;
     font-weight:500;
     letter-spacing:1px;
     text-transform:uppercase;
     letter-spacing:2px;
-    padding-top:20px;
     color:#2B3A2B;
-    font-size:14px;
+    font-size:24px;
+    padding:0px 0px 0px 0px;
 }
-
-
-
-
 
 
 
