@@ -83,7 +83,7 @@ footer{
 }
 .menu{
     position:absolute;
-    padding:35px 65px 0px 0px;
+    padding:35px 120px 0px 0px;
     font-family: gopher, sans-serif;
     letter-spacing:1px;
     font-weight:600;
@@ -97,7 +97,7 @@ footer{
     position:absolute;
     right:0;
     top:0;
-    padding:28px 75px 0px 0px;
+    padding:28px 130px 0px 0px;
     font-family: gopher, sans-serif;
     letter-spacing:1px;
     font-weight:600;
