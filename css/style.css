@@ -226,7 +226,6 @@ h2 img{
     margin:0;
     z-index:1;
     height:100%;
-    background-color:yellow;
 }
 
 #hole{
@@ -235,7 +234,7 @@ h2 img{
     color:#2B3A2B;
 }
 #intro{
-    padding:180px 0 0 120px;
+    padding:220px 0 0 120px;
 }
 
 #intro img{
@@ -282,18 +281,22 @@ h3{
 
 #background{
     color:#2B3A2B;
-    padding:180px 0 0 120px;
+    padding:220px 0 0 120px;
 }
 
 h4{
     font-family: gopher, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size:48px;
+    font-size:42px;
 }
 
 .bodyodyody{
-    margin-top:-15px;
+    margin-top:-35px;
+}
+
+#casestudies{
+    padding:320px 0 0 120px;
 }
 
 
@@ -302,71 +305,42 @@ h4{
 
 
 
-.title{
-    margin-left:80px;
-    color:#2B3A2B;
-    margin-top:160px;
-}
 
-
-
-
-
-
-
-.gridcontainer{
-    margin-left:80px;
+.workgrid{
+    padding:0 120px 0 0px;
     display:grid;
-    height:1200px;
-    width:100%;
-    grid-template-columns:1fr 1fr 80px;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "topleft topright rightside"
-    "bottomleft  bottomright rightside"
+    "first"
+    "second"
+    "third"
+    "fourth"
     ;
-    transition:.2s linear;
 }
 
-.tleft{
-    grid-area:topleft;
-    padding-right:40px;
+.first{
+    grid-area:first;
 }
-
-.tleft img{
+.first img{
     max-width:100%;
 }
 
-.tright{
-    grid-area:topright;
-    padding-left:40px;
+.second{
+    grid-area:second;
 }
 
-.tright img{
-    max-width:100%;
+.third{
+    grid-area:third;
 }
 
-.bleft{
-    grid-area:bottomleft;
-    padding-right:40px;
+
+.fourth{
+    grid-area:fourth;
 }
 
-.bleft img{
-    max-width:100%;
-}
 
-.bright{
-    grid-area:bottomright;
-    padding-left:40px;
-}
 
-.bright img{
-    max-width:100%;
-}
-
-.rigside{
-    grid-area:rightside;
-}
 
 .talmbout{
     margin-top:-20px;
