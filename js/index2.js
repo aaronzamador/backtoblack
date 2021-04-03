@@ -1,19 +1,23 @@
    
-            $("#nav").click(function(){
+$("#right").click(function(){
             
+    if ($('.sidemenu').hasClass("sideclicked")){
+        $('.sidemenu').removeClass("sideclicked");
+}
+    else{
+        $('.sidemenu').addClass("sideclicked");
+}
             
-                if ($('.menu').hasClass("menuswitch")){
-                    $('.menuclose').removeClass("menucloseswitch");
-                    $('.menu').removeClass("menuswitch");
-                    $('.sidemenu').removeClass("sideclicked");
-                    
-                }
-                else{
-                    $('.menu').addClass("menuswitch");
-                    $('.menuclose').addClass("menucloseswitch");
-                    $('.sidemenu').addClass("sideclicked");
-                    
-                }
+ });
+
+    
+$(".gettingback").click(function(){
             
+    if ($('.sidemenu').hasClass("sideclicked")){
+        $('.sidemenu').removeClass("sideclicked");
+}
+    else{
+        $('.sidemenu').addClass("sideclicked");
+}
             
-            });
+ });
