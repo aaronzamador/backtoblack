@@ -214,7 +214,7 @@ h2 img{
     margin:0;
     z-index:1;
     height:100%;
-    padding-bottom:220px;
+    padding:0 0 120px 0;
 }
 
 #hole{
@@ -360,10 +360,41 @@ h5{
     font-style: normal;
     font-size:32px;
     padding:0px 0px 0px 0px;
+    margin-bottom:0px;
 }
+h6{
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:24px;
+    padding:0px 0px 0px 0px;
+    margin-bottom:0px;
+}
+.bouncy{
+    margin-top:30px;
+    margin-bottom:0px;
+}
+.therest{
+    margin-top:30px;
+}
+.bouncy img{
+    animation-name: bouncy;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
 
 
-
+    @keyframes bouncy {
+        0% {
+            transform:translatex(0);
+        }
+        50% {
+            transform:translatex(10px);
+        }
+        100% {
+            transform:translatex(0px);
+        }
+    }
 .tag{
     margin-top:-55px;
     padding-right:10px;
@@ -382,61 +413,44 @@ h5{
     color:#2B3A2B;
 }
 
+.footercontainer{
+    width:100%;
+    padding-top:60px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr;
+    grid-template-areas:
+    "socials webdev"
+    ;
 
 
-
-
-
-.borderbottom{
-    margin-top:780px;
-    border-top:2px solid #2B3A2B;
-    width:0px;
-    margin-left:-25px;  
-    transition: .5s linear;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-.bbottom{
-    grid-area:bottom;
-    padding-top:80px;
-    display:flex;
-    padding-bottom:240px;
-    padding-left:200px;
-    margin-left:-25px;
-    margin-top:80px;
+.bottomborder{
+    padding:320px 0 0 0;
+    height:20px;
+    border-bottom:2px solid #2B3A2B;
+    width:100%;
 }
 
-.cred{
-    width:600px;
-}
-
-.fm{
-    width:500px;
-}
-.fm img{
-    max-height:14px;
-}
-
-.socials{
-    display:flex;
-    word-spacing:40px;
-    margin-top:-35px;
-}
 
 .socials img{
-    height:18px;
-    width:18px;
-    padding-right:5px;
+    max-height:18px;
+    padding-right:20px;
+}
+.socials{
+    padding:0 0 0 60px;
+    grid-area:socials;
+}
+.webdev{
+    grid-area:webdev;
+    padding:0 0 0 60px;
+}
+.findme{
+    grid-area:findme;
+    padding:0 0 0 60px;
 }
 
 
