@@ -21,3 +21,9 @@ $(".gettingback").click(function(){
 }
             
  });
+
+
+$(".linkage").click(function(){
+    $('.sidemenu').removeClass("sideclicked");
+            
+ });
