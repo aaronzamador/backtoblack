@@ -289,7 +289,7 @@ h4{
 
 
 .showalittle img{
-    padding:230px 0 0 60px;
+    padding:320px 0 0 60px;
     width: 60px;
     animation-name: bounce;
     animation-duration: 750ms;
@@ -365,7 +365,7 @@ h5{
 
 
 .tag{
-    margin-top:-35px;
+    margin-top:-55px;
     padding-right:10px;
     font-family: gopher, sans-serif;
     font-weight:500;
@@ -373,9 +373,16 @@ h5{
     text-transform:uppercase;
     letter-spacing:2px;
     color:#2B3A2B;
-    font-size:24px;
+    font-size:18px;
     padding:0px 0px 0px 0px;
 }
+
+.tag a{
+
+    color:#2B3A2B;
+}
+
+
 
 
 
