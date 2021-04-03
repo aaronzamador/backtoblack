@@ -148,10 +148,13 @@ h1{
 
 .babies{
     padding-left:15px;
-    margin-top:-10px;
     line-height:60px;
 }
-
+.babies img{
+    animation-name: bouncy;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
 h2{
 
     font-family:gopher, sans-serif;
