@@ -223,7 +223,7 @@ h2 img{
     color:#2B3A2B;
 }
 #intro{
-    padding:320px 0 0 120px;
+    padding:320px 0 0 60px;
 }
 
 #intro img{
@@ -270,7 +270,7 @@ h3{
 
 #background{
     color:#2B3A2B;
-    padding:200px 0 0 120px;
+    padding:200px 0 0 60px;
 }
 
 h4{
@@ -289,7 +289,7 @@ h4{
 
 
 .showalittle img{
-    padding:230px 0 0 120px;
+    padding:230px 0 0 60px;
     width: 60px;
     animation-name: bounce;
     animation-duration: 750ms;
@@ -310,7 +310,7 @@ h4{
 
 
 #casestudies{
-    padding:180px 0 0 120px;
+    padding:180px 0 0 60px;
 }
 
 
@@ -321,7 +321,7 @@ h4{
 
 
 .workgrid{
-    padding:0 120px 0 0px;
+    padding:0 60px 0 0px;
     display:grid;
     grid-template-columns:1fr;
     grid-template-rows:1fr 1fr 1fr 1fr;
