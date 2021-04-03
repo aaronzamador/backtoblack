@@ -178,8 +178,8 @@ h2 img{
 }
 
 .preload img{
-    width:200px;
-    height:200px;
+    width:300px;
+    height:300px;
     margin:auto auto;
 }
 
@@ -372,10 +372,11 @@ h6{
 }
 .bouncy{
     margin-top:30px;
-    margin-bottom:0px;
+    margin-bottom:50px;
 }
 .therest{
     margin-top:30px;
+    margin-bottom:50px;
 }
 .bouncy img{
     animation-name: bouncy;
@@ -431,13 +432,13 @@ h6{
 .bottomborder{
     padding:320px 0 0 0;
     height:20px;
-    border-bottom:2px solid #2B3A2B;
+    border-bottom:1px solid #2B3A2B;
     width:100%;
 }
 
 
 .socials img{
-    max-height:18px;
+    max-height:24px;
     padding-right:20px;
 }
 .socials{
