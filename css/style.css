@@ -215,9 +215,12 @@ h2 img{
 
 #everything{
     margin:0;
+    left:0;
+    width:100%;
     z-index:1;
     height:100%;
     padding:0 0 120px 0;
+    transition: .3s;
 }
 
 #hole{
@@ -458,106 +461,10 @@ h6{
 
 
 
-
-
-
-
-
-
-
-
-.hex{
-    display:flex;
-    position:absolute;
-    left:65%;
-    z-index:3;
-    top: 3080px ;
+.onclick{
     opacity:0;
-    transition:all .3s linear;
-}
-
-.corn img{
-    transform:rotate(15deg);
-}
-
-.curntext{
-    margin-top:230px;
-    margin-left:60px;
-    transition:all .3s linear;
-}
-
-
-.sideclick{
-    transition:.5s ease;
-    position:absolute;
-}
-
-.curnsideclick{
-    transition:.5s linear;
-    position:absolute;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.borderbottomafter{
-    width:calc(100% + 175px);
-    transition:.5s linear;
-}
-
-.show{
-    opacity:1;
-    transition:.5s ease;
-}
-
-.curntextscroll{
-    opacity:1;
-    transition:all .5s linear;
-}
-
-.cmen img{
-    animation-name: cmen;
-    animation-duration: 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-    transition: 3s;
-}
-
-@keyframes cmen {
-    0% {
-    }
-
-    100% {
-        transform:rotate(-360deg);
-    }
-}
-
-.cside{
-    border-left:2px solid #2B3A2B;
-    margin-right:500px;
-    height:100%;
     transition: .3s;
-    transition-timing-function: ease;
 }
-
-.pagesize{
-    max-width:1902px;
-}
-
-.txtclick{
-    opacity:0;
-    transition:all .3s linear;
-}
-
 
 
 
