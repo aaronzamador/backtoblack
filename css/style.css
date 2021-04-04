@@ -19,9 +19,9 @@ a{
 }
 
 p{
-    font-size:24px;
+    font-size:12px;
     -webkit-font-smoothing: antialiased;
-    line-height:40px;
+    line-height:18px;
     font-family: open-sans, sans-serif;
     color:#2B3A2B;
     font-weight: 500;
@@ -33,13 +33,13 @@ p{
 header{
     position:fixed;
     display:grid;
-    width:100%;
     color:#2B3A2B;
     border-bottom:1px solid #2B3A2B;
     background-color:#E9F1E9;
-    height:120px;
+    width:100%;
     z-index:2;
-    grid-template-columns:120px 1fr 1fr;
+    grid-template-columns:60px 1fr 1fr;
+    height:55px;
     grid-template-rows:1fr;
     grid-template-areas:
     "left middle right"
@@ -50,10 +50,10 @@ header{
     grid-area:left;
 }
 #middle{
-    padding:30px 0px 0px 0px;
+    padding:15px 0px 0px 0px;
     grid-area:middle;
     font-family: gopher, sans-serif;
-    font-size:24px;
+    font-size: 10px;
     font-weight:400;
     letter-spacing:0px;
 }
@@ -61,17 +61,17 @@ header{
     font-family: gopher, sans-serif;
     letter-spacing:1px;
     font-weight:600;
-    font-size:24px;}
+    font-size: 10px;}
 
 #right{
     position:absolute;
     grid-area:right;
     right:0;
-    padding:35px 35px 0px 0px;
+    padding:20px 20px 0px 0px;
     font-family: gopher, sans-serif;
     letter-spacing:1px;
     font-weight:600;
-    font-size:36px;
+    font-size:14px;
     transition: .5s;
     opacity:1;
 }
@@ -79,8 +79,8 @@ header{
 
 #left img{
     position:fixed;
-    padding: 18px 0 0 20px;
-    max-height:80px;
+    max-height: 34px;
+    padding: 11px 0 0 12px;
     filter: grayscale(100%) sepia(100%) hue-rotate(40deg);
 }
 
@@ -229,7 +229,7 @@ h2 img{
     color:#2B3A2B;
 }
 #intro{
-    padding:320px 0 0 60px;
+    padding:40px 0 0 60px;
 }
 
 #intro img{
@@ -276,7 +276,7 @@ h3{
 
 #background{
     color:#2B3A2B;
-    padding:200px 0 0 60px;
+    padding:200px 0 0 80px;
 }
 
 h4{
@@ -295,8 +295,8 @@ h4{
 
 
 .showalittle img{
-    padding:320px 0 0 60px;
-    width: 60px;
+    padding:80px 0 0 60px;
+    width: 24px;
     animation-name: bounce;
     animation-duration: 750ms;
     animation-iteration-count: infinite;
@@ -327,7 +327,7 @@ h4{
 
 
 .workgrid{
-    padding:0 60px 0 0px;
+    padding:0px 80px 0px 0px;
     display:grid;
     grid-template-columns:1fr;
     grid-template-rows:1fr 1fr 1fr 1fr;
@@ -471,107 +471,12 @@ footer{
 
 }
 
-@media only screen and (min-width: 768px) {
 
-
-
-
-
-
-p{
-    font-size:18px;
-    line-height:30px;
-}
-
-header{
-    height:120px;
-}
-
-#left img{
-    max-height:70px;
-    padding: 24px 0 0 25px;
-}
-
-#middle, #middle b{
-    font-size: 22px;
-}
-#middle{
-    padding:32px 0px 0px 0px;}
-#right{
-    font-size:32px;
-    padding: 40px 40px 0 0px;
-}
-#intro{
-    padding:280px 0 0 60px;
-}
-
-
-#intro img{
-    height:30px;
-    width:30px;
-}
-
-h1{
-    font-size:64px;
-    line-height:160px;
-}
-.also{
-    font-size:64px;
-}
-
-h2{
-    font-size:52px;
-}
-h2 img{
-    height:36px;
-}
-
-h3{
-    font-size:52px;
-}
-
-h4{
-    font-size:32px;
-}
-
-.gettingback img{
-    padding:30px 30px 0 0;
-    height:70px;
-}
-
-#background{
-    padding:140px 0 0 60px;
-}
-
-.showalittle img{
-    padding:200px 0 0 60px;
-}
-
-.tag{
-    margin-top:-35px;
-}
-
-h5{
-    font-size:28px;
-}
-
-.bouncy{
-    margin-bottom:35px;
-}
-.therest{
-    margin-bottom:35px;
-}
-
-}
 
 @media only screen and (min-width: 1024px) {
 
 
 
-p{
-    font-size:12px;
-    line-height:18px;
-}
 
 footer{
     display:grid;
@@ -671,34 +576,17 @@ footer{
 }
 
 
-#middle, #middle b{
-    font-size: 10px;
-}
-#middle{
-    padding:15px 0px 0px 0px;}
 
-#left img {
-        max-height: 34px;
-        padding: 11px 0 0 12px;
-}    
+ 
 header{
     position:relative;
-    grid-template-columns:60px 1fr 1fr;
-    height:55px;
 
 }
 header img{
     position:fixed;
 }
 
-#intro{
-    padding:40px 0 0 60px;
-}
 
-
-#background{
-    padding:200px 0 0 80px;
-}
 
 
 .showalittle img{
