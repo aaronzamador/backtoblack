@@ -4,10 +4,12 @@ $("#right").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
+        $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
+        $(".footercontainer").addClass("fcclicked");
 }
             
  });
@@ -18,10 +20,12 @@ $(".gettingback").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
+        $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
+        $(".footercontainer").addClass("fcclicked");
 }
             
  });

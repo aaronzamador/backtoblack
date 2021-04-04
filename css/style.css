@@ -37,7 +37,7 @@ header{
     border-bottom:1px solid #2B3A2B;
     background-color:#E9F1E9;
     width:100%;
-    z-index:2;
+    z-index:3;
     grid-template-columns:60px 1fr 1fr;
     height:55px;
     grid-template-rows:1fr;
@@ -214,12 +214,12 @@ h2 img{
 
 
 #everything{
+    z-index:2;
     margin:0;
     left:0;
     width:100%;
-    z-index:1;
     height:100%;
-    padding:0 0 80px 0;
+    padding:0 0 280px 0;
     transition: .3s;
 }
 
@@ -230,6 +230,7 @@ h2 img{
 }
 #intro{
     padding:120px 0 0 20px;
+    background-color:#E9F1E9;
 }
 
 #intro img{
@@ -269,6 +270,7 @@ h3{
 
 
 #background{
+    background-color:#E9F1E9;
     color:#2B3A2B;
     padding:60px 0 0 20px;
 }
@@ -284,9 +286,12 @@ h4{
 }
 
 .bodyodyody{
+    background-color:#E9F1E9;
     margin-top:-15px;
+    margin-bottom:0;
 }
 .showalittle{
+    background-color:#E9F1E9;
     width:100%;
 }
 
@@ -313,7 +318,9 @@ h4{
 
 
 .casestudies{
-    padding:120px 20px 0px 20px;
+    padding:120px 20px 80px 20px;
+    background-color:#E9F1E9;
+    border-bottom:1px solid #2B3A2B;
 }
 
 
@@ -417,6 +424,10 @@ h6{
 }
 
 .footercontainer{
+    position:fixed;
+    z-index:-1;
+    opacity:1;
+    bottom:60px;
     width:100%;
     padding:60px 0 0 0;
     display:grid;
@@ -430,10 +441,13 @@ h6{
 
 }
 
+.fcclicked{
+    opacity:0;
+    transition: .3s;
+}
 .bottomborder{
     padding:200px 0 0 0;
     height:20px;
-    border-bottom:1px solid #2B3A2B;
     width:100%;
 }
 
@@ -443,16 +457,12 @@ h6{
     padding-right:10px;
 }
 .socials{
-    padding:0 0 0 20px;
+    padding:0 0 0 60px;
     grid-area:socials;
 }
 .webdev{
     grid-area:webdev;
-    padding:0 0 0 20px;
-}
-.findme{
-    grid-area:findme;
-    padding:0 0 0 20px;
+    padding:0 0 0 40px;
 }
 
 
@@ -628,23 +638,25 @@ header img{
 }
 
 .footercontainer{
-    padding:40px 0 40px 0;
+    padding:40px 0 60px 0;
+    grid-template-columns:25% 25%;
 
 
 }
 
-
-
-.bottomborder{
-    padding:180px 0 0 0;
+#everything{
+    padding:0 0 320px 0;
+    transition: .3s;
 }
+
 .casestudies{
-    padding:80px 80px 0px 60px;
+    padding:80px 80px 80px 60px;
     transition:.3s;
 }
 
 .csclicked{
-    padding:180px 35% 0px 60px;
+    padding:180px 37% 0px 60px;
     transition:.3s;
 }
+
 }
