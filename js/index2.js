@@ -48,12 +48,14 @@ $(".linkage").click(function(){
         $(".rotatingm").removeClass("cmen");
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
+        $('.gettingback').removeClass("gettingclicked");
         
     }
     else{
         $('.rotatingm').addClass("cmen");
         $('.sside').addClass("cside");
         $(".casestudies").addClass("csclicked");
+        $('.gettingback').addClass("gettingclicked");
         
     }
 
@@ -62,10 +64,12 @@ $(".linkage").click(function(){
         $('.sidemenu').removeClass("sideclicked");
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
+        $('.gettingback').removeClass("gettingclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $(".casestudies").addClass("csclicked");
+        $('.gettingback').addClass("gettingclicked");
 }
 
 
