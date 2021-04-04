@@ -537,7 +537,8 @@ footer{
     bottom:18px;
     right:19px;
     width:75px;
-    background-color:transparent;
+    border-radius:55%;
+    background-color:#E9F1E9;
     animation-name: men;
     animation-duration: 20000ms;
     animation-iteration-count: infinite;
