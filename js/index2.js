@@ -43,6 +43,7 @@ $(".linkage").click(function(){
     if ($('.rotatingm').hasClass("cmen")){
         $(".rotatingm").removeClass("cmen");
         $(".casestudies").removeClass("csclicked");
+        $('#everything').removeClass("onclick");
         
     }
     else{
@@ -56,6 +57,7 @@ $(".linkage").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $(".casestudies").removeClass("csclicked");
+        $('#everything').removeClass("onclick");
 }
     else{
         $('.sidemenu').addClass("sideclicked");

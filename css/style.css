@@ -152,7 +152,7 @@ h1{
 }
 .babies img{
     animation-name: bouncy;
-    animation-duration: 750ms;
+    animation-duration: 1500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; }
 h2{
@@ -295,7 +295,7 @@ h4{
     padding:100px 0 0 35px;
     width: 24px;
     animation-name: bounce;
-    animation-duration: 750ms;
+    animation-duration: 1500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
@@ -313,7 +313,7 @@ h4{
 
 
 .casestudies{
-    padding:180px 40px 0px 40px;
+    padding:80px 40px 0px 40px;
 }
 
 
@@ -375,14 +375,14 @@ h6{
     margin-bottom:0px;
 }
 .bouncy{
-    margin-bottom:20px;
+    margin-bottom:22px;
 }
 .therest{
-    margin:21px 0 21px 0;
+    margin:22px 0 22px 0;
 }
 .bouncy img{
     animation-name: bouncy;
-    animation-duration: 750ms;
+    animation-duration: 1500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; }
 
@@ -611,10 +611,11 @@ header img{
 
 .workgrid{
     padding:0px 80px 0px 0px;
-    height:800px;
+    height:100%;
     grid-template-columns:50% 50%;
     grid-template-rows:1fr 1fr;
     grid-column-gap: 40px;
+    grid-row-gap: 80px;
     grid-template-areas:
     "first second"
     "third fourth"
@@ -643,7 +644,7 @@ header img{
     padding:180px 0 0 0;
 }
 .casestudies{
-    padding:180px 80px 0px 60px;
+    padding:80px 80px 0px 60px;
     transition:.3s;
 }
 
