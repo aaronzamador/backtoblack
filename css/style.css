@@ -127,7 +127,7 @@ header{
 }
 
 .linkage{
-    padding: 20px 0px 0px 80px;
+    padding: 20px 0px 0px 40px;
     grid-area:bottommenu;
 }
 
@@ -229,7 +229,7 @@ h2 img{
     color:#2B3A2B;
 }
 #intro{
-    padding:120px 0 0 40px;
+    padding:120px 0 0 20px;
 }
 
 #intro img{
@@ -270,7 +270,7 @@ h3{
 
 #background{
     color:#2B3A2B;
-    padding:40px 0 0 40px;
+    padding:40px 0 0 20px;
 }
 
 h4{
@@ -292,7 +292,7 @@ h4{
 
 
 .showalittle img{
-    padding:100px 0 0 35px;
+    padding:100px 0 0 15px;
     width: 24px;
     animation-name: bounce;
     animation-duration: 1500ms;
@@ -313,7 +313,7 @@ h4{
 
 
 .casestudies{
-    padding:80px 40px 0px 40px;
+    padding:80px 20px 0px 20px;
 }
 
 
@@ -430,11 +430,6 @@ h6{
 
 }
 
-.linkage{
-    padding: 20px 0px 0px 40px;
-    grid-area:bottommenu;
-}
-
 .bottomborder{
     padding:200px 0 0 0;
     height:20px;
@@ -448,16 +443,16 @@ h6{
     padding-right:10px;
 }
 .socials{
-    padding:0 0 0 40px;
+    padding:0 0 0 20px;
     grid-area:socials;
 }
 .webdev{
     grid-area:webdev;
-    padding:0 0 0 40px;
+    padding:0 0 0 20px;
 }
 .findme{
     grid-area:findme;
-    padding:0 0 0 40px;
+    padding:0 0 0 20px;
 }
 
 
