@@ -98,57 +98,56 @@ header{
     transition: .5s;
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:90px 1fr;
+    grid-template-rows:30px 1fr;
     grid-template-areas:
     "topmenu"
     "bottommenu"
 
 }
 .gettingback{
-    position:relative;
+    position:absolute;
     top:0;
-    left:0;
-    height:120px;
+    right:0;
+    height:40px;
     grid-area:topmenu;
 }
 .gettingback img{
-    padding:35px 35px 0 0;
-    height:80px;
+    padding:15px 0px 0 0;
+    height:35px;
 }
 
 .submenu{
     position:absolute;
-    right:120px;
+    right:75px;
 }
 .sideclicked{
-    left:120px;
+    left:55px;
     transition: .5s;
 
 }
 
 .linkage{
-    padding: 0px 0px 0px 120px;
+    padding: 20px 0px 0px 80px;
     grid-area:bottommenu;
 }
 
 h1{
     font-family:gopher, sans-serif;
-    font-size:72px;
-    font-weight:500;
-    line-height:220px;
+    font-size:36px;
+    line-height:80px;
 
 }
 
 .also{
     font-family:gopher, sans-serif;
-    font-size:72px;
+    font-size:36px;
     font-weight:500;
     line-height:-80px;
 }
 
 .babies{
     padding-left:15px;
-    line-height:60px;
+    line-height: 30px;
 }
 .babies img{
     animation-name: bouncy;
@@ -158,12 +157,12 @@ h1{
 h2{
 
     font-family:gopher, sans-serif;
-    font-size:64px;
+    font-size:24px;
     font-weight:300;
 }
 
 h2 img{
-    height:42px;
+    height:14px;
     padding-right:10px;
 }
 
@@ -181,8 +180,8 @@ h2 img{
 }
 
 .preload img{
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     margin:auto auto;
 }
 
@@ -219,7 +218,7 @@ h2 img{
     width:100%;
     z-index:1;
     height:100%;
-    padding:0 0 120px 0;
+    padding:0 0 80px 0;
     transition: .3s;
 }
 
@@ -229,12 +228,11 @@ h2 img{
     color:#2B3A2B;
 }
 #intro{
-    padding:40px 0 0 60px;
+    padding:120px 0 0 40px;
 }
 
 #intro img{
-    height:36px;
-    width:36px;
+    height:17px;
     background-color:transparent;
     animation-name: globe;
     margin-left:1px;
@@ -256,7 +254,7 @@ h3{
     font-family: gopher, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size:64px;}
+    font-size:32px;}
 
 .nowrap{
     white-space:nowrap
@@ -269,25 +267,20 @@ h3{
 
 
 
-
-
-
-
-
 #background{
     color:#2B3A2B;
-    padding:200px 0 0 80px;
+    padding:40px 0 0 40px;
 }
 
 h4{
     font-family: gopher, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size:42px;
+    font-size:18px;
 }
 
 .bodyodyody{
-    margin-top:-35px;
+    margin-top:-15px;
 }
 .showalittle{
     width:100%;
@@ -295,7 +288,7 @@ h4{
 
 
 .showalittle img{
-    padding:80px 0 0 60px;
+    padding:100px 0 0 35px;
     width: 24px;
     animation-name: bounce;
     animation-duration: 750ms;
@@ -316,7 +309,7 @@ h4{
 
 
 .casestudies{
-    padding:180px 0 0 60px;
+    padding:180px 40px 0px 40px;
 }
 
 
@@ -327,12 +320,12 @@ h4{
 
 
 .workgrid{
-    padding:0px 80px 0px 0px;
+    padding:0px 00px 0px 0px;
     display:grid;
     grid-template-columns:1fr;
     grid-template-rows:1fr 1fr 1fr 1fr;
-    grid-row-gap: 80px;
-    height:3000px;
+    grid-row-gap: 40px;
+    height:100%;
     grid-template-areas:
     "first"
     "second"
@@ -365,7 +358,7 @@ h5{
     font-family: gopher, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size:32px;
+    font-size:16px;
     padding:0px 0px 0px 0px;
     margin-bottom:0px;
 }
@@ -378,11 +371,10 @@ h6{
     margin-bottom:0px;
 }
 .bouncy{
-    margin-bottom:50px;
+    margin-bottom:20px;
 }
 .therest{
-    margin-top:30px;
-    margin-bottom:50px;
+    margin:21px 0 21px 0;
 }
 .bouncy img{
     animation-name: bouncy;
@@ -403,7 +395,6 @@ h6{
         }
     }
 .tag{
-    margin-top:-55px;
     padding-right:10px;
     font-family: gopher, sans-serif;
     font-weight:500;
@@ -411,7 +402,8 @@ h6{
     text-transform:uppercase;
     letter-spacing:2px;
     color:#2B3A2B;
-    font-size:18px;
+    margin-top:-15px;
+    font-size:10px;
     padding:0px 0px 0px 0px;
 }
 
@@ -422,7 +414,7 @@ h6{
 
 .footercontainer{
     width:100%;
-    padding-top:60px;
+    padding:60px 0 0 0;
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows:1fr;
@@ -434,9 +426,13 @@ h6{
 
 }
 
+.linkage{
+    padding: 20px 0px 0px 40px;
+    grid-area:bottommenu;
+}
 
 .bottomborder{
-    padding:320px 0 0 0;
+    padding:200px 0 0 0;
     height:20px;
     border-bottom:1px solid #2B3A2B;
     width:100%;
@@ -444,20 +440,20 @@ h6{
 
 
 .socials img{
-    max-height:24px;
-    padding-right:20px;
+    max-height:12px;
+    padding-right:10px;
 }
 .socials{
-    padding:0 0 0 60px;
+    padding:0 0 0 40px;
     grid-area:socials;
 }
 .webdev{
     grid-area:webdev;
-    padding:0 0 0 60px;
+    padding:0 0 0 40px;
 }
 .findme{
     grid-area:findme;
-    padding:0 0 0 60px;
+    padding:0 0 0 40px;
 }
 
 
@@ -503,7 +499,6 @@ footer{
 .sright{
     grid-area:sright;
 }
-
 .slinks{
     padding:18px 40px 0 0;
     position:absolute;
@@ -516,7 +511,13 @@ footer{
     letter-spacing:0px;
 }
 
+#intro{
+    padding:64px 0 0 60px;
+}
 
+#background{
+    padding:40px 0 0 60px;
+}
 .rotm{
     position:relative;
     grid-area:rotm;
@@ -569,7 +570,9 @@ footer{
 }
 
 
-
+.showalittle img{
+    padding:100px 0 0 75px;
+}
 
 #right{
     opacity:0;
@@ -589,11 +592,18 @@ header img{
 
 
 
-.showalittle img{
-    padding:80px 0 0 60px;
-    width: 24px;
-}
+.sidemenu{
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+    grid-template-areas:
+    "bottommenu"
 
+}
+.sideclicked{
+    left:75%;
+    transition: .5s;
+
+}
 
 .workgrid{
     padding:0px 80px 0px 0px;
@@ -607,7 +617,27 @@ header img{
     ;
 }
 
+.socials{
+    padding:0 0 0 60px;
+}
+.webdev{
+    padding:0 0 0 60px;
+}
+.findme{
+    padding:0 0 0 60px;
+}
 
+.footercontainer{
+    padding:40px 0 40px 0;
+
+
+}
+
+
+
+.bottomborder{
+    padding:180px 0 0 0;
+}
 .casestudies{
     padding:180px 80px 0px 60px;
     transition:.3s;
@@ -617,97 +647,4 @@ header img{
     padding:180px 25% 0px 60px;
     transition:.3s;
 }
-
-h3{
-    font-size:36px;
-}
-
-h4{
-    font-size:18px;
-}
-
-
-.gettingback img{
-    padding:30px 30px 0 0;
-    height:70px;
-}
-
-#background{
-    padding:40px 0 0 60px;
-}
-.bodyodyody{
-    margin-top:-15px;
-}
-.bottomborder{
-    padding:200px 0 0 0;}
-
-
-.tag{
-    margin-top:-15px;
-    font-size:10px;
-}
-
-.preload img{
-    width:200px;
-    height:200px;
-}
-
-h5{
-    font-size:16px;
-}
-
-.bouncy{
-    margin-bottom:20px;
-}
-.therest{
-    margin:21px 0 21px 0;
-}
-
-.socials img{
-    max-height:12px;
-    padding-right:10px;
-}
-#everything{
-    padding:0 0 80px 0;
-}
-
-h1{
-    font-size:24px;
-    line-height:60px;
-}
-.also{
-    font-size:24px;
-}
-
-h2{
-    font-size:18px;
-}
-h2 img{
-    height:14px;
-}
-.babies{
-    line-height: 30px;}
-
-.sidemenu{
-    grid-template-columns:1fr;
-    grid-template-rows:1fr;
-    grid-template-areas:
-    "bottommenu"
-
-}
-.linkage{
-    padding:40px 0px 0px 40px;
-}
-
-.sideclicked{
-    left:75%;
-    transition: .5s;
-
-}
-#intro img{
-    height:20px;
-    width:20px;
-}
-
-
 }
