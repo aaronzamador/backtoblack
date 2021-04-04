@@ -32,3 +32,37 @@ $(".linkage").click(function(){
     $('#everything').removeClass("onclick");
             
  });
+
+ 
+
+
+
+ $(".rotm").click(function(){
+        
+        
+    if ($('.rotatingm').hasClass("cmen")){
+        $(".rotatingm").removeClass("cmen");
+        $(".casestudies").removeClass("csclicked");
+        
+    }
+    else{
+        $('.rotatingm').addClass("cmen");
+        $('.sside').addClass("cside");
+        $(".casestudies").addClass("csclicked");
+        
+    }
+
+          
+    if ($('.sidemenu').hasClass("sideclicked")){
+        $('.sidemenu').removeClass("sideclicked");
+        $(".casestudies").removeClass("csclicked");
+}
+    else{
+        $('.sidemenu').addClass("sideclicked");
+        $(".casestudies").addClass("csclicked");
+}
+
+
+
+
+});
