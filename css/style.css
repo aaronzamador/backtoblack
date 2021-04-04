@@ -135,6 +135,7 @@ h1{
     font-family:gopher, sans-serif;
     font-size:36px;
     line-height:80px;
+    font-weight: 500;
 
 }
 
@@ -278,9 +279,12 @@ h4{
     font-style: normal;
     font-size:18px;
 }
+.workgrid h4{
+    margin-top:10px;
+}
 
 .bodyodyody{
-    margin-top:-15px;
+    margin-top:-25px;
 }
 .showalittle{
     width:100%;
@@ -600,7 +604,7 @@ header img{
 
 }
 .sideclicked{
-    left:75%;
+    left:65%;
     transition: .5s;
 
 }
@@ -644,7 +648,7 @@ header img{
 }
 
 .csclicked{
-    padding:180px 25% 0px 60px;
+    padding:180px 35% 0px 60px;
     transition:.3s;
 }
 }
