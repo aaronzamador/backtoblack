@@ -34,6 +34,7 @@ $(".gettingback").click(function(){
 $(".linkage").click(function(){
     $('.sidemenu').removeClass("sideclicked");
     $('#everything').removeClass("onclick");
+    $(".footercontainer").removeClass("fcclicked");
             
  });
 
@@ -49,6 +50,7 @@ $(".linkage").click(function(){
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
+        $(".footercontainer").removeClass("fcclicked");
         
     }
     else{
@@ -65,6 +67,7 @@ $(".linkage").click(function(){
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
+        $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
