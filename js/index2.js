@@ -92,6 +92,11 @@ $(window).resize(function() {
     if ($(window).width() > 1024) {
         $(".footercontainer").removeClass("fcclicked");
         $('#everything').removeClass("onclick");
+        if ($('.sidemenu').hasClass("sideclicked")){
+
+        }
+        else{
+            $(".casestudies").removeClass("csclicked");}
     }
    else {
    }
