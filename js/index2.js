@@ -21,12 +21,20 @@ $(".gettingback").click(function(){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
+        
+
+        if ($('.rotatingm').hasClass("cmen")){
+            $(".rotatingm").removeClass("cmen");}
+            
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
         $(".footercontainer").addClass("fcclicked");
 }
+
+
+    
             
  });
 
@@ -79,3 +87,12 @@ $(".linkage").click(function(){
 
 
 });
+
+$(window).resize(function() {
+    if ($(window).width() > 1024) {
+        $(".footercontainer").removeClass("fcclicked");
+        $('#everything').removeClass("onclick");
+    }
+   else {
+   }
+  });
