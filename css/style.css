@@ -21,10 +21,11 @@ a{
 p{
     font-size:12px;
     -webkit-font-smoothing: antialiased;
-    line-height:18px;
-    font-family: open-sans, sans-serif;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
     color:#2B3A2B;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing:.03em;
     font-style: normal; 
 }
 
@@ -46,6 +47,54 @@ header{
     ;
 
 }
+
+
+#statusbar{
+    position:fixed;
+    display:grid;
+    border-bottom:1px dotted #89a489;
+    background-color:#E9F1E9;
+    width:100%;
+    justify-content:space-around;
+    z-index:2.5;
+    margin-top:55px;
+    grid-template-columns:auto auto auto auto auto;
+    height:40px;
+    text-transform:uppercase;
+    grid-template-rows:1fr;
+    white-space:nowrap;
+    grid-template-areas:
+    "item1 item2 item3 item4 item5"
+    ;
+    
+}
+
+.statusitem1, .statusitem2, .statusitem3, .statusitem4, .statusitem5{
+    padding:7px 0 0 0;
+    font-family: gopher, sans-serif;
+    font-size: 8px;
+    font-weight:500;
+    letter-spacing:1px;
+    opacity:.6;
+}
+
+.statusitem1{
+    grid-area:item1;
+}.statusitem2{
+    grid-area:item2;
+}.statusitem3{
+    grid-area:item3;
+}.statusitem4{
+    grid-area:item4;
+}.statusitem5{
+    grid-area:item5;
+}
+
+.statusitem1:hover,.statusitem2:hover,.statusitem3:hover,.statusitem4:hover,.statusitem5:hover,.statusitembrick{
+    font-weight:600;
+    opacity:1;
+}
+
 #left{
     grid-area:left;
 }
@@ -481,6 +530,298 @@ footer{
     display:none;
 }
 
+#picturesque{
+    background-color:#DFE9DF;
+    height:100vh;
+}
+
+.introgrid{
+    display:grid;
+    margin:0;
+    padding:40px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto;
+    grid-template-areas:
+    "title"
+    "scope"
+    "team"
+    ;
+}
+
+.projecttitle{
+    font-weight: 200;
+    background-color:#E9F1E9;
+    grid-area:title;
+    height:100%;
+    margin:0;
+    padding:0px 0 40px 0px;
+
+
+}
+.projectscope{
+    grid-area:scope;
+    height:100%;
+    margin:0;
+    padding:0px 0 10px 0px;
+}
+.teamsize{
+    grid-area:team;
+    height:100%;
+    margin:0;
+    line-height:30px;
+}
+
+
+.quotegrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto 1fr;
+    grid-template-areas:
+    "quotetext"
+    "quotesource"
+    ;
+}
+
+.quotetext{
+    grid-area:quotetext;
+    margin:0;
+    height:100%;
+    padding:0px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    letter-spacing:0px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.quotesource{
+    grid-area:quotesource;
+    margin:0;
+    height:100%;
+    padding:20px 40px 0 0px;
+    text-align: right;
+    font-size:12px;
+}
+
+.backgroundgrid{
+    display:grid;
+    padding:60px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "csbackground"
+    "goal"
+    "backgroundimage";
+
+}
+.casestudybackground{
+    margin:0;
+    grid-area:csbackground;
+}
+
+.goal{
+    margin:0;
+    padding:20px 0 0 0;
+    grid-area:goal;
+}
+
+.backgroundimage{
+    margin:0;
+    padding:20px 0 0 0;
+    grid-area:backgroundimage;
+}
+.backgroundimage img{
+    width:100%;
+}
+
+
+.reviewgrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto;
+    grid-template-areas:
+    "reviewback"
+    "details1"
+    "details2"
+    "reviewimage1"
+    "reviewimage2"
+;
+}
+
+.reviewback{
+    grid-area:reviewback;
+}
+
+.reviewimage1{
+    grid-area:reviewimage1;
+    padding:20px 0px 0px 0px;
+
+}
+.reviewimage1 img, .reviewimage2 img{
+    max-width:100%;
+}
+.reviewimage2{
+    grid-area:reviewimage2;
+    padding:20px 0px 0px 00px;
+}
+.reviewdetails1, .reviewdetails2{
+    font-size:14px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+
+}
+.reviewdetails1{
+    padding:0px 40px 0px 20px;
+    grid-area:details1;
+}
+.reviewdetails2{
+    padding:0px 40px 0px 20px;
+    grid-area:details2;
+}
+
+
+
+
+.testinggrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "testingb"
+    "testingi"
+    "mtestingb"
+    "t1"
+    "tq1"
+    "t2"
+    "tq2"
+    "t3"
+    "tq3"
+;
+}
+
+.testingbackground{
+    grid-area:testingb;
+}
+.testingimage{
+    padding:20px 0 20px 0;
+    grid-area:testingi;
+}
+.testingimage img{
+    max-width:100%;}
+.moretestingb{
+    margin:0;
+    padding:0 0 20px 0;
+    grid-area:mtestingb;
+}
+.t1{
+    grid-area:t1;
+}
+.t2{
+    grid-area:t2;
+}
+.t3{
+    grid-area:t3;
+}
+.tq1{
+    grid-area:tq1;
+}
+.tq2{
+    grid-area:tq2;
+}
+.tq3{
+    grid-area:tq3;
+}
+.tq1 p, .tq2 p, .tq3 p{
+    margin:0;
+    padding:20px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing:0px;
+}
+.testingquotesource{
+    padding:20px 40px 20px 0px;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+    float:right;
+
+}
+.subheaddetail{
+    font-size:14px;
+}
+
+.iagrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "iaback"
+    "iap1"
+    "iat1"
+    "iap2"
+    "iat2"
+    "iap3"
+    "iat3"
+    "iafin"
+    "iapic"
+;
+}
+.iaback{
+    grid-area:iaback;
+    padding:0 0 20px 0;
+}
+.iap1{
+    grid-area:iap1;
+}
+.iat1{
+    grid-area:iat1;
+}
+.iap2{
+    grid-area:iap2;
+}
+.iat2{
+    grid-area:iat2;
+}
+.iap3{
+    grid-area:iap3;
+}
+.iat3{
+    grid-area:iat3;
+}
+.iafin{
+    grid-area:iafin;
+}
+.iapic{
+    grid-area:iapic;
+}
+
+.iat1 p, .iat2 p, .iat3 p{
+    padding:0 0 20px 0;
+}
+
+.iap1 img, .iap2 img, .iap3 img, .iapic img{
+    max-width:100%;
+    padding:20px 0 20px 0;
+}
 
 }
 
@@ -606,13 +947,6 @@ footer{
 
 
  
-header{
-    position:relative;
-
-}
-header img{
-    position:fixed;
-}
 
 
 .sideclicked{
