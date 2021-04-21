@@ -823,7 +823,257 @@ footer{
     padding:20px 0 20px 0;
 }
 
+.wiregrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "wireback"
+    "wireimg"
+    "wireback2"
+    "wireimg2"
+    "wireimg3"
+    "wireex1"
+    "wireex2"
+;
+
 }
+
+.wireback{
+    grid-area:wireback;
+    padding:0 0 20px 0;
+}
+.wireimg{
+    grid-area:wireimg;
+}
+.wireback2{
+    grid-area:wireback2;
+    padding:20px 0px 20px 00px;
+}
+.wireimg2{
+    grid-area:wireimg2;
+}
+.wireimg3{
+    grid-area:wireimg3;
+    padding:20px 0px 0px 00px;
+}
+.wireex1{
+    padding:20px 0px 0px 00px;
+    grid-area:wireex1;
+}
+.wireex2{
+    grid-area:wireex2;
+}
+.wireex1, .wireex2{
+    font-size:14px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; }
+
+.wireimg img, .wireimg2 img, .wireimg3 img{
+    max-width:100%;
+}
+.lastfeaturegrid{
+    display:grid;
+    padding:20px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto ;
+    grid-template-areas:
+    "lastfeature"
+    "lastfeatureimg"
+    "lfl"
+;
+}
+.lastfeature{
+    grid-area:lastfeature;
+}
+.lastfeatureimg{
+    grid-area:lastfeatureimg;
+}
+.lastfeatureimg img{
+    max-width:100%;
+}
+.lfl{
+    grid-area:lfl;
+}
+
+.testinggrid2{
+    display:grid;
+    padding:20px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto;
+    grid-template-areas:
+    "testingb2"
+    "t12"
+    "tq12"
+    "t22"
+    "tq22"
+;
+}
+
+.testingbackground2{
+    grid-area:testingb2;
+}
+.t12{
+    grid-area:t12;
+}
+.t22{
+    grid-area:t22;
+}
+.tq12{
+    grid-area:tq12;
+}
+.tq22{
+    grid-area:tq22
+}
+.tq12 p, .tq22 p{
+    margin:0;
+    padding:20px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing:0px;
+}
+.testingquotesource2{
+    padding:20px 40px 20px 0px;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+    float:right;
+
+}
+
+
+.stylegrid{
+    display:grid;
+    padding:20px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "styleb"
+    "stylebimg"
+;
+}
+.styleb{
+    grid-area:styleb;
+}
+.stylebimg{
+    padding:20px 0px 0px 00px;
+    grid-area:stylebimg;
+}
+
+.stylebimg img, .styleimg2 img{
+    max-width:100%;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #2B3A2B;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #C2D2C2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #2B3A2B;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+}
+
 
 
 
