@@ -4,11 +4,13 @@ $("#right").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
+        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
+        $('#statusbar').addClass("onclick");
         $(".footercontainer").addClass("fcclicked");
 }
             
@@ -20,6 +22,7 @@ $(".gettingback").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
+        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
         
 
@@ -30,6 +33,7 @@ $(".gettingback").click(function(){
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
+        $('#statusbar').addClass("onclick");
         $(".footercontainer").addClass("fcclicked");
 }
 
@@ -42,6 +46,7 @@ $(".gettingback").click(function(){
 $(".linkage").click(function(){
     $('.sidemenu').removeClass("sideclicked");
     $('#everything').removeClass("onclick");
+    $('#statusbar').removeClass("onclick");
     $(".footercontainer").removeClass("fcclicked");
             
  });
@@ -58,6 +63,7 @@ $(".linkage").click(function(){
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
+        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
         
     }
@@ -65,6 +71,7 @@ $(".linkage").click(function(){
         $('.rotatingm').addClass("cmen");
         $('.sside').addClass("cside");
         $(".casestudies").addClass("csclicked");
+        $('#statusbar').addClass("onclick");
         $('.gettingback').addClass("gettingclicked");
         
     }
@@ -74,12 +81,14 @@ $(".linkage").click(function(){
         $('.sidemenu').removeClass("sideclicked");
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
+        $('#statusbar').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
         $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $(".casestudies").addClass("csclicked");
+        $('#statusbar').addClass("onclick");
         $('.gettingback').addClass("gettingclicked");
 }
 
@@ -101,33 +110,29 @@ $(window).resize(function() {
    else {
    }
   });
+  
 
 
-  var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides(n, no) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  x[slideIndex[no]-1].style.display = "block";  
 }
+
+
+
