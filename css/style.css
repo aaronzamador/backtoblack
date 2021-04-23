@@ -133,7 +133,7 @@ header{
 
 #left img{
     position:fixed;
-    max-height: 34px;
+    max-height: 45px;
     padding: 11px 0 0 12px;
     filter: grayscale(100%) sepia(100%) hue-rotate(40deg);
 }
@@ -355,10 +355,9 @@ h4{
     width:100%;
 }
 
-
 .showalittle img{
     padding:100px 0 0 15px;
-    width: 24px;
+    width: 45px;
     animation-name: bounce;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
@@ -536,10 +535,12 @@ footer{
 }
 
 #picturesque{
-    background-color:#DFE9DF;
-    height:100vh;
+    margin:0px;
+    padding:90px 0 0 0;
 }
-
+#picturesque img{
+    max-width:100%;
+}
 #introgrid{
     display:grid;
     margin:0;
@@ -690,6 +691,7 @@ footer{
 }
 .reviewdetails2{
     padding:0px 40px 0px 20px;
+    margin-top:-30px;
     grid-area:details2;
 }
 
@@ -813,6 +815,7 @@ footer{
     grid-area:iat3;
 }
 .iafin{
+    margin-top:-20px;
     grid-area:iafin;
 }
 .iapic{
@@ -869,6 +872,7 @@ footer{
     grid-area:wireex1;
 }
 .wireex2{
+    margin-top:-30px;
     grid-area:wireex2;
 }
 .wireex1, .wireex2{
@@ -906,6 +910,7 @@ footer{
     max-width:100%;
 }
 .lfl{
+    padding-top:20px;
     grid-area:lfl;
 }
 
@@ -1019,7 +1024,6 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -1131,7 +1135,7 @@ footer{
 }
 
 #intro{
-    padding:64px 0 0 60px;
+    padding:120px 0 0 60px;
 }
 
 #background{
@@ -1194,7 +1198,8 @@ footer{
 
 
 .showalittle img{
-    padding:100px 0 0 55px;
+    padding:80px 0 0 55px;
+    width: 90px;
 }
 
 #right{
@@ -1206,8 +1211,205 @@ footer{
     padding-top:40px;
 }
 
-
  
+#introgrid{
+    padding:60px 120px 0 60px;
+    grid-template-columns:40% 60%;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "title title"
+    "scope team"
+    ;
+}
+.projectscope{
+    padding:0px 0 10px 0px;
+}
+.teamsize{
+    margin-top:-6px;
+    line-height:30px;
+    padding-left:60px;
+}
+
+
+#quotegrid{
+    padding:40px 220px 0 120px;
+    ;
+}
+
+.quotetext{
+    padding:0px 0px 0 0px;
+}
+.quotesource{
+    padding:20px 0px 0 0px;
+}
+#backgroundgrid{
+    padding:60px 120px 0 60px;
+
+}
+#reviewgrid{
+    grid-template-columns:50% 50%;
+    padding:20px 120px 0 60px;
+    background-color:#E9F1E9;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "reviewback reviewback"
+    "details1 details2"
+    "reviewimage1 reviewimage2"
+;
+}
+.reviewimage1 img{
+    padding-right:10px;
+}
+.reviewimage2 img{
+    padding-left:10px;
+}
+.reviewdetails2{
+    margin-top:0px;}
+
+#testinggrid{
+    padding:40px 120px 0 60px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto auto auto auto auto;
+    grid-template-areas:
+    "testingb testingb"
+    "testingi testingi"
+    "mtestingb mtestingb"
+    "t1 tq1"
+    "t2 tq2"
+    "t3 tq3"
+;
+}
+.tq1 p, .tq2 p, .tq3 p{
+    padding:20px 0px 0 120px;
+}
+.t1 p, .t2 p, .t3 p{
+    padding: 0 40px 0 0px;
+}
+.testingquotesource{
+    padding:20px 0px 20px 0px;
+
+}
+
+
+#iagrid{
+    padding:40px 120px 0 60px;
+    grid-template-columns:50% 50%;
+    grid-template-rows:auto auto auto auto auto auto ;
+    grid-template-areas:
+    "iaback iaback"
+    "iap1 iat1"
+    "iap2 iat2"
+    "iap3 iat3"
+    "iafin iafin"
+    "iapic iapic"
+;
+}
+.iat1 p, .iat2 p, .iat3 p{
+    padding:7px 0 20px 80px;
+}
+.iap1 img, .iap2 img, .iap3 img, .iapic img{
+    max-width:100%;
+    padding:20px 0 0px 0;
+}
+.iafin{
+    padding:40px 0 0 0;;
+}
+
+#wiregrid{
+    padding:20px 120px 0 60px;
+    background-color:#E9F1E9;
+    grid-template-columns:50% 50%;
+    grid-template-rows:auto auto auto auto auto;
+    grid-template-areas:
+    "wireback wireback"
+    "wireimg wireimg"
+    "wireback2 wireback2"
+    "wireimg2 wireimg3"
+    "wireex1 wireex2"
+;}
+
+
+.wireimg2{
+    padding:00px 10px 0px 0px;
+}
+.wireimg3{
+    padding:0px 0px 0px 10px;
+}
+
+.wireex1, .wireex2{
+    padding:20px 40px 0px 20px;
+}
+.wireex2{
+    margin-top:0px;
+}
+
+
+#testinggrid2{
+    padding:20px 120px 0 60px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto auto;
+    grid-template-areas:
+    "testingb2 testingb2"
+    "t12 tq12"
+    "t22 tq22"
+;
+}
+
+.t12 p, .t22 p{
+    padding:20px 40px 0 0px;
+}
+
+.tq12 p, .tq22 p{
+    padding:20px 0px 0 120px;
+}
+.testingquotesource2{
+    padding:20px 0px 20px 0px;
+
+}
+
+
+#lastfeaturegrid{
+    padding:20px 120px 0 60px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto auto ;
+    grid-template-areas:
+    "lastfeature lastfeature"
+    "lastfeatureimg lfl"
+;
+}
+.lastfeatureimg img{
+    max-width:100%;
+    padding:20px 0 0px 0;
+}
+.lfl{
+    padding:7px 0 20px 80px;
+
+}
+
+
+#stylegrid{
+    padding:20px 120px 0 60px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "styleb"
+    "stylebimg"
+;
+}
+
+#hifigrid{
+    padding:20px 120px 0 60px;
+;
+}
+
+
+
+#finalgrid{
+    padding:20px 120px 0 60px;
+;
+}
+
 
 
 .sideclicked{
@@ -1215,6 +1417,7 @@ footer{
     transition: .5s;
 
 }
+
 
 .gettingback{
     position:absolute;
@@ -1275,5 +1478,14 @@ footer{
     padding:180px 31% 80px 60px;
     transition:.3s;
 }
+
+
+
+
+
+
+
+
+
 
 }
