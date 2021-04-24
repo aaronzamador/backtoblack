@@ -43,14 +43,6 @@ $(".gettingback").click(function(){
  });
 
 
-$(".linkage").click(function(){
-    $('.sidemenu').removeClass("sideclicked");
-    $('#everything').removeClass("onclick");
-    $('#statusbar').removeClass("onclick");
-    $(".footercontainer").removeClass("fcclicked");
-            
- });
-
  
 
 
