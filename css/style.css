@@ -324,8 +324,9 @@ h3{
     margin-left:0px;
 }
 
-.cs{
-    padding-top:80px;
+#cs{
+    margin-top:-90px;
+    padding-top:100px;
 }
 
 
@@ -357,7 +358,7 @@ h4{
 
 .showalittle img{
     padding:100px 0 0 15px;
-    width: 45px;
+    width: 35px;
     animation-name: bounce;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
@@ -383,12 +384,107 @@ h4{
 }
 
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #2B3A2B;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #E9F1E9;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    font-family: helvetica-neue, sans-serif;
+    color: #2B3A2B;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #E9F1E9;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+      padding-right:5px;
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
 
-
-
-
-
-
+.styleguidemore{
+    padding-top:10px;
+    float:right;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+}
 .workgrid{
     padding:0px 00px 0px 0px;
     display:grid;
@@ -446,10 +542,18 @@ h6{
 .bouncy{
     margin-bottom:25px;
 }
-.therest{
-    margin:25px 0 25px 0;
+.bouncy2{
+    margin-left:-20px;
 }
-.bouncy img{
+.bouncy2 img{
+    padding-right:20px;
+    height:18px;
+    padding-top:8px;
+}
+.therest{
+    margin:5px 0 25px 0;
+}
+.bouncy img, .bouncy2 img{
     animation-name: bouncy;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
@@ -1010,10 +1114,6 @@ footer{
 }
 
 
-
-
-
-
 #hifigrid{
     display:grid;
     padding:20px 20px 0 20px;
@@ -1037,42 +1137,6 @@ footer{
     max-width:100%;
 }
 
-* {box-sizing: border-box}
-.mySlides1, .mySlides2 {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: #2B3A2B;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #E9F1E9;
-  color: #2B3A2B;}
 
 
 
@@ -1118,7 +1182,7 @@ img {vertical-align: middle;}
 
 footer{
     display:grid;
-    z-index:6;
+    z-index:506;
     position:fixed;
     height:55px;
     background-color:#E9F1E9;
@@ -1218,7 +1282,7 @@ footer{
 
 .showalittle img{
     padding:80px 0 0 55px;
-    width: 90px;
+    width: 75px;
 }
 
 #right{
@@ -1226,8 +1290,9 @@ footer{
 }
 
 
-.cs{
-    padding-top:40px;
+#cs{
+    margin-top:-90px;
+    padding-top:130px;
 }
 
  
