@@ -4,13 +4,11 @@ $("#right").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
-        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
-        $('#statusbar').addClass("onclick");
         $(".footercontainer").addClass("fcclicked");
 }
             
@@ -29,7 +27,6 @@ $(".gettingback").click(function(){
     if ($('.sidemenu').hasClass("sideclicked")){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
-        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
         
 
@@ -40,7 +37,6 @@ $(".gettingback").click(function(){
     else{
         $('.sidemenu').addClass("sideclicked");
         $('#everything').addClass("onclick");
-        $('#statusbar').addClass("onclick");
         $(".footercontainer").addClass("fcclicked");
 }
 
@@ -62,7 +58,6 @@ $(".gettingback").click(function(){
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
-        $('#statusbar').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
         
     }
@@ -70,7 +65,6 @@ $(".gettingback").click(function(){
         $('.rotatingm').addClass("cmen");
         $('.sside').addClass("cside");
         $(".casestudies").addClass("csclicked");
-        $('#statusbar').addClass("onclick");
         $('.gettingback').addClass("gettingclicked");
         
     }
@@ -80,14 +74,12 @@ $(".gettingback").click(function(){
         $('.sidemenu').removeClass("sideclicked");
         $(".casestudies").removeClass("csclicked");
         $('#everything').removeClass("onclick");
-        $('#statusbar').removeClass("onclick");
         $('.gettingback').removeClass("gettingclicked");
         $(".footercontainer").removeClass("fcclicked");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
         $(".casestudies").addClass("csclicked");
-        $('#statusbar').addClass("onclick");
         $('.gettingback').addClass("gettingclicked");
 }
 
