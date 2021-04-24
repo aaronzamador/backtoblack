@@ -16,6 +16,13 @@ $("#right").click(function(){
             
  });
 
+ $(".linkage").click(function(){
+    $('.sidemenu').removeClass("sideclicked");
+    $('#everything').removeClass("onclick");
+    $(".footercontainer").removeClass("fcclicked");
+            
+ });
+
     
 $(".gettingback").click(function(){
             
