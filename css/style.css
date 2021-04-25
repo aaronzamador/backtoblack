@@ -29,7 +29,7 @@ p{
     font-family: helvetica-neue, sans-serif;
     color:#2B3A2B;
     font-weight: 400;
-    letter-spacing:.03em;
+    letter-spacing:.0em;
     font-style: normal; 
 }
 
@@ -311,7 +311,7 @@ h4{
 
 .showalittle img{
     padding:100px 0 0 15px;
-    width: 35px;
+    width: 20px;
     animation-name: bounce;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
