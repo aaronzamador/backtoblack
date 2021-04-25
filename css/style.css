@@ -366,13 +366,15 @@ h4{
     grid-area:third;
 }
 
-
 .fourth{
     grid-area:fourth;
 }
 .first img, .second img, .third img, .fourth img{
     padding-bottom:20px;
 }
+
+
+
 h5{
     margin-top:25px;
     font-family: gopher, sans-serif;
@@ -592,7 +594,6 @@ footer{
 
 .showalittle img{
     padding:80px 0 0 55px;
-    width: 75px;
 }
 
 #right{

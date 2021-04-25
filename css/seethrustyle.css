@@ -173,6 +173,14 @@
     padding-top:8px;
 }
 
+.prepost{
+    text-transform:uppercase;
+    font-size:10px;
+    font-family: helvetica-neue, sans-serif;
+    font-weight:500;
+    padding-left:25px;
+}
+
     
 #picturesque{
     margin:auto;
@@ -276,6 +284,7 @@
 }
 
 .backgroundimage{
+    display:none;
     margin:0;
     padding:20px 0 0 0;
     grid-area:backgroundimage;
@@ -332,7 +341,7 @@
     grid-area:details1;
 }
 .reviewdetails2{
-    padding:0px 40px 0px 20px;
+    padding:20px 40px 0px 20px;
     margin-top:-30px;
     grid-area:details2;
 }
@@ -757,9 +766,13 @@
     ;
     }
     .reviewdetails2{
+        padding-top:0px;
         margin-top:0px;
     }
     
+    .reviewdetails1, .reviewdetails2{
+        padding-top:20px;
+    }
     #testinggrid{
         margin:-90px 0 0 0;
         padding:170px 300px 0 240px;

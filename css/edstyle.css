@@ -293,9 +293,9 @@
     grid-template-rows:auto auto auto auto auto;
     grid-template-areas:
     "reviewback"
+    "reviewimage1"
     "details1"
     "details2"
-    "reviewimage1"
     "reviewimage2"
 ;
 }
@@ -332,7 +332,7 @@
     grid-area:details1;
 }
 .reviewdetails2{
-    padding:0px 40px 0px 20px;
+    padding:0px 40px 20px 20px;
     margin-top:-30px;
     grid-area:details2;
 }
@@ -512,13 +512,13 @@
 }
 .wireback2{
     grid-area:wireback2;
-    padding:20px 0px 20px 00px;
+    padding:20px 0px 40px 00px;
 }
 .wireimg2{
     grid-area:wireimg2;
 }
 .wireex1{
-    padding:20px 0px 0px 00px;
+    padding:40px 0px 0px 00px;
     grid-area:wireex1;
 }
 .wireex2{
@@ -751,8 +751,8 @@
         grid-template-rows: auto auto auto auto;
         grid-template-areas:
         "reviewback reviewback"
-        "details1 details2"
         "reviewimage1 reviewimage1"
+        "details1 details2"
         "reviewimage2 reviewimage2"
     ;
     }
@@ -829,7 +829,7 @@
     }
     
     .wireex1, .wireex2{
-        padding:20px 40px 0px 20px;
+        padding:40px 40px 0px 20px;
     }
     .wireex2{
         margin-top:0px;
@@ -899,7 +899,7 @@
     
     
     .finalproto iframe{
-        height:600px;
+        height:650px;
     }
     
     #finalgrid{
