@@ -1,0 +1,910 @@
+
+  
+@media only screen and (min-width: 320px) {
+ 
+#left img{
+    position:fixed;
+    max-height: 45px;
+    padding: 11px 0 0 12px;
+    filter: grayscale(100%) sepia(100%) hue-rotate(40deg);
+}
+
+
+#statusbar{
+    position:fixed;
+    display:grid;
+    border-bottom:1px dotted #89a489;
+    background-color:#E9F1E9;
+    width:100%;
+    justify-content:space-around;
+    z-index:500;
+    margin-top:55px;
+    grid-template-columns:auto auto auto auto auto;
+    height:40px;
+    text-transform:uppercase;
+    grid-template-rows:1fr;
+    white-space:nowrap;
+    grid-template-areas:
+    "item1 item2 item3 item4 item5"
+    ;
+    
+}
+
+.statusitem1, .statusitem2, .statusitem3, .statusitem4, .statusitem5{
+    padding:7px 0 0 0;
+    font-family: gopher, sans-serif;
+    font-size: 8px;
+    font-weight:400;
+    letter-spacing:1px;
+    opacity:.6;
+}
+
+.statusitem1{
+    grid-area:item1;
+}.statusitem2{
+    grid-area:item2;
+}.statusitem3{
+    grid-area:item3;
+}.statusitem4{
+    grid-area:item4;
+}.statusitem5{
+    grid-area:item5;
+}
+
+.statusitem1:hover,.statusitem2:hover,.statusitem3:hover,.statusitem4:hover,.statusitem5:hover,.statusitembrick{
+    font-weight:600;
+    opacity:1;
+}
+
+.statusactive{
+    font-weight:600;
+    opacity:1;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #2B3A2B;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #E9F1E9;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    font-family: helvetica-neue, sans-serif;
+    color: #2B3A2B;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #E9F1E9;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+      padding-right:5px;
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+.styleguidemore{
+    padding-top:10px;
+    float:right;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+}
+.bouncy2{
+    margin-left:-20px;
+}
+.bouncy2 img{
+    padding-right:20px;
+    height:18px;
+    padding-top:8px;
+}
+
+    
+#picturesque{
+    margin:auto;
+    padding:90px 0 0 0;
+    background-color:#E9F1E9;
+}
+#picturesque img{
+    border-bottom:1px dotted #89a489;
+    width:100%;
+}
+#beginnings{
+    display:grid;
+    margin:-90px 0 0 0;
+    padding:130px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto;
+    grid-template-areas:
+    "title"
+    "scope"
+    "team"
+    ;
+}
+
+.projecttitle{
+    font-weight: 200;
+    background-color:#E9F1E9;
+    grid-area:title;
+    height:100%;
+    margin:0;
+    padding:0px 0 40px 0px;
+
+
+}
+.projectscope{
+    grid-area:scope;
+    height:100%;
+    margin:0;
+    padding:0px 0 10px 0px;
+}
+.teamsize{
+    grid-area:team;
+    height:100%;
+    margin:0;
+    line-height:30px;
+}
+
+
+#quotegrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto 1fr;
+    grid-template-areas:
+    "quotetext"
+    "quotesource"
+    ;
+}
+
+.quotetext{
+    grid-area:quotetext;
+    margin:0;
+    height:100%;
+    padding:0px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    letter-spacing:0px;
+    font-family: 'Averia Serif Libre', Georgia;
+}
+.quotesource{
+    grid-area:quotesource;
+    margin:0;
+    height:100%;
+    padding:20px 40px 0 0px;
+    text-align: right;
+    font-size:12px;
+}
+
+#backgroundgrid{
+    display:grid;
+    padding:60px 20px 0 20px;
+    grid-template-columns:1fr;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "csbackground"
+    "goal"
+    "backgroundimage";
+
+}
+.casestudybackground{
+    margin:0;
+    grid-area:csbackground;
+}
+
+.goal{
+    margin:0;
+    padding:20px 0 0 0;
+    grid-area:goal;
+}
+
+.backgroundimage{
+    margin:0;
+    padding:20px 0 0 0;
+    grid-area:backgroundimage;
+}
+.backgroundimage img{
+    width:100%;
+}
+
+#review{
+    display:grid;
+    margin: -90px 0 0 0;
+    padding:80px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto;
+    grid-template-areas:
+    "reviewback"
+    "details1"
+    "details2"
+    "reviewimage1"
+    "reviewimage2"
+;
+}
+
+.reviewback{
+    grid-area:reviewback;
+}
+
+.reviewimage1{
+    grid-area:reviewimage1;
+    padding:20px 0px 0px 0px;
+
+}
+.reviewimage1 img, .reviewimage2 img{
+    max-width:100%;
+}
+.reviewimage2{
+    grid-area:reviewimage2;
+    padding:20px 0px 0px 00px;
+}
+.reviewdetails1, .reviewdetails2{
+    font-size:14px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+
+}
+.reviewdetails1{
+    padding:0px 40px 0px 20px;
+    grid-area:details1;
+}
+.reviewdetails2{
+    padding:0px 40px 0px 20px;
+    margin-top:-30px;
+    grid-area:details2;
+}
+
+
+
+
+#testinggrid{
+    display:grid;
+    margin: -90px 0 0 0;
+    padding:190px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "testingb"
+    "testingi"
+    "mtestingb"
+    "t1"
+    "tq1"
+    "t2"
+    "tq2"
+    "t3"
+    "tq3"
+;
+}
+
+.testingbackground{
+    grid-area:testingb;
+}
+.testingimage{
+    padding:20px 0 20px 0;
+    grid-area:testingi;
+}
+.testingimage img{
+    max-width:100%;}
+.moretestingb{
+    margin:0;
+    padding:0 0 20px 0;
+    grid-area:mtestingb;
+}
+.t1{
+    grid-area:t1;
+}
+.t2{
+    grid-area:t2;
+}
+.t3{
+    grid-area:t3;
+}
+.tq1{
+    grid-area:tq1;
+}
+.tq2{
+    grid-area:tq2;
+}
+.tq3{
+    grid-area:tq3;
+}
+.tq1 p, .tq2 p, .tq3 p{
+    margin:0;
+    padding:20px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    font-family: 'Averia Serif Libre', Georgia;
+    letter-spacing:0px;
+    hanging-punctuation: first last;
+}
+.tq1 p::before, .tq2 p::before, .tq3 p::before{
+  content: "\201C";
+  position: relative;
+  margin-left: -2%;
+  
+}
+
+
+
+.testingquotesource{
+    padding:20px 0px 20px 0px;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+    float:right;
+
+}
+.subheaddetail{
+    font-size:14px;
+}
+
+#iagrid{
+    display:grid;
+    padding:60px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "iaback"
+    "iap1"
+    "iat1"
+    "iap2"
+    "iat2"
+    "iap3"
+    "iat3"
+    "iafin"
+    "iapic"
+;
+}
+.iaback{
+    grid-area:iaback;
+    padding:0 0 20px 0;
+}
+.iap1{
+    grid-area:iap1;
+}
+.iat1{
+    grid-area:iat1;
+}
+.iap2{
+    grid-area:iap2;
+}
+.iat2{
+    grid-area:iat2;
+}
+.iap3{
+    grid-area:iap3;
+}
+.iat3{
+    grid-area:iat3;
+}
+.iafin{
+    margin-top:-20px;
+    grid-area:iafin;
+    padding:0 0 20px 0;
+}
+.iapic{
+    grid-area:iapic;
+}
+
+.iat1 p, .iat2 p, .iat3 p{
+    padding:0 0 20px 0;
+}
+
+.iap1 img, .iap2 img, .iap3 img, .iapic img{
+    max-width:100%;
+    padding:0px 0 20px 0;
+}
+
+#wireframes{
+    display:grid;
+    margin:-90px 0 0 0;
+    padding:170px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto auto;
+    grid-template-areas:
+    "wireback"
+    "wireimg"
+    "wireback2"
+    "wireimg2"
+    "wireex1"
+    "wireex2"
+;
+
+}
+
+.wireback{
+    grid-area:wireback;
+    padding:0 0 20px 0;
+}
+.wireimg{
+    grid-area:wireimg;
+}
+.wireback2{
+    grid-area:wireback2;
+    padding:20px 0px 20px 00px;
+}
+.wireimg2{
+    grid-area:wireimg2;
+}
+.wireex1{
+    padding:20px 0px 0px 00px;
+    grid-area:wireex1;
+}
+.wireex2{
+    margin-top:-30px;
+    grid-area:wireex2;
+}
+.wireex1, .wireex2{
+    font-size:14px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; }
+
+.wireimg img, .wireimg2 img, .wireimg3 img{
+    max-width:100%;
+}
+#lastfeaturegrid{
+    display:grid;
+    padding:40px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto ;
+    grid-template-areas:
+    "lastfeature"
+    "lastfeatureimg"
+    "lfl"
+;
+}
+.lastfeature{
+    grid-area:lastfeature;
+}
+.lastfeatureimg{
+    grid-area:lastfeatureimg;
+}
+.lastfeatureimg img{
+    max-width:100%;
+}
+.lfl{
+    padding-top:20px;
+    grid-area:lfl;
+}
+
+#testing{
+    display:grid;
+    margin:-100px 0 0 0;
+    padding:140px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto auto auto auto;
+    grid-template-areas:
+    "testingb2"
+    "t12"
+    "tq12"
+    "t22"
+    "tq22"
+;
+}
+
+.testingbackground2{
+    grid-area:testingb2;
+}
+.t12{
+    grid-area:t12;
+}
+.t22{
+    grid-area:t22;
+}
+.tq12{
+    grid-area:tq12;
+}
+.tq22{
+    grid-area:tq22
+}
+.tq12 p, .tq22 p{
+    margin:0;
+    padding:20px 40px 0 40px;
+    font-size:1.3rem;
+    line-height:1.4em;
+    font-family: 'Averia Serif Libre', Georgia;
+    letter-spacing:0px;
+}
+.testingquotesource2{
+    padding:20px 40px 20px 0px;
+    font-size:12px;
+    -webkit-font-smoothing: antialiased;
+    line-height:1.5em;
+    font-family: helvetica-neue, sans-serif;
+    color:#2B3A2B;
+    font-weight: 400;
+    letter-spacing:.03em;
+    font-style: normal; 
+    float:right;
+
+}
+
+
+#hifis{
+    display:grid;
+    margin:-90px 0 0 0;
+    padding:110px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "styleb"
+    "stylebimg"
+;
+}
+.styleb{
+    grid-area:styleb;
+}
+.stylebimg{
+    padding:20px 0px 0px 00px;
+    grid-area:stylebimg;
+}
+
+.stylebimg img, .styleimg2 img{
+    max-width:100%;
+}
+
+
+#hifigrid{
+    display:grid;
+    padding:20px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "hifiback"
+    "hifiimg"
+;
+}
+
+.hifiback{
+    grid-area:hifiback;
+}
+.hifiimg{
+    padding:20px 0px 0px 00px;
+    grid-area:hifiimg;
+}
+.hifiimg img{
+    max-width:100%;
+}
+
+
+
+
+
+
+#finalgrid{
+    display:grid;
+    padding:20px 20px 0 20px;
+    grid-template-columns:auto;
+    background-color:#E9F1E9;
+    border-bottom:1px solid #2B3A2B;
+    grid-template-rows:auto auto;
+    grid-template-areas:
+    "finalback"
+    "finalproto"
+;
+}
+
+.finalback{
+    grid-area:finalback;
+}
+.finalproto{
+    grid-area:finalproto;
+    
+}
+
+.finalproto iframe{
+    width:100%;
+    height: 400px;
+    margin:-0px 0 0 0;
+    border:0px;
+}
+
+
+  }
+
+
+
+@media only screen and (min-width: 1024px) {
+
+
+ 
+    #beginnings{
+        margin:-90px 0 0 0;
+        padding:150px 300px 0 240px;
+        grid-template-columns:40% 60%;
+        grid-template-rows:auto auto;
+        grid-template-areas:
+        "title title"
+        "scope team"
+        ;
+    }
+    .projectscope{
+        padding:0px 0px 10px 0px;
+    }
+    .teamsize{
+        margin-top:-6px;
+        line-height:30px;
+        padding-left:80px;
+    }
+    
+    
+    #quotegrid{
+        padding:40px 380px 0 320px;
+        ;
+    }
+    
+    .quotetext{
+        padding:0px 0px 0 0px;
+    }
+    .quotesource{
+        padding:20px 0px 0 0px;
+    }
+    #backgroundgrid{
+        padding:60px 300px 0 240px;
+    
+    }
+    #review{
+        margin:-90px 0 0 0;
+        grid-template-columns:50% 50%;
+        padding:110px 300px 0 240px;
+        background-color:#E9F1E9;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "reviewback reviewback"
+        "details1 details2"
+        "reviewimage1 reviewimage1"
+        "reviewimage2 reviewimage2"
+    ;
+    }
+    .reviewdetails2{
+        margin-top:0px;
+    }
+    
+    #testinggrid{
+        margin:-90px 0 0 0;
+        padding:170px 300px 0 240px;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:auto auto auto auto auto auto;
+        grid-template-areas:
+        "testingb testingb"
+        "testingi testingi"
+        "mtestingb mtestingb"
+        "t1 tq1"
+        "t2 tq2"
+        "t3 tq3"
+    ;
+    }
+    .tq1 p, .tq2 p, .tq3 p{
+        padding:20px 0px 0 120px;
+    }
+    .t1 p, .t2 p, .t3 p{
+        padding: 0 40px 0 0px;
+    }x
+    .testingquotesource{
+        padding:20px 0px 20px 0px;
+    
+    }
+    
+    #iagrid{
+        padding:60px 300px 0 240px;
+        grid-template-columns:50% 50%;
+        grid-template-rows:auto auto auto auto auto auto ;
+        grid-template-areas:
+        "iaback iaback"
+        "iap1 iat1"
+        "iap2 iat2"
+        "iap3 iat3"
+        "iafin iafin"
+        "iapic iapic"
+    ;
+    }
+    .iat1 p, .iat2 p, .iat3 p{
+        padding:7px 0 20px 80px;
+    }
+    .iap1 img, .iap2 img, .iap3 img, .iapic img{
+        max-width:100%;
+        padding:20px 0 0px 0;
+    }
+    .iafin{
+        padding:40px 0 0 0;;
+    }
+    
+    #wireframes{
+        margin:-90px 0 0 0;
+        padding:170px 300px 0 240px;
+        background-color:#E9F1E9;
+        grid-template-columns:50% 50%;
+        grid-template-rows:auto auto auto auto auto;
+        grid-template-areas:
+        "wireback wireback"
+        "wireimg wireimg"
+        "wireback2 wireback2"
+        "wireimg2 wireimg2"
+        "wireex1 wireex2"
+    ;}
+    
+    
+    .wireimg2{
+        padding:00px 0px 0px 0px;
+    }
+    
+    .wireex1, .wireex2{
+        padding:20px 40px 0px 20px;
+    }
+    .wireex2{
+        margin-top:0px;
+    }
+    
+    
+    #testing{
+        margin:-90px 0 0 0;
+        padding:140px 300px 0 240px;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:auto auto auto;
+        grid-template-areas:
+        "testingb2 testingb2"
+        "t12 tq12"
+        "t22 tq22"
+    ;
+    }
+    
+    .t12 p, .t22 p{
+        padding:20px 40px 0 0px;
+    }
+    
+    .tq12 p, .tq22 p{
+        padding:40px 0px 0 120px;
+    }
+    .testingquotesource2{
+        padding:20px 0px 0px 0px;
+    
+    }
+    
+    
+    #lastfeaturegrid{
+        padding:60px 300px 0 240px;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:auto auto ;
+        grid-template-areas:
+        "lastfeature lastfeature"
+        "lastfeatureimg lfl"
+    ;
+    }
+    .lastfeatureimg img{
+        max-width:100%;
+        padding:20px 0 0px 0;
+    }
+    .lfl{
+        padding:7px 0 20px 80px;
+    
+    }
+    
+    
+    #hifis{
+        margin:-90px 0 0 0;
+        padding:110px 300px 0 240px;
+        grid-template-columns:auto;
+        background-color:#E9F1E9;
+        grid-template-rows:auto auto;
+        grid-template-areas:
+        "styleb"
+        "stylebimg"
+    ;
+    }
+    
+    #hifigrid{
+        padding:20px 300px 0 240px;
+    ;
+    }
+    
+    
+    .finalproto iframe{
+        height:600px;
+    }
+    
+    #finalgrid{
+        padding:20px 300px 0 240px;
+    ;
+    }
+
+}
