@@ -688,3 +688,82 @@ footer{
 
 
 }
+
+
+
+
+@media only screen and (min-width: 2560px) {
+
+
+
+    
+    #intro{
+        padding:120px 0 0 120px;
+    }
+    
+    #background{
+        padding:60px 0 0 120px;
+    }
+    
+    .showalittle img{
+        padding:80px 0 0 115px;
+    }
+    
+    
+    #cs{
+        margin-top:-90px;
+        padding-top:130px;
+    }
+    
+    
+
+    .workgrid{
+        padding:0px 80px 0px 0px;
+        height:100%;
+        grid-template-columns:50% 50%;
+        grid-template-rows:1fr 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 80px;
+        grid-template-areas:
+        "first second"
+        "third fourth"
+        ;
+    }
+    
+    .socials{
+        padding:0 0 0 120px;
+    }
+    .webdev{
+        padding:0 0 0 120px;
+    }
+    .findme{
+        padding:0 0 0 120px;
+    }
+    
+    .footercontainer{
+        padding:40px 0 60px 0;
+        grid-template-columns:25% 25%;
+    
+    
+    }
+    
+    #everything{
+        margin:0 0 360px 0;
+        transition: .3s;
+    }
+    
+    #casestudies{
+        margin:-90px 0 0 0;
+        padding:170px 200px 80px 120px;
+        transition:.3s;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
