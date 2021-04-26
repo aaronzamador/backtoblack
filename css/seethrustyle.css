@@ -294,7 +294,7 @@
     }
     .prepost{
         text-transform:uppercase;
-        font-size:10px;
+        font-size:12px;
         font-family: helvetica-neue, sans-serif;
         font-weight:500;
         padding-left:25px;
@@ -503,7 +503,7 @@
     
     }
     .subheaddetail{
-        font-size:14px;
+        font-size:16px;
     }
     
     #ideation{
@@ -522,7 +522,7 @@
     ;
     }
     .iadetails1, .iadetails2{
-        font-size:14px;
+        font-size:16px;
         -webkit-font-smoothing: antialiased;
         line-height:1.5em;
         font-family: helvetica-neue, sans-serif;
@@ -538,7 +538,7 @@
     }
     .iadetails2{
         padding:0px 40px 0px 0px;
-        margin-top:-30px;
+        margin-top:-50px;
         grid-area:iadetails2;
     }
     
@@ -611,7 +611,7 @@
 
     
     .jdetails1, .jdetails2{
-        font-size:14px;
+        font-size:16px;
         -webkit-font-smoothing: antialiased;
         line-height:1.5em;
         font-family: helvetica-neue, sans-serif;
@@ -752,7 +752,7 @@
         grid-area:wireex2;
     }
     .wireex1, .wireex2{
-        font-size:14px;
+        font-size:16px;
         -webkit-font-smoothing: antialiased;
         line-height:1.5em;
         font-family: helvetica-neue, sans-serif;
@@ -944,6 +944,13 @@
             padding-left:80px;
         }
         
+    .flowpic1 img{
+        padding:40px 0 0 0;
+        max-width:75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
         
         #quotegrid{
             padding:40px 380px 0 320px;
@@ -972,13 +979,22 @@
             "details1 details2"
         ;
         }
+        .reviewback{
+            padding-bottom:20px;
+        }
         .reviewdetails2{
             margin-top:0px;
+        }
+        .reviewimage1 img{
+            max-width:75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #storyboardgrid{
             padding:110px 300px 0 240px;
-            grid-template-columns:50% 50%;
+            grid-template-columns:35% 65%;
             grid-template-rows:auto auto auto auto auto auto auto;
             grid-template-areas:
             "sback sback"
@@ -994,10 +1010,10 @@
     
         .sp1 img, .sp2 img, .sp3 img, .sp4 img, .sp5 img, .sp6 img{
             max-width:100%;
-            padding:20px 0 0px 0;
+            padding:20px 0 40px 0;
         }
         .st1 p, .st2 p, .st3 p, .st4 p , .st5 p , .st6 p{
-            padding: 7px 0 20px 80px;
+            padding: 7px 0 20px 60px;
         }
         
         #personagrid{
@@ -1097,6 +1113,12 @@
         padding:20px 0px 20px 40px;}
     
 
+        .jp1 img{
+            max-width:75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
     #compgrid, #flowgrid{
         padding:150px 300px 0 240px;
@@ -1135,11 +1157,26 @@
             "wireex1 wireex2"
         ;}
         
-        
-        .wireimg2{
-            padding:00px 0px 0px 0px;
+        .wireimg{
+            padding:20px 0px 20px 0px;
         }
         
+        .wireimg2{
+            padding:20px 0px 0px 0px;
+        }
+        .wireimg img, .wireimg2 img, .wireimg3 img{
+            max-width:75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .testp1 img{
+                max-width:75%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
         .wireex1, .wireex2{
             padding:40px 40px 0px 20px;
         }

@@ -335,7 +335,7 @@
     padding:20px 0px 0px 00px;
 }
 .reviewdetails1, .reviewdetails2{
-    font-size:14px;
+    font-size:16px;
     -webkit-font-smoothing: antialiased;
     line-height:1.5em;
     font-family: helvetica-neue, sans-serif;
@@ -442,7 +442,7 @@
 
 }
 .subheaddetail{
-    font-size:14px;
+    font-size:16px;
 }
 
 #iagrid{
@@ -544,7 +544,7 @@
     grid-area:wireex2;
 }
 .wireex1, .wireex2{
-    font-size:14px;
+    font-size:16px;
     -webkit-font-smoothing: antialiased;
     line-height:1.5em;
     font-family: helvetica-neue, sans-serif;
