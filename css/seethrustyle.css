@@ -188,7 +188,6 @@
     }
     #about{
         display:grid;
-        margin:-90px 0 0 0;
         padding:130px 20px 0 20px;
         grid-template-columns:1fr;
         background-color:#E9F1E9;
@@ -794,7 +793,7 @@
     
     #testing{
         display:grid;
-        margin:-100px 0 0 0;
+        margin:-90px 0 0 0;
         padding:140px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#E9F1E9;
@@ -969,10 +968,8 @@
         
         }
         #research{
-            margin:-90px 0 0 0;
             grid-template-columns:50% 50%;
             padding:110px 300px 0 240px;
-            background-color:#E9F1E9;
             grid-template-rows: auto auto  auto;
             grid-template-areas:
             "reviewback reviewback"
@@ -1018,7 +1015,6 @@
         }
         
         #personagrid{
-            margin:-90px 0 0 0;
             padding:170px 300px 0 240px;
             grid-template-columns:1fr 1fr;
             grid-template-rows:auto auto auto auto ;
@@ -1030,17 +1026,11 @@
         }
         .testingimage{
             padding:0px 20px 0px 0;
-            grid-area:testingi;
         }
         .testingimage2{
             padding:0px 0 0px 20px;
         }
 
-        .testingimage2 img{
-            max-width:100%;}
-
-    .testingimage img{
-        max-width:100%;}
 
         .tq1 p, .tq2 p, .tq3 p{
             padding:20px 0px 0 120px;
@@ -1054,7 +1044,6 @@
         }
         
         #ideation{
-            margin:-90px 0 0 0;
             padding:150px 300px 0 240px;
             grid-template-columns:1fr 1fr;
             grid-template-rows:auto auto auto auto ;
@@ -1068,7 +1057,6 @@
             padding:7px 0 20px 80px;
         }
         .iap1 img, .iap2 img, .iap3 img, .iapic img{
-            max-width:100%;
             padding:20px 0 0px 0;
         }
         .iap1 img{
@@ -1094,10 +1082,8 @@
     }
 
     #journeygrid{
-        margin:-90px 0 0 0;
         padding:150px 300px 0 240px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
         grid-template-rows:auto auto auto;
         grid-template-areas:
         "jback jback"
@@ -1145,9 +1131,7 @@
 
 
         #wireframes{
-            margin:-90px 0 0 0;
             padding:150px 300px 0 240px;
-            background-color:#E9F1E9;
             grid-template-columns:50% 50%;
             grid-template-rows:auto auto auto auto auto;
             grid-template-areas:
@@ -1187,7 +1171,6 @@
         
         
         #testing{
-            margin:-90px 0 0 0;
             padding:140px 300px 0 240px;
             grid-template-columns:1fr 1fr;
             grid-template-rows:auto auto auto auto auto;
@@ -1235,7 +1218,6 @@
         
         
         #hifi{
-            margin:-90px 0 0 0;
             padding:140px 300px 0 240px;
         ;
         }

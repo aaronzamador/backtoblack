@@ -585,7 +585,7 @@
 
 #testing{
     display:grid;
-    margin:-100px 0 0 0;
+    margin:-90px 0 0 0;
     padding:140px 20px 0 20px;
     grid-template-columns:auto;
     background-color:#E9F1E9;
@@ -715,7 +715,6 @@
 
  
     #about{
-        margin:-90px 0 0 0;
         padding:150px 300px 0 240px;
         grid-template-columns:40% 60%;
         grid-template-rows:auto auto auto;
@@ -751,10 +750,8 @@
     
     }
     #research{
-        margin:-90px 0 0 0;
         grid-template-columns:50% 50%;
         padding:140px 300px 0 240px;
-        background-color:#E9F1E9;
         grid-template-rows: auto auto auto auto;
         grid-template-areas:
         "reviewback reviewback"
@@ -768,7 +765,6 @@
     }
     
     #testinggrid{
-        margin:-90px 0 0 0;
         padding:170px 300px 0 240px;
         grid-template-columns:1fr 1fr;
         grid-template-rows:auto auto auto auto auto auto;
@@ -817,9 +813,7 @@
     }
     
     #ideation{
-        margin:-90px 0 0 0;
         padding:170px 300px 0 240px;
-        background-color:#E9F1E9;
         grid-template-columns:50% 50%;
         grid-template-rows:auto auto auto auto auto;
         grid-template-areas:
@@ -844,7 +838,6 @@
     
     
     #testing{
-        margin:-90px 0 0 0;
         padding:140px 300px 0 240px;
         grid-template-columns:1fr 1fr;
         grid-template-rows:auto auto auto;
@@ -888,10 +881,8 @@
     
     
     #hifi{
-        margin:-90px 0 0 0;
         padding:150px 300px 0 240px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
         grid-template-rows:auto auto;
         grid-template-areas:
         "styleb"
