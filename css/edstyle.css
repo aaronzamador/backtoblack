@@ -312,9 +312,9 @@
     grid-template-areas:
     "reviewback"
     "reviewimage1"
+    "reviewimage2"
     "details1"
     "details2"
-    "reviewimage2"
 ;
 }
 
@@ -346,11 +346,11 @@
 
 }
 .reviewdetails1{
-    padding:0px 40px 0px 20px;
+    padding:20px 40px 0px 20px;
     grid-area:details1;
 }
 .reviewdetails2{
-    padding:0px 40px 20px 20px;
+    padding:20px 40px 20px 20px;
     margin-top:-30px;
     grid-area:details2;
 }
@@ -756,11 +756,12 @@
         grid-template-areas:
         "reviewback reviewback"
         "reviewimage1 reviewimage1"
-        "details1 details2"
         "reviewimage2 reviewimage2"
+        "details1 details2"
     ;
     }
-    .reviewdetails2{
+    .reviewdetails2, .reviewdetails1{
+        padding-top:40px;
         margin-top:0px;
     }
     
