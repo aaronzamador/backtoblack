@@ -760,6 +760,9 @@
         "details1 details2"
     ;
     }
+    .reviewimage2 img{
+        padding-top:0px;
+    }
     .reviewdetails2, .reviewdetails1{
         padding-top:40px;
         margin-top:0px;
