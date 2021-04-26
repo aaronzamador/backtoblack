@@ -350,7 +350,7 @@
         grid-area:details1;
     }
     .reviewdetails2{
-        padding:20px 40px 0px 0px;
+        padding:40px 40px 0px 0px;
         margin-top:-30px;
         grid-area:details2;
     }
@@ -737,7 +737,7 @@
     }
     .wireback2{
         grid-area:wireback2;
-        padding:20px 0px 40px 00px;
+        padding:20px 0px 20px 00px;
     }
     .wireimg2{
         grid-area:wireimg2;
@@ -973,7 +973,6 @@
         }
         .reviewdetails2{
             margin-top:0px;
-            padding:0px 0px 20px 0px;
         }
 
         #storyboardgrid{
