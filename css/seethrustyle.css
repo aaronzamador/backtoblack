@@ -427,7 +427,6 @@
         "testingb"
         "mtestingb"
         "testingi"
-        "testingi2"
     ;
     }
     
@@ -438,10 +437,6 @@
         padding:20px 0 20px 0;
         grid-area:testingi;
     }
-        .testingimage2{
-            padding:0px 0 20px 0;
-            grid-area:testingi2;
-        }
         .testingimage2 img{
             max-width:100%;}
 
@@ -512,16 +507,16 @@
         padding:150px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#E9F1E9;
-        grid-template-rows:auto auto auto auto auto;
+        grid-template-rows:auto auto auto auto;
         grid-template-areas:
         "iaback"
         "iap1"
-        "iapic"
         "iadetails1"
         "iadetails2"
     ;
     }
     .iadetails1, .iadetails2{
+        background-color:#E9F1E9;
         font-size:16px;
         -webkit-font-smoothing: antialiased;
         line-height:1.6em;
@@ -946,10 +941,6 @@
         
     .flowpic1 img{
         padding:40px 0 0 0;
-        max-width:75%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
         
         #quotegrid{
@@ -983,12 +974,6 @@
         .reviewdetails2{
             margin-top:0px;
         }
-        .reviewimage1 img{
-            max-width:75%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
         #storyboardgrid{
             padding:110px 300px 0 240px;
@@ -1021,7 +1006,7 @@
             grid-template-areas:
             "testingb testingb"
             "mtestingb mtestingb"
-            "testingi testingi2"
+            "testingi testingi"
         ;
         }
         .testingimage{
@@ -1049,7 +1034,7 @@
             grid-template-rows:auto auto auto auto ;
             grid-template-areas:
             "iaback iaback"
-            "iap1 iapic"
+            "iap1 iap1"
             "iadetails1 iadetails2"
         ;
         }
@@ -1099,13 +1084,6 @@
     .jdetails1{
         padding:20px 0px 20px 40px;}
     
-
-        .jp1 img{
-            max-width:75%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
     
     #compgrid, #flowgrid{
         padding:150px 300px 0 240px;
@@ -1149,19 +1127,7 @@
         .wireimg2{
             padding:20px 0px 0px 0px;
         }
-        .wireimg img, .wireimg2 img, .wireimg3 img{
-            max-width:75%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
         
-        .testp1 img{
-                max-width:75%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
         .wireex1, .wireex2{
             padding:40px 40px 0px 20px;
         }
