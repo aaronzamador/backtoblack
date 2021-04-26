@@ -137,7 +137,7 @@
       /* Six columns side by side */
       .column,.column2 {
         float: left;
-        width: 16.66%;
+        width: 25%;
       }
       
       /* Add a transparency effect for thumnbail images */
@@ -425,8 +425,8 @@
         grid-template-rows:auto auto auto auto ;
         grid-template-areas:
         "testingb"
-        "testingi"
         "mtestingb"
+        "testingi"
         "testingi2"
     ;
     }
@@ -438,15 +438,16 @@
         padding:20px 0 20px 0;
         grid-area:testingi;
     }
-    .testingimage img{
-        max-width:100%;}
-
         .testingimage2{
             padding:0px 0 20px 0;
             grid-area:testingi2;
         }
         .testingimage2 img{
             max-width:100%;}
+
+    .testingimage img{
+        max-width:100%;}
+
     .moretestingb{
         margin:0;
         padding:0 0 20px 0;
@@ -1006,17 +1007,30 @@
             grid-template-rows:auto auto auto auto ;
             grid-template-areas:
             "testingb testingb"
-            "testingi testingi"
             "mtestingb mtestingb"
-            "testingi2 testingi2"
+            "testingi testingi2"
         ;
         }
+        .testingimage{
+            padding:0px 20px 0px 0;
+            grid-area:testingi;
+        }
+        .testingimage2{
+            padding:0px 0 0px 20px;
+        }
+
+        .testingimage2 img{
+            max-width:100%;}
+
+    .testingimage img{
+        max-width:100%;}
+
         .tq1 p, .tq2 p, .tq3 p{
             padding:20px 0px 0 120px;
         }
         .t1 p, .t2 p, .t3 p{
             padding: 0 40px 0 0px;
-        }x
+        }
         .testingquotesource{
             padding:20px 0px 20px 0px;
         
@@ -1039,6 +1053,12 @@
         .iap1 img, .iap2 img, .iap3 img, .iapic img{
             max-width:100%;
             padding:20px 0 0px 0;
+        }
+        .iap1 img{
+            padding:0 20px 0 0;
+        }
+        .iapic img{
+            padding:0 0px 0 20px;
         }
         .iafin{
             padding:20px 0 0 0;;
