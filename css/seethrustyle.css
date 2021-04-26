@@ -533,10 +533,12 @@
     }
     .iadetails2{
         padding:0px 40px 0px 0px;
-        margin-top:-50px;
+        margin-top:-40px;
         grid-area:iadetails2;
     }
     
+    .iadetails2 .prepost {color:#E9F1E9;
+    font-size:1px;}
     .iaback{
         grid-area:iaback;
         padding:0 0 20px 0;
