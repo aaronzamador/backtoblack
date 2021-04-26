@@ -5,6 +5,7 @@ $("#right").click(function(){
         $('.sidemenu').removeClass("sideclicked");
         $('#everything').removeClass("onclick");
         $(".footercontainer").removeClass("fcclicked");
+        $(".rotatingm").removeClass("cmen");
 }
     else{
         $('.sidemenu').addClass("sideclicked");
@@ -18,8 +19,20 @@ $("#right").click(function(){
     $('.sidemenu').removeClass("sideclicked");
     $('#everything').removeClass("onclick");
     $(".footercontainer").removeClass("fcclicked");
+    $(".rotatingm").removeClass("cmen");
             
- });
+ });   
+ $("#everything").click(function(){
+             
+     if ($('.sidemenu').hasClass("sideclicked")){
+         $('.sidemenu').removeClass("sideclicked");
+         $('#everything').removeClass("onclick");
+         $(".footercontainer").removeClass("fcclicked");
+         $(".rotatingm").removeClass("cmen");
+ }
+     else{
+ }
+  });
 
     
 $(".gettingback").click(function(){

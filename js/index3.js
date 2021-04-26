@@ -6,11 +6,11 @@ $(document).ready(function() {
       //get current sroll position
       var scrollPosition = $(window).scrollTop();
       //get the position of the containers
-      var one = $("#beginnings").offset().top - 100,
-          two = $("#review").offset().top - 100,
-          three = $("#wireframes").offset().top - 100;
+      var one = $("#about").offset().top - 100,
+          two = $("#research").offset().top - 100,
+          three = $("#ideation").offset().top - 100;
           four = $("#testing").offset().top - 100;
-          five = $("#hifis").offset().top - 100;
+          five = $("#hifi").offset().top - 100;
           
       //if the scroll position is the same as the position of the container specified, add the "active" class to the corresponding nav element
       if (scrollPosition >= one) {
