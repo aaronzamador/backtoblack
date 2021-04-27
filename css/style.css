@@ -42,7 +42,7 @@ header{
     border-bottom:1px solid #2B3A2B;
     background-color:#E9F1E9;
     width:100%;
-    z-index:3;
+    z-index:7;
     grid-template-columns:60px 1fr 1fr;
     height:55px;
     grid-template-rows:1fr;
@@ -91,8 +91,112 @@ header{
     filter: grayscale(100%) sepia(100%) hue-rotate(40deg);
 }
 
+.aboutcontainer{
+    left:-100%;
+    position:absolute;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:35px minmax(min-content, 100vh) auto ;
+    grid-template-areas:
+    "closethis"
+    "aboutmenu"
+    "bottomabout";
+    height:100%;
+}
+.aboutmenu{
+    position:fixed;
+    height:100vh;
+    width:calc(100% - 75px);
+    background-color:#E9F1E9;
+    border-right:1px solid #2B3A2B;
+    grid-area:aboutmenu;
+    z-index:4;
+    overflow-y:scroll;
+    transition: .5s;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto ;
+    grid-template-areas:
+    "glimpse"
+    "aboutimg"
 
+}
+.bottomabout{
+    display:grid;
+    position:absolute;
+    width:calc(100vw - 75px);
+    grid-area:bottomabout;
+    z-index:6;
+    grid-template-columns:1fr;
+    grid-template-rows:auto auto auto;
+    grid-template-areas:
 
+    "showimage"
+    "restinfo"
+    "restinfo2"
+}
+.aboutmenuclicked{
+    left:0;
+}
+.closethis{
+    position:fixed;
+    top:55px;
+    z-index:5;
+    left:calc(100% - 120px);
+    padding:15px 20px 0 0;
+    grid-area:closethis;
+}
+.closethis img{
+    height:35px;
+    float:right;
+}
+.aboutstuff{
+    font-size:12px;}
+
+.glimpse{
+    padding:80px 15% 0 15%;
+    grid-area:glimpse;
+}
+
+.aboutimg{
+    padding:20px 0px 20px 15%;
+    grid-area:aboutimg;
+}
+.aboutimg img{
+    max-width:20%;
+
+}
+.showimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #2B3A2B;
+    max-width:75%;}
+
+.showimage{
+    background-color:#E9F1E9;
+    border-top:1px solid #2B3A2B;
+    padding:80px 20px 40px 20px;
+    grid-area:showimage;
+}
+
+.restinfo{
+    padding:0px 0px 0 15%;
+    grid-area:restinfo;
+    background-color:#E9F1E9;
+}
+.restinfo2{
+    padding:20px 0px 40px 15%;
+    background-color:#E9F1E9;
+    grid-area:restinfo2;
+}
+.bottomabout .bouncy img{
+    max-height:10px;
+    padding-right:12px;
+}
+.restinfo .aboutstuff2{
+    margin-top:-15px;
+}
 .sidemenu{
     position:fixed;
     height:100%;
@@ -233,6 +337,9 @@ h2 img{
     background-color:transparent;
     transition: .3s;
     
+}
+.fix{
+    position:fixed;
 }
 
 
