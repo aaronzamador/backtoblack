@@ -1102,11 +1102,6 @@
         max-width:100%;
     }
 
-
-    .aboutimg img{
-        max-width:10%;
-    
-    }
         #wireframes{
             padding:150px 30% 0 25%;
             grid-template-columns:50% 50%;

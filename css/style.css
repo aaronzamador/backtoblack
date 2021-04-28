@@ -42,7 +42,7 @@ header{
     border-bottom:1px solid #2B3A2B;
     background-color:#E9F1E9;
     width:100%;
-    z-index:7;
+    z-index:500;
     grid-template-columns:60px 1fr 1fr;
     height:55px;
     grid-template-rows:1fr;
@@ -106,7 +106,7 @@ header{
     width:calc(100% - 75px);
     background-color:#E9F1E9;
     grid-area:aboutmenu;
-    z-index:6;
+    z-index:450;
     overflow-y:scroll;
     transition: 1s;
     display:grid;
@@ -134,15 +134,28 @@ header{
     float:right;
 }
 .aboutstuff{
+    padding-top:20px;
     font-size:10px;}
 
 .glimpse{
-    padding:80px 20% 0 10%;
+    padding:80px 10% 0 10%;
     grid-area:glimpse;
+}
+.glimpse .tag{
+    font-size:8px;
+    font-weight:500;
+}
+.glimpse p, .glimpse h4{
+    margin:0;
+}
+.glimpse img{
+    border:1px solid #2B3A2B;
+    max-width:40%;
+    margin-bottom:20px;
 }
 
 .aboutimg{
-    padding:20px 0px 20px 15%;
+    padding:20px 0px 20px 10%;
     grid-area:aboutimg;
 }
 .aboutimg img{
@@ -176,9 +189,6 @@ header{
 .bottomabout .bouncy img{
     max-height:10px;
     padding-right:12px;
-}
-.restinfo .aboutstuff2{
-    margin-top:-15px;
 }
 .restinfo .online:hover{cursor: pointer;}
 .link1{cursor: pointer;}
@@ -719,16 +729,20 @@ footer{
     padding-top:130px;
 }
 
-.aboutimg img{
-    max-width:10%;
-
-}
-
 .glimpse{
-    padding:100px 15% 0 15%;
+    padding:100px 10% 0 10%;
     grid-area:glimpse;
 }
+.glimpse img{
+    border:1px solid #2B3A2B;
+    max-width:30%;
+    margin-bottom:20px;
+}
 
+.aboutimg{
+    margin-top:-25px;
+    padding:0px 0px 20px 10%;
+}
 
 .sideclicked{
     left:70%;
@@ -810,12 +824,12 @@ footer{
 
 
 .aboutmenu{
-    width:40%;
+    width:45%;
     transition:.5s;
 
 }
 .bottomabout{
-    width:40%;
+    width:45%;
     transition:.5s;
 }
 
