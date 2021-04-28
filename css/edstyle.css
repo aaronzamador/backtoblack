@@ -706,6 +706,17 @@
     grid-area:finalback;
     padding-bottom:80px;
 }
+.closethis{
+    position:sticky;
+    top:95px;
+    z-index:5;
+    padding:15px 15px 0 0;
+    grid-area:closethis;
+}
+.glimpse{
+    padding:100px 15% 0 15%;
+    grid-area:glimpse;
+}
   }
 
 
@@ -899,6 +910,10 @@
     ;
     }
     
+.aboutimg img{
+    max-width:10%;
+
+}
     
     .finalproto iframe{
         height:650px;
