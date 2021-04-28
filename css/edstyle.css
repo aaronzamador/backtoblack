@@ -17,7 +17,7 @@
     background-color:#E9F1E9;
     width:100%;
     justify-content:space-around;
-    z-index:500;
+    z-index:5;
     margin-top:55px;
     grid-template-columns:auto auto auto auto auto;
     height:40px;
@@ -899,7 +899,10 @@
     ;
     }
     
-    
+.gettingback img{
+    padding:15px 15px 0 0;
+    height:50px;
+}
     .finalproto iframe{
         height:650px;
     }

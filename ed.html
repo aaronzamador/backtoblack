@@ -53,9 +53,9 @@
                 <a href="seethru.html"><h2><img src="images/32bold arrow.svg"> See-Thru</h2></a>
                 <a href="ed.html"><h2><img src="images/32bold arrow.svg"> ED.gov</h2></a>
             </div>   
-            <a href="about.html"><h1>About</a><br>
-            <a href="#contact">Contact</h1></a>
-            </div></div>
+            <div class="link1"id="footabout"><h1>About</div><br>
+              <h1 class="contactmenuside"><a href="#contact">Contact</a></h1>
+              </div></div>
 
             <div id="statusbar">
                 <a href="#about"><p class="statusitem1 ">Background</p></a>
@@ -64,7 +64,29 @@
                 <a href="#testing"><p class="statusitem4 ">Testing</p></a>
                 <a href="#hifi"> <p class="statusitem5 ">Hi-Fi</p></a>
             </div>
-<div id="everything">
+            <div class="aboutcontainer">
+                        <div class="aboutmenu">
+                            <div class="closethis">
+                                <img src="images/close.svg">
+                            </div>
+                            <div class="glimpse">
+                              <img src="images/Frame 8me.png">
+                              <h4>Aaron Z Amador</h4>
+                              <p class ="tag">24 ◦ he / him ◦ cat dad</p>
+                              <p class="aboutstuff">
+                                  For me, design has always been in the periphery of my vision, but it wasn’t until a summer in quarantine with a second-hand <i>Meggs' History of Graphic Design</i> that I understood how deeply rooted my passion was. After reading D. Norman’s <i>Design of Everyday Things</i> and <i>Emotional Design</i>, and an incredibly intriguing <i>The Meaning of Things</i>, by M. Csikszentmihalyi and E. Halton I felt a new calling I couldn’t deny, or resist.<br><br>
+                      Luckily, the skills and views I’ve acquired from my past experience apply to UX design. 10 years working directly with customers–users–means their needs and frustrations are always my top priority. My experience working closely with business owners means I understand the importance of good design to increase productivity and profit. I believe in meshing functionality with beautiful design, because you can’t truly have one without the other.<br><br>
+                      I’m still learning, growing, and soaking in knowledge–for me, the best feeling in the world is reaching the top of a steep learning curve.<br><br>
+                      Thanks for stopping by– </p>
+                        
+                            </div>
+                            <div class="aboutimg"><img src="images/Group 20sig.png">
+                        
+                            </div></div></div>
+                            
+
+            <div class="wrapper">
+<div class="everything">
     <div id="picturesque"><img src="images/skinny.jpg"></div>
 
     <div id="about">
@@ -113,7 +135,7 @@
     <div id="testinggrid">
         <div class="testingbackground"><h4><b>Testing with users</b></h4><p>Our initial inspection of the Department’s website gave us a lot to think about, but we knew that testing the site with real users was the only way to get the insights that we needed to truly understand what was working, and what wasn’t. Creating a focused persona for a subsection of the many potential users helped us develop our testing plan.</p></div>
         <div class="testingimage"><img src="images/Slide 16_9 - 7person.png"></div>
-        <div class="moretestingb"><p>Parents make up 40% of the U.S. population in 2020, so we chose to focus on their experience using ED’s site. We tested their ability to find and use basic functions of the website–the navigation, search bar, and contact information. Then, we took it a step further, testing their ability to locate and understand important details about federal aid–the different types of loans, their eligibility for aid, and scholarships that were currently available.<br><br>What we found may surprise you, but it’s exactly what we had feared.</p></div>
+        <div class="moretestingb"><p>Parents make up 40% of the U.S. population in 2020,* so we chose to focus on their experience using ED’s site. We tested their ability to find and use basic functions of the website–the navigation, search bar, and contact information. Then, we took it a step further, testing their ability to locate and understand important details about federal aid–the different types of loans, their eligibility for aid, and scholarships that were currently available.<br><br>What we found may surprise you, but it’s exactly what we had feared.</p></div>
         <div class="t1"><p><b class="subheaddetail">Users preferred the search bar over the main navigation</b><br><br>The existing navigation is purposefully simple, and while it is useful at times, the majority of our users, when confronted with tasks that did not fit snuggly into one of the labels, decided to use the search bar. Adding insult to injury, the search bar offers no suggestions, and leads users to an overwhelming list of thousands of results.</p></div>
         <div class="tq1"><p>Find a scholarship? Is that a loan or a grant? I'm just gonna use the search bar.”</p><span class="testingquotesource">–User 2, a mother of two</div>
         <div class="t2"><p><b class="subheaddetail">Users revisited pages multiple times before finding what they were looking for</b><br><br>After using the search bar or primary navigation, users frequently came to the right page the first time, but they didn’t know it. A parent’s valuable time was quickly wasted while meticulously searching through text walls. Nail in the coffin? <b>The majority of our users blamed themselves.</b></p></div>
@@ -339,7 +361,7 @@
 
 
 
-</div></div></div>
+</div></div>
 
 <a id="contact"></a>
 <div class="footercontainer">
@@ -361,7 +383,7 @@
                     <img src="images/32bold arrow.svg">LinkedIn</h5></a>
         
     </div></div>
-</div>
+</div></div></div>
 
 
 
@@ -382,9 +404,10 @@
             <img src="images/preload base copy.png">
         </div>
     </div>
-    <div class="slinks"><a href="about.html">About</a> <a href="#contact">Contact</a></div>
-</footer>
-
+    <div class="slinks1">
+        <div class="link1"id ="flatout">About</div></div>
+        <div class="slinks2 contactlink"> <a href="#contact">Contact</a></div></div>
+    </footer>
 
 
 <script src="js/preloader.js"></script>
@@ -392,6 +415,7 @@
 <script src="js/edstatus.js"></script>
 <script src="js/slides1.js"></script>
 <script src="js/slides2.js"></script>
+<script src="js/aboutmenu.js"></script>
 
 </body>
 </html>
