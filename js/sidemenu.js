@@ -21,6 +21,8 @@ if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
  $(".linkage").click(function(){
     $('.sidemenu').removeClass("sideclicked");
     $(".rotatingm").removeClass("cmen");
+    $('.everything').removeClass("onclick");
+    $(".footercontainer").removeClass("fcclicked");
             
  });   
  $(".everything").click(function(){
@@ -81,8 +83,6 @@ $(".gettingback").click(function(){
         $('.sside').addClass("cside");
         $(".casestudies").addClass("csclicked");
         $('.gettingback').addClass("gettingclicked");
-        $('.everything').addClass("onclick");
-        $(".footercontainer").addClass("fcclicked");
         
     }
 
@@ -98,8 +98,6 @@ $(".gettingback").click(function(){
         $('.sidemenu').addClass("sideclicked");
         $(".casestudies").addClass("csclicked");
         $('.gettingback').addClass("gettingclicked");
-        $('.everything').addClass("onclick");
-        $(".footercontainer").addClass("fcclicked");
 }       
 if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
     $('.aboutcontainer').removeClass("aboutmenuclicked");

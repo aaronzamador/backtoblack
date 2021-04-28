@@ -22,8 +22,6 @@ $("#footabout").click(function(){
  }
      else{
          $('.aboutcontainer').addClass("aboutmenuclicked");
-         $('.everything').addClass("onclick");
-         $(".footercontainer").addClass("fcclicked");
 
          
  }
