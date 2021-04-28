@@ -154,7 +154,10 @@
     }
     
     .aboutimg{
-        padding:20px 0px 20px 10%;
+            margin-top:-25px;
+            padding:0px 0px 20px 10%;
+        
+        
         grid-area:aboutimg;
     }
     .aboutimg img{
@@ -736,11 +739,6 @@
         border:1px solid #2B3A2B;
         max-width:30%;
         margin-bottom:20px;
-    }
-    
-    .aboutimg{
-        margin-top:-25px;
-        padding:0px 0px 20px 10%;
     }
     
     .sideclicked{
