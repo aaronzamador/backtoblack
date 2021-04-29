@@ -176,6 +176,7 @@
            font-weight: 400;
            letter-spacing:.0em;
            font-style: normal; 
+           padding-bottom:40px;
        }
        .bouncy2{
            margin-left:-20px;
@@ -999,7 +1000,7 @@
        #hifi{
            display:grid;
            margin:-90px 0 0 0;
-           padding:150px 20px 0 20px;
+           padding:150px 20px 0 0px;
            grid-template-columns:auto;
            background-color: #f9f9f9;
            grid-template-rows:auto auto;
@@ -1021,18 +1022,6 @@
            max-width:100%;
        }
        
-       
-       #hifigrid{
-           display:grid;
-           padding:60px 20px 0 20px;
-           grid-template-columns:auto;
-           background-color: #f9f9f9;
-           grid-template-rows:auto auto;
-           grid-template-areas:
-           "hifiback"
-           "hifiimg"
-       ;
-       }
        
        .hifiback{
            grid-area:hifiback;
