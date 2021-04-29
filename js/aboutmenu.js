@@ -50,8 +50,12 @@ $("#footabout").click(function(){
              
     if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
         $('.aboutcontainer').removeClass("aboutmenuclicked");
+}
+            
+    if ($('.sidemenu').hasClass("sideclicked")){
+        $('.sidemenu').removeClass("sideclicked");
         $('.everything').removeClass("onclick");
-        $(".footercontainer").removeClass("fcclicked");
+        $(".rotatingm").removeClass("cmen");
 }
             
  });
