@@ -299,6 +299,16 @@
         grid-area:csbackground;
     }
     
+
+    .bouncy3{
+        margin-left:-20px;
+    }
+    .bouncy3 img{
+        padding-right:15px;
+        height:20px;
+        padding-top:8px;
+    }
+    
     .goal{
         margin:0;
         padding:20px 0 0 0;
@@ -738,7 +748,7 @@
     
     .finalback{
         grid-area:finalback;
-        padding-bottom:80px;
+        padding-bottom:40px;
     }
       }
     

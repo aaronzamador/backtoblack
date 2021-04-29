@@ -70,9 +70,9 @@
         font-size: 10px;}
     
     #right{
-        position:absolute;
         grid-area:right;
         right:0;
+        position:absolute;
         padding:20px 20px 0px 0px;
         font-family: gopher, sans-serif;
         letter-spacing:1px;
@@ -506,7 +506,7 @@
     .therest{
         margin:5px 0 25px 0;
     }
-    .bouncy img, .bouncy2 img{
+    .bouncy img, .bouncy2 img, .bouncy3 img{
         animation-name: bouncy;
         animation-duration: 1500ms;
         animation-iteration-count: infinite;
@@ -590,6 +590,34 @@
     }
     
     
+    #previousnext{
+        display:grid;
+        margin: -90px 0 0 0;
+        padding:120px 20px 40px 40px;
+        grid-template-columns:auto auto;
+        background-color:#f9f9f9;
+        grid-template-rows:auto;
+        border-bottom:1px solid #2B3A2B;
+        grid-template-areas:
+        "previousproject nextproject"
+        ;
+    
+    
+    
+    }
+
+    .previousproject{
+        grid-area:previousproject;
+        
+    }
+    
+    .nextproject{
+        padding-right:40px;
+        position:absolute;
+        grid-area:nextproject;
+        right:0;
+        
+    }
     
     
     }
@@ -794,6 +822,23 @@
     
     
     }
+      
+    
+    #previousnext{
+        padding:140px 30% 40px 25%;
+        ;
+    
+    
+    
+    }
+    
+    .nextproject{
+        padding-right:calc(25% + 40px);
+        position:absolute;
+        grid-area:nextproject;
+        right:0;
+        
+    }
     
     
     .closethis{
@@ -904,7 +949,7 @@
         }
         
         
-        
+      
         
         
         
