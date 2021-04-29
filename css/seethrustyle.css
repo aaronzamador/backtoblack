@@ -1,6 +1,8 @@
 
 @media only screen and (min-width: 320px) {
  
+    body{
+        background-color:#f9f9f9;}
     #left img{
         position:fixed;
         max-height: 45px;
@@ -8,12 +10,21 @@
         filter: grayscale(100%) sepia(100%) hue-rotate(40deg);
     }
     
-    
+    header{
+        color:#2B3A2B;
+        border-bottom:1px solid #2B3A2B;
+        background-color:#f9f9f9;
+    }
+    .aboutmenu{
+        background-color:#f9f9f9;}
+    .sidemenu{
+        background-color:#f9f9f9;
+    }
     #statusbar{
         position:fixed;
         display:grid;
         border-bottom:1px dotted #89a489;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         width:100%;
         justify-content:space-around;
         z-index:5;
@@ -107,7 +118,7 @@
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover,
       .next:hover,.prev2:hover,.next2:hover {
-        background-color: #E9F1E9;
+        background-color:#f9f9f9;
       }
       /* Number text (1/3 etc) */
       .numbertext, .numbertext2 {
@@ -122,7 +133,7 @@
       /* Container for image text */
       .caption-container,.caption-container2 {
         text-align: center;
-        background-color: #E9F1E9;
+        background-color:#f9f9f9;
         padding: 2px 16px;
         color: white;
       }
@@ -179,7 +190,7 @@
     #picturesque{
         margin:auto;
         padding:90px 0 0 0;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
     }
     #picturesque img{
         border-bottom:1px dotted #89a489;
@@ -189,7 +200,7 @@
         display:grid;
         padding:130px 20px 0 20px;
         grid-template-columns:1fr;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto;
         grid-template-areas:
         "title"
@@ -201,7 +212,7 @@
     
     .projecttitle{
         font-weight: 200;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-area:title;
         height:100%;
         margin:0;
@@ -212,7 +223,7 @@
     .protolink{
         padding:0px 0px 40px 20px;
         grid-area:protolink;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
     }
     .projectscope{
         grid-area:scope;
@@ -232,7 +243,7 @@
         display:none;
         padding:40px 20px 0 20px;
         grid-template-columns:1fr;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto 1fr;
         grid-template-areas:
         "quotetext"
@@ -263,7 +274,7 @@
         display:grid;
         padding:60px 20px 40px 20px;
         grid-template-columns:1fr;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto;
         grid-template-areas:
         "csbackground"
@@ -284,7 +295,8 @@
     
     .backgroundimage{
         margin:0;
-        padding:40px 0 0 0;
+        background-color: #f9f9f9;
+        padding:20px 0 0 0;
         grid-area:backgroundimage;
     }
     .backgroundimage img{
@@ -306,7 +318,7 @@
         margin: -90px 0 0 0;
         padding:120px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto;
         grid-template-areas:
         "reviewback"
@@ -321,6 +333,7 @@
     }
     
     .reviewimage1{
+        background-color: #f9f9f9;
         grid-area:reviewimage1;
         padding:20px 0px 0px 0px;
     
@@ -329,6 +342,7 @@
         max-width:100%;
     }
     .reviewimage2{
+        background-color: #f9f9f9;
         grid-area:reviewimage2;
         padding:20px 0px 0px 00px;
     }
@@ -338,7 +352,7 @@
         line-height:1.6em;
         font-family: helvetica-neue, sans-serif;
         color:#2B3A2B;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         font-weight: 400;
         letter-spacing:.0em;
         font-style: normal; 
@@ -360,7 +374,7 @@
         margin: -90px 0 0 0;
         padding:170px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows: auto auto;
         grid-template-areas:
         "compback"
@@ -374,12 +388,10 @@
     }
     
     .compimage1{
+        background-color: #f9f9f9;
         grid-area:compimage1;
     }
     
-    .compimage2{
-        grid-area:compimage2;
-    }
     
     .compimage1 img{
         max-width:100%;
@@ -392,7 +404,7 @@
         margin: -90px 0 0 0;
         padding:190px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto;
         grid-template-areas:
         "flowback"
@@ -407,6 +419,7 @@
     }
     
     .flowpic1{
+        background-color: #f9f9f9;
         grid-area:flowpic1;
     }
     
@@ -420,7 +433,7 @@
         margin: -90px 0 0 0;
         padding:170px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto ;
         grid-template-areas:
         "testingb"
@@ -444,7 +457,7 @@
 
     .moretestingb{
         margin:0;
-        padding:0 0 20px 0;
+        padding:0 0 0px 0;
         grid-area:mtestingb;
     }
     .t1{
@@ -505,7 +518,7 @@
         margin:-90px 0 0 0;
         padding:150px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto;
         grid-template-areas:
         "iaback"
@@ -515,7 +528,7 @@
     ;
     }
     .iadetails1, .iadetails2{
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         font-size:16px;
         -webkit-font-smoothing: antialiased;
         line-height:1.6em;
@@ -536,29 +549,33 @@
         grid-area:iadetails2;
     }
     
-    .iadetails2 .prepost {color:#E9F1E9;
+    .iadetails2 .prepost {
+        color:#f9f9f9;
     font-size:1px;}
     .iaback{
         grid-area:iaback;
-        padding:0 0 20px 0;
+        padding:0 0 0px 0;
     }
     .iaback2{
         grid-area:iaback2;
         padding:0 0 20px 0;
     }
     .iap1{
+        background-color: #f9f9f9;
         grid-area:iap1;
     }
     .iat1{
         grid-area:iat1;
     }
     .iap2{
+        background-color:#f9f9f9;
         grid-area:iap2;
     }
     .iat2{
         grid-area:iat2;
     }
     .iap3{
+        background-color:#f9f9f9;
         grid-area:iap3;
     }
     .iat3{
@@ -574,7 +591,7 @@
     }
     
     .iat1 p, .iat2 p, .iat3 p{
-        padding:0 0 20px 0;
+        padding:20 0 20px 0;
     }
     
     .iap1 img, .iap2 img, .iap3 img, .iapic img{
@@ -586,7 +603,7 @@
         margin:-90px 0 0 0;
         padding:150px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto;
         grid-template-areas:
         "jback "
@@ -599,9 +616,10 @@
 
     .jback{
         grid-area:jback;
-        padding:0 0 20px 0;
+        padding:0 0 0px 0;
     }
     .jp1{
+        background-color:#f9f9f9;
         grid-area:jp1;
     }
 
@@ -639,7 +657,7 @@
         margin:-90px 0 0 0;
         padding:150px 20px 0 20px;
         grid-template-columns:1fr;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto auto auto;
         grid-template-areas:
         "sback"
@@ -659,36 +677,42 @@
     }
 
     .sp1{
+        background-color:#f9f9f9;
         grid-area:sp1;
     }
     .st1{
         grid-area:st1;
     }
     .sp2{
+        background-color:#f9f9f9;
         grid-area:sp2;
     }
     .st2{
         grid-area:st2;
     }
     .sp3{
+        background-color:#f9f9f9;
         grid-area:sp3;
     }
     .st3{
         grid-area:st3;
     }
     .sp4{
+        background-color:#f9f9f9;
         grid-area:sp4;
     }
     .st4{
         grid-area:st4;
     }
     .sp5{
+        background-color:#f9f9f9;
         grid-area:sp5;
     }
     .st5{
         grid-area:st5;
     }
     .sp6{
+        background-color:#f9f9f9;
         grid-area:sp6;
     }
     .st6{
@@ -712,7 +736,7 @@
         margin:-90px 0 0 0;
         padding:150px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto auto auto;
         grid-template-areas:
         "wireback"
@@ -730,6 +754,7 @@
         padding:0 0 20px 0;
     }
     .wireimg{
+        background-color:#f9f9f9;
         grid-area:wireimg;
     }
     .wireback2{
@@ -737,6 +762,7 @@
         padding:20px 0px 20px 00px;
     }
     .wireimg2{
+        background-color:#f9f9f9;
         grid-area:wireimg2;
     }
     .wireex1{
@@ -764,7 +790,7 @@
         display:grid;
         padding:40px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto;
         grid-template-areas:
         "lastfeature"
@@ -777,6 +803,7 @@
         grid-area:lastfeature;
     }
     .lastfeatureimg{
+        background-color:#f9f9f9;
         grid-area:lastfeatureimg;
     }
     .lastfeatureimg img{
@@ -792,7 +819,7 @@
         margin:-90px 0 0 0;
         padding:140px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto auto auto auto;
         grid-template-areas:
         "testingb2"
@@ -805,6 +832,7 @@
     ;
     }
     .testp1{
+        background-color:#f9f9f9;
         grid-area:testp1;
     }
     .testp1 img{
@@ -813,9 +841,11 @@
     }
     
     .testingbackground2{
+        background-color:#f9f9f9;
         grid-area:testingb2;
     }
     .testingbackground3{
+        background-color:#f9f9f9;
         grid-area:testingb3;
         padding:20px 0 0 0;
     }
@@ -829,6 +859,7 @@
         grid-area:tq12;
     }
     .tq22{
+        background-color:#f9f9f9;
         grid-area:tq22
     }
     .tq12 p, .tq22 p{
@@ -858,6 +889,7 @@
         grid-area:styleb;
     }
     .stylebimg{
+        background-color:#f9f9f9;
         padding:20px 0px 0px 00px;
         grid-area:stylebimg;
     }
@@ -872,7 +904,7 @@
         display:grid;
         padding:140px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-template-rows:auto auto;
         grid-template-areas:
         "hifiback"
@@ -884,6 +916,7 @@
         grid-area:hifiback;
     }
     .hifiimg{
+        background-color:#f9f9f9;
         padding:20px 0px 0px 00px;
         grid-area:hifiimg;
     }
@@ -900,7 +933,7 @@
         display:grid;
         padding:60px 20px 0 20px;
         grid-template-columns:auto;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         border-bottom:1px solid #2B3A2B;
         grid-template-rows:auto;
         grid-template-areas:
@@ -918,7 +951,12 @@
     
     @media only screen and (min-width: 1024px) {
     
-    
+    footer{
+        background-color:#f9f9f9;}
+        .rotatingm img{
+            background-color:#f9f9f9;}
+            .footercontainer{
+                background-color:#f9f9f9;}
      
         #about{
             margin:-90px 0 0 0;
@@ -941,7 +979,7 @@
         }
         
     .flowpic1 img{
-        padding:40px 0 0 0;
+        padding:20px 0 0 0;
     }
     
         #backgroundgrid{
@@ -1057,7 +1095,7 @@
         margin-top:30px;}
 
     .iadetails2 p{
-        color:#E9F1E9
+        color:#f9f9f9;
     }
 
     #journeygrid{
