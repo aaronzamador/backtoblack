@@ -718,6 +718,7 @@
     }
     
     .hifiback{
+        background-color:#f9f9f9;
         grid-area:hifiback;
     }
     .hifiimg{
@@ -726,7 +727,7 @@
         grid-area:hifiimg;
     }
     .hifiimg img{
-        max-width:100%;
+        width:100%;
     }
     
     
@@ -947,10 +948,17 @@
         }
         
         #hifigrid{
-            padding:60px 30% 0 25%;
+            padding:150px 0% 0 0%;
         ;
         }
         
+    
+    .hifiback{
+        padding:0px 30% 0 25%;
+    }
+    .hifiimg{
+        padding:20px 15% 0 12%;
+    }
     .gettingback img{
         padding:15px 15px 0 0;
         height:50px;

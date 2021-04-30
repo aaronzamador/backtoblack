@@ -1008,7 +1008,7 @@
        #hifi{
            display:grid;
            margin:-90px 0 0 0;
-           padding:150px 20px 0 0px;
+           padding:150px 20px 0 20px;
            grid-template-columns:auto;
            background-color: #f9f9f9;
            grid-template-rows:auto auto;
@@ -1027,7 +1027,7 @@
        }
        
        .stylebimg img, .styleimg2 img{
-           max-width:100%;
+           width:100%;
        }
        
        
@@ -1403,7 +1403,7 @@
            
            
            #hifi{
-               padding:150px 30% 0 25%;
+            padding:150px 0% 0 0%;
                grid-template-columns:auto;
                grid-template-rows:auto auto;
                grid-template-areas:
@@ -1411,7 +1411,14 @@
                "stylebimg"
            ;
            }
-           
+           .styleb{
+            padding:0px 30% 0 25%;
+
+           }
+           .stylebimg img{
+            padding:20px 15% 0 12%;
+
+           }
            #hifigrid{
                padding:60px 30% 0 25%;
            ;
