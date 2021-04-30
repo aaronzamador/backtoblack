@@ -7,18 +7,6 @@ function copyToClipboard(element) {
   }
 
 
-  function toggleInfo() {
-
-    let text = document.getElementById("akText");
-    
-    if(text.style.visibility === 'hidden'){
-      text.style.visibility = 'visible';
-    } else {
-        text.style.visibility = 'hidden';
-    }
-    
-  
-  }
   
 
 $("#right").click(function(){
