@@ -1,3 +1,26 @@
+function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+  }
+
+
+  function toggleInfo() {
+
+    let text = document.getElementById("akText");
+    
+    if(text.style.visibility === 'hidden'){
+      text.style.visibility = 'visible';
+    } else {
+        text.style.visibility = 'hidden';
+    }
+    
+  
+  }
+  
+
 $("#right").click(function(){
             
     if ($('.sidemenu').hasClass("sideclicked")){
