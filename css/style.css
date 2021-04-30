@@ -137,7 +137,7 @@
         font-size:10px;}
     
     .glimpse{
-        padding:80px 10% 0 10%;
+        padding:80px 40% 0 10%;
         grid-area:glimpse;
     }
     .glimpse .tag{
@@ -151,6 +151,9 @@
         border:1px solid #2B3A2B;
         max-width:40%;
         margin-bottom:20px;
+    }
+    .glimpse .bodyodyody{
+        line-height:20px;
     }
     
     .aboutimg{
@@ -263,8 +266,7 @@
         display:inherit
     }
     .a a{
-        display:none;
-    }
+        display:none}
     .babies{
         padding-left:15px;
         line-height: 30px;
@@ -773,7 +775,7 @@
     }
     
     .glimpse{
-        padding:100px 10% 0 10%;
+        padding:100px 40% 0 10%;
         grid-area:glimpse;
     }
     .glimpse img{
