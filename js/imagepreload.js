@@ -10,6 +10,7 @@
 				"images/freelunchhifiwhole.jpg",
 				"images/freelunch-tilted.jpg",
 				"images/edhifiwhole.jpg",
+				"images/edhifiwhole2.jpg",
 				"images/ed-case.jpg",
 				"images/see-thru.jpg",
                 "images/seethruhifiwhole.png"
