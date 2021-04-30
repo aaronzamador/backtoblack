@@ -501,10 +501,10 @@
         margin-bottom:0px;
     }
     .bouncy{
-        margin-bottom:31px;
+        margin-bottom:27px;
     }
     .therest{
-        margin:5px 0 31px 0;
+        margin:5px 0 27px 0;
     }
     .bouncy img, .bouncy2 img, .bouncy3 img{
         animation-name: bouncy;
@@ -805,6 +805,13 @@
         ;
     }
     
+    .bouncy{
+        margin-bottom:31px;
+    }
+
+    .therest{
+        margin:5px 0 31px 0;
+    }
     .socials{
         padding:0 0 0 60px;
     }
