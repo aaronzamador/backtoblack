@@ -12,4 +12,5 @@
 				"images/edhifiwhole.jpg",
 				"images/ed-case.jpg",
 				"images/see-thru.jpg",
+                "images/seethruhifiwhole.png"
 			)

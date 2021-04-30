@@ -1224,10 +1224,16 @@
         
         
         #hifi{
-            padding:140px 30% 0 25%;
+            padding:140px 0% 0 0%;
         ;
         }
         
+    .hifiback{
+        padding:0px 30% 0 25%;
+    }
+    .hifiimg{
+        padding:20px 15% 0 12%;
+    }
         
         .finalproto iframe{
             height:650px;
