@@ -501,10 +501,10 @@
         margin-bottom:0px;
     }
     .bouncy{
-        margin-bottom:25px;
+        margin-bottom:31px;
     }
     .therest{
-        margin:5px 0 25px 0;
+        margin:5px 0 31px 0;
     }
     .bouncy img, .bouncy2 img, .bouncy3 img{
         animation-name: bouncy;
@@ -708,7 +708,7 @@
         transition: 1s;
     }
     .webly{
-        line-height:20px;
+        line-height:22px;
     }
     
     .menbase img{
