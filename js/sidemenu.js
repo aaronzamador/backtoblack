@@ -37,6 +37,22 @@ if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
  }
   });
 
+  $(".contactmenuside").click(function(){
+             
+    if ($('.sidemenu').hasClass("sideclicked")){
+        $('.sidemenu').removeClass("sideclicked");
+        $('.everything').removeClass("onclick");
+        $(".footercontainer").removeClass("fcclicked");
+        $(".rotatingm").removeClass("cmen");
+        $('.aboutcontainer').removeClass("aboutmenuclicked");
+        var scrollingElement = (document.scrollingElement || document.body);
+scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
+    else{
+}
+ });
+ 
+
 
     
 $(".gettingback").click(function(){
