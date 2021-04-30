@@ -258,6 +258,13 @@
         margin-top:-20px;
     
     }
+
+    .b a{
+        display:inherit
+    }
+    .a a{
+        display:none;
+    }
     .babies{
         padding-left:15px;
         line-height: 30px;
@@ -692,6 +699,14 @@
         grid-area:rotm;
     }
     
+
+
+    .b a{
+        display:none
+    }
+    .a a{
+        display:inherit;
+    }
     .rotatingm img{
         position:fixed;
         bottom:18px;
