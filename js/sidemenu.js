@@ -37,6 +37,7 @@ if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
  }
   });
 
+
     
 $(".gettingback").click(function(){
             
@@ -107,6 +108,7 @@ if ($('.aboutcontainer').hasClass("aboutmenuclicked")){
 
 });
 
+
 $(window).resize(function() {
     if ($(window).width() > 1024) {
         $(".footercontainer").removeClass("fcclicked");
@@ -143,3 +145,10 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+
+$(".contactmenuside").on('click touchend', function(e) {
+    e.preventDefault();
+    scrollToAnchor("#contact");
+    return false;
+  });
