@@ -330,8 +330,56 @@
     
     
     
-    
-    
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .popup .popuptext {
+        visibility: hidden;
+        width: auto;
+        color: #2B3A2B;
+        font-family: helvetica-neue, sans-serif;
+        background-color:transparent;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 0px;
+        font-size:8px;
+        position: absolute;
+        text-transform:uppercase;
+        letter-spacing:1px;
+        z-index: 1;
+        bottom: 100%;
+        left: 70%;
+        margin-left: -80px;
+      }
+      
+      
+      /* Toggle this class when clicking on the popup container (hide and show the popup) */
+      .popup .show {
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+      }
+      
+      /* Add animation (fade in the popup) */
+      @-webkit-keyframes fadeIn {
+        0% {opacity: 0;
+            visibility: hidden;}
+        50% {opacity: 1;
+            visibility: visible;}
+        100% {opacity: 0;
+            visibility: hidden;}
+      }
+      
+      @keyframes fadeIn {
+        0% {opacity: 0;
+            visibility: hidden;}
+        50% {opacity: 1;
+            visibility: visible;}
+        100% {opacity: 0;
+            visibility: hidden;}
+      }
     
     
     .webly{
