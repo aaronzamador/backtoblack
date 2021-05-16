@@ -196,6 +196,7 @@
         border-bottom:1px dotted #89a489;
         width:100%;
     }
+
     #about{
         display:grid;
         padding:130px 20px 0 20px;
@@ -344,6 +345,59 @@
     .reviewimage1 img, .reviewimage2 img{
         max-width:100%;
     }
+    .reviewimage1 img.fullscreen, 
+    .testingimage img.fullscreen, 
+    .compimage1 img.fullscreen, 
+    .iap1 img.fullscreen,
+    .flowpic1 img.fullscreen,
+    .jp1 img.fullscreen,
+    .sp1 img.fullscreen,
+    .sp2 img.fullscreen,
+    .sp3 img.fullscreen,
+    .sp4 img.fullscreen,
+    .sp5 img.fullscreen,
+    .sp6 img.fullscreen,
+    .wireimg img.fullscreen,
+    .wireimg2 img.fullscreen,
+    .testp1 img.fullscreen,
+    .ms1 img.fullscreen,
+    .ms2 img.fullscreen,
+    .ms3 img.fullscreen,
+    .ms4 img.fullscreen{
+        z-index: 9999; 
+        width: 100%; 
+        height: 100vh; 
+        position: fixed; 
+        top: 0%; 
+        left: 0; 
+        bottom: 0; 
+        right: 0; 
+     }
+
+     
+    .reviewimage1 img:hover, 
+    .testingimage img:hover, 
+    .compimage1 img:hover, 
+    .iap1 img:hover,
+    .flowpic1 img:hover,
+    .jp1 img:hover,
+    .sp1 img:hover,
+    .sp2 img:hover,
+    .sp3 img:hover,
+    .sp4 img:hover,
+    .sp5 img:hover,
+    .sp6 img:hover,
+    .wireimg img:hover,
+    .wireimg2 img:hover,
+    .testp1 img:hover,
+    .ms1 img:hover,
+    .ms2 img:hover,
+    .ms3 img:hover,
+    .ms4 img:hover{
+        cursor: pointer; 
+     }
+
+     
     .reviewimage2{
         background-color: #f9f9f9;
         grid-area:reviewimage2;
@@ -393,13 +447,13 @@
     .compimage1{
         background-color: #f9f9f9;
         grid-area:compimage1;
+        padding:20px 0 0 0;
     }
     
     
     .compimage1 img{
         max-width:100%;
 
-        padding:20px 0 0 0;
     }
     
     #flowgrid{
@@ -424,10 +478,10 @@
     .flowpic1{
         background-color: #f9f9f9;
         grid-area:flowpic1;
+        padding:40px 0 0 0;
     }
     
     .flowpic1 img{
-        padding:40px 0 0 0;
         max-width:100%;
     }
 
@@ -624,6 +678,7 @@
     .jp1{
         background-color:#f9f9f9;
         grid-area:jp1;
+        padding:20px 0 20px 0;
     }
 
     
@@ -651,7 +706,6 @@
     
     .jp1 img{
         max-width:100%;
-        padding:20px 0 20px 0;
     }
 
 
@@ -732,6 +786,9 @@
     
     .sp1 img, .sp2 img, .sp3 img, .sp4 img, .sp5 img, .sp6 img{
         max-width:100%;
+    }
+    .sp1, .sp2, .sp3, .sp4, .sp5, .sp6{
+
         padding:20px 0 20px 0;
     }
     #wireframes{
@@ -837,10 +894,11 @@
     .testp1{
         background-color:#f9f9f9;
         grid-area:testp1;
+        padding-top:20px;
     }
     .testp1 img{
         max-width:100%;
-        padding:20px 0 0 0;
+        padding:0 0 0 0;
     }
     
     .testingbackground2{
@@ -991,8 +1049,9 @@
         }
         
     .flowpic1 img{
-        padding:20px 0 0 0;
     }
+    .flowpic1{
+        padding:40px 0 0 0;}
     #backgroundgrid{
         display:grid;
         padding:60px 0% 0px 0%;
@@ -1049,6 +1108,8 @@
     
         .sp1 img, .sp2 img, .sp3 img, .sp4 img, .sp5 img, .sp6 img{
             max-width:100%;
+        }
+        .sp1, .sp2, .sp3, .sp4, .sp5, .sp6{
             padding:20px 0 40px 0;
         }
         .st1 p, .st2 p, .st3 p, .st4 p , .st5 p , .st6 p{
@@ -1152,6 +1213,7 @@
     
     .compimage1{
         grid-area:compimage1;
+        padding:40px 0 0 0;
     }
     
     .compimage2{
@@ -1159,7 +1221,6 @@
     }
     
     .compimage1 img{
-        padding:40px 0 0 0;
         max-width:100%;
     }
 
