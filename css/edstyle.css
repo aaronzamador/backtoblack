@@ -836,7 +836,7 @@
     
     #finalgrid{
         display:grid;
-        padding:60px 20px 0 20px;
+        padding:60px 0px 0 0px;
         grid-template-columns:auto;
         background-color: #f9f9f9;
         border-bottom:1px solid #2B3A2B;
@@ -1114,9 +1114,4 @@
             height:650px;
         }
         
-        #finalgrid{
-            padding:80px 30% 0 25%;
-        ;
-        }
-    
     }

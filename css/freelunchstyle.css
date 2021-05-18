@@ -1076,7 +1076,7 @@
        
        #finalgrid{
            display:grid;
-           padding:60px 20px 0 20px;
+           padding:140px 0px 0 0px;
            grid-template-columns:auto;
            background-color: #f9f9f9;
            grid-template-rows:auto;
@@ -1587,9 +1587,5 @@
                height:650px;
            }
            
-           #finalgrid{
-               padding:40px 30% 0 25%;
-           ;
-           }
        
        }
