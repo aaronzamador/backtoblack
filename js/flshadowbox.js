@@ -10,16 +10,6 @@
   }
   
   // Open the Modal
-function openMod2() {
-    document.getElementById("myMod2").style.display = "block";
-  }
-  
-  // Close the Modal
-  function closeMod2() {
-    document.getElementById("myMod2").style.display = "none";
-  }
-  
-  // Open the Modal
 function openMod3() {
     document.getElementById("myMod3").style.display = "block";
   }
