@@ -781,11 +781,10 @@
         padding:190px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
-        grid-template-rows:auto auto auto;
+        grid-template-rows:auto auto;
         grid-template-areas:
         "flowback"
         "flowpic1"
-        "flowpic2"
     ;
 
     }
@@ -804,16 +803,6 @@
         background-color:#f9f9f9;
         grid-area:flowpic1;
     }
-    .flowpic2{
-        background-color:#f9f9f9;
-        grid-area:flowpic2;
-    }
-    
-    .flowpic2 img{
-        padding:20px 0 0 0;
-        max-width:100%;
-    }
-
 
     #journeygrid{
         display:grid;
@@ -957,6 +946,7 @@
         grid-template-rows:auto auto  auto;
         grid-template-areas:
         "scopeback "
+        "descopeimg"
         "scopedetails1"
         "scopedetails2"
     ;
@@ -978,6 +968,15 @@
         grid-area:scopedetails2;
 
     }
+   .descopeimg{
+       grid-area:descopeimg;
+   }
+    .descopeimg img{
+        width:100%;
+        padding:20px 0 20px 0;
+    }
+
+
     
    
     .jp1 img{
@@ -1286,7 +1285,7 @@
                 grid-template-rows:auto auto;
                 grid-template-areas:
                 "flowback flowback"
-                "flowpic1 flowpic2"
+                "flowpic1 flowpic1"
          
         ;
     
@@ -1303,11 +1302,6 @@
         
         .flowpic1 img{
             padding:20px 0px 0 0;
-            max-width:100%;
-        }
-    
-        .flowpic2 img{
-            padding:20px 0 0 0px;
             max-width:100%;
         }
     
@@ -1476,6 +1470,15 @@
     padding-left:5%;
     max-width: 80%;
 }
+.reviewimageslide2 img{
+    background-color: #F2F2F2;
+    height:auto;
+    padding-top:50px;
+    cursor:zoom-out;
+    padding-left:15%;
+    max-width: 70%;
+}
+
 
 .reviewimageslide3 img{
     background-color: #F2F2F2;
@@ -1505,9 +1508,16 @@
             grid-template-rows:auto auto ;
             grid-template-areas:
             "scopeback scopeback"
+            "descopeimg descopeimg"
             "scopedetails1 scopedetails2"
         ;
         
+        }
+
+
+        .descopeimg img{
+            max-width:100%;
+            padding:20px 0 20px 0;
         }
         .scopeback{
             grid-area:scopeback;

@@ -90,16 +90,6 @@ function openMod10() {
   }
   
   // Open the Modal
-function openMod11() {
-  document.getElementById("myMod11").style.display = "block";
-}
-
-// Close the Modal
-function closeMod11() {
-  document.getElementById("myMod11").style.display = "none";
-}
-
-  // Open the Modal
   function openMod12() {
     document.getElementById("myMod12").style.display = "block";
   }
@@ -181,10 +171,19 @@ function openMod19() {
   
   // Open the Modal
 function openMod20() {
-    document.getElementById("myMod20").style.display = "block";
-  }
-  
-  // Close the Modal
-  function closeMod20() {
-    document.getElementById("myMod20").style.display = "none";
-  }
+  document.getElementById("myMod20").style.display = "block";
+}
+
+// Close the Modal
+function closeMod20() {
+  document.getElementById("myMod20").style.display = "none";
+}
+// Open the Modal
+function openMod21() {
+  document.getElementById("myMod21").style.display = "block";
+}
+
+// Close the Modal
+function closeMod21() {
+  document.getElementById("myMod21").style.display = "none";
+}
