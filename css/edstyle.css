@@ -105,6 +105,14 @@
     cursor:zoom-in;
 }
 
+.everything h4{
+    font-size:24px;
+    padding:0 0 20px 0;
+    border-bottom:1px dotted #89a489;
+    
+}
+
+
 
     .statusitem1, .statusitem2, .statusitem3, .statusitem4, .statusitem5{
         padding:7px 0 0 0;
