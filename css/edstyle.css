@@ -839,7 +839,6 @@
         padding:60px 0px 0 0px;
         grid-template-columns:auto;
         background-color: #f9f9f9;
-        border-bottom:1px solid #2B3A2B;
         grid-template-rows:auto;
         grid-template-areas:
         "finalback"
