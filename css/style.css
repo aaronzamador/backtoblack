@@ -686,7 +686,9 @@
         right:0;
         
     }
-    
+    .linkage{
+        cursor:pointer;
+    }
     
     }
     

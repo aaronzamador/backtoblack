@@ -1093,6 +1093,76 @@
            grid-area:finalback;
            padding-bottom:40px;
        }
+
+
+
+       .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding: 0px 00 0 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color:blue;
+      }
+    /* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .reviewimageslide img{
+      background-color: #F2F2F2;
+  }
+
+
+  /* The Close Button */
+  .close {
+    color: #2b3a2b7f;
+    position: fixed;
+    z-index: 100;
+    top: 105px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #2B3A2B;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .backgroundimage img,
+  .backgroundimage2 img,
+  .spic1 img,
+  .spic2 img,
+  .spic3 img,
+  .uspic1 img,
+  .personaimage img,
+  .compimage1 img,
+  .iap1 img,
+  .flowpic1 img,
+  .flowpic2 img,
+  .jp1 img,
+  .wireimg img,
+  .wireimg2 img,
+  .mySlides2 img
+  {
+      cursor:zoom-in;
+  }
+  
+
+
          }
        
        
@@ -1379,6 +1449,47 @@
     
         }
         
+            
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding: 0px 5% 0 10%;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color:#F2F2F2;
+      }
+    /* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 0px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .reviewimageslide img{
+    background-color: #F2F2F2;
+    height:auto;
+    padding-top:50px;
+    cursor:zoom-out;
+    padding-left:5%;
+    max-width: 80%;
+}
+
+.reviewimageslide2 img{
+    background-color: #F2F2F2;
+    height:auto;
+    padding-top:50px;
+    cursor:zoom-out;
+    padding-left:20%;
+    max-width: 65%;
+}
+
      
     
         #scopegrid{
