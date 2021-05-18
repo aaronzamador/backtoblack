@@ -464,6 +464,14 @@
     .workgrid h4{
         margin-top:10px;
     }
+
+
+    .everything h4{
+        font-size:24px;
+        padding:0 0 20px 0;
+        border-bottom:1px dotted #89a489;
+        
+    }
     
     .bodyodyody{
         background-color:#E9F1E9;
@@ -690,6 +698,8 @@
         cursor:pointer;
     }
     
+
+
     }
     
     
