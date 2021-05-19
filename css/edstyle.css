@@ -1055,6 +1055,27 @@
         ;
         }
         
+
+        .reviewimageslide2 img{
+            background-color: #F2F2F2;
+            height:auto;
+            padding-top:50px;
+            cursor:zoom-out;
+            padding-left:15%;
+            max-width: 70%;
+        }
+        
+        
+        .reviewimageslide3 img{
+            background-color: #F2F2F2;
+            height:auto;
+            padding-top:50px;
+            cursor:zoom-out;
+            padding-left:15%;
+            max-width: 75%;
+        }
+
+
         .t12 p, .t22 p{
             padding:20px 40px 0 0px;
         }
