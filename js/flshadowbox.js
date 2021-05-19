@@ -187,3 +187,21 @@ function openMod21() {
 function closeMod21() {
   document.getElementById("myMod21").style.display = "none";
 }
+// Open the Modal
+function openMod22() {
+  document.getElementById("myMod22").style.display = "block";
+}
+
+// Close the Modal
+function closeMod22() {
+  document.getElementById("myMod22").style.display = "none";
+}
+// Open the Modal
+function openMod23() {
+  document.getElementById("myMod23").style.display = "block";
+}
+
+// Close the Modal
+function closeMod23() {
+  document.getElementById("myMod23").style.display = "none";
+}
