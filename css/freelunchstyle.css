@@ -1130,7 +1130,6 @@
            display:grid;
            padding:120px 20px 0 20px;
            grid-template-columns:auto;
-           border-bottom:1px solid #2B3A2B;
            background-color: #f9f9f9;
            grid-template-rows:auto;
            grid-template-areas:
