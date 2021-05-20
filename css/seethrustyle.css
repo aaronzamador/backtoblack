@@ -559,7 +559,7 @@
     #ideation{
         display:grid;
         margin:-90px 0 0 0;
-        padding:150px 20px 0 20px;
+        padding:120px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto;
@@ -863,7 +863,7 @@
     #testing{
         display:grid;
         margin:-90px 0 0 0;
-        padding:140px 20px 0 20px;
+        padding:120px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
         grid-template-rows:auto auto auto auto auto auto auto;
@@ -949,7 +949,7 @@
     #hifi{
         margin:-90px 0 0 0;
         display:grid;
-        padding:140px 20px 0 20px;
+        padding:120px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
         grid-template-rows:auto auto;
