@@ -198,7 +198,7 @@
 
 
     .restinfo .online:hover{cursor: pointer;}
-    .link1, .co{cursor: pointer;}
+    .link1, .co, .closethis, .gettingback{cursor: pointer;}
     .sidemenu{
         position:fixed;
         height:100%;

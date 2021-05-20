@@ -713,8 +713,8 @@
     .prepost{
         text-transform:uppercase;
         font-size:12px;
-        letter-spacing:.5px;
-        font-family: helvetica-neue, sans-serif;
+        letter-spacing:1px;
+        font-family: gopher, sans-serif;
         font-weight:500;
         padding-left:25px;
     }
@@ -1057,8 +1057,8 @@
         grid-template-areas:
         "hifiback"
         "hifiimg"
-        "hifidetails"
         "hifiimg2"
+        "hifidetails"
         "hifidetails2"
     ;
     }
@@ -1649,17 +1649,12 @@
             grid-template-areas:
             "hifiback hifiback"
             "hifiimg hifiimg"
-            "hifidetails hifidetails"
             "hifiimg2 hifiimg2"
-            "hifidetails2 hifidetails2"
+            "hifidetails hifidetails2"
         
            ;
            }
            
-    .hifidetails, .hifidetails2{
-        line-height:.9em;
-    
-    }
            #finals{
             padding:120px 30% 0 25%;
            ;

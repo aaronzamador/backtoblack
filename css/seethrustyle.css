@@ -312,8 +312,8 @@
     .prepost{
         text-transform:uppercase;
         font-size:12px;
-        letter-spacing:.5px;
-        font-family: helvetica-neue, sans-serif;
+        letter-spacing:1px;
+        font-family: gopher, sans-serif;
         font-weight:500;
         padding-left:25px;
     }
