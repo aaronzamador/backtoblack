@@ -1097,10 +1097,9 @@
         padding:150px 20px 0 20px;
         grid-template-columns:auto;
         background-color: #f9f9f9;
-        grid-template-rows:auto auto;
+        grid-template-rows:auto;
         grid-template-areas:
         "styleb"
-        "stylebimg"
     ;
     }
        .styleb{
@@ -1109,10 +1108,14 @@
        }
        .stylebimg{
            padding:20px 0px 0px 00px;
+           background-color:#f9f9f9;
            grid-area:stylebimg;
        }
-       
-       .stylebimg img, .styleimg2 img{
+       .sty2{
+        background-color: #f9f9f9;
+        padding:20px 20px 0px 20px;
+       }
+       .stylebimg img, .styleimg2 img, .sty2 img{
            width:100%;
        }
        
@@ -1125,8 +1128,9 @@
        
        #finalgrid{
            display:grid;
-           padding:120px 0px 0 0px;
+           padding:120px 20px 0 20px;
            grid-template-columns:auto;
+           border-bottom:1px solid #2B3A2B;
            background-color: #f9f9f9;
            grid-template-rows:auto;
            grid-template-areas:
@@ -1259,6 +1263,7 @@
                padding:60px 0% 0px 0%;
            
            }
+           
            .casestudybackground{
                padding:0px 30% 0 25%;
            }
@@ -1271,6 +1276,11 @@
                width:100%;
                padding:20px 15% 0 12%;
            }
+
+       .sty2 img{
+        width:100%;
+        padding:20px 15% 0 12%;
+       }
            
            .backgroundimage{
                padding:0px 30% 0 25%;
@@ -1659,6 +1669,18 @@
             padding:120px 30% 0 25%;
            ;
            }
+       
+           #finalgrid{
+               padding:40px 30% 0 25%;
+           ;
+           }
+           
+           .finalback{
+               grid-area:finalback;
+               padding-bottom:40px;
+           }
+    
+    
            .stylebimg img{
             padding:20px 15% 0 12%;
 
