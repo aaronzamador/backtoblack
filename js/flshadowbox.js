@@ -41,13 +41,22 @@ function openMod5() {
   
   // Open the Modal
 function openMod6() {
-    document.getElementById("myMod6").style.display = "block";
-  }
-  
-  // Close the Modal
-  function closeMod6() {
-    document.getElementById("myMod6").style.display = "none";
-  }
+  document.getElementById("myMod6").style.display = "block";
+}
+
+// Close the Modal
+function closeMod6() {
+  document.getElementById("myMod6").style.display = "none";
+}
+// Open the Modal
+function openMod61() {
+  document.getElementById("myMod61").style.display = "block";
+}
+
+// Close the Modal
+function closeMod61() {
+  document.getElementById("myMod61").style.display = "none";
+}
   
   // Open the Modal
 function openMod7() {
@@ -204,4 +213,31 @@ function openMod23() {
 // Close the Modal
 function closeMod23() {
   document.getElementById("myMod23").style.display = "none";
+}
+// Open the Modal
+function openMod24() {
+  document.getElementById("myMod24").style.display = "block";
+}
+
+// Close the Modal
+function closeMod24() {
+  document.getElementById("myMod24").style.display = "none";
+}
+// Open the Modal
+function openMod25() {
+  document.getElementById("myMod25").style.display = "block";
+}
+
+// Close the Modal
+function closeMod25() {
+  document.getElementById("myMod25").style.display = "none";
+}
+// Open the Modal
+function openMod26() {
+  document.getElementById("myMod26").style.display = "block";
+}
+
+// Close the Modal
+function closeMod26() {
+  document.getElementById("myMod26").style.display = "none";
 }

@@ -81,23 +81,23 @@
          }
          
          /* Position the image container (needed to position the left and right arrows) */
-         .container, .container2{
+         .container, .container2, .container3{
            position: relative;
          }
          
          /* Hide the images by default */
-         .mySlides, .mySlides2 {
+         .mySlides, .mySlides2, .mySlides3 {
            display: none;
          }
          
          /* Add a pointer when hovering over the thumbnail images */
-         .cursor {
+         .cursor{
            cursor: pointer;
          }
          
          /* Next & previous buttons */
          .prev,
-         .next, .prev2, .next2 {
+         .next, .prev2, .next2{
            cursor: pointer;
            position: absolute;
            top: 50%;
@@ -112,19 +112,36 @@
            -webkit-user-select: none;
          }
          
+         /* Next & previous buttons */
+         .prev3,
+         .next3{
+           cursor: pointer;
+           position: absolute;
+           top: 50%;
+           width: auto;
+           padding: 16px;
+           margin-top: -75px;
+           color: #2B3A2B;
+           font-weight: bold;
+           font-size: 20px;
+           border-radius: 0 3px 3px 0;
+           user-select: none;
+           -webkit-user-select: none;
+         }
+         
          /* Position the "next button" to the right */
-         .next,.next2 {
+         .next,.next2, .next3 {
            right: 0;
            border-radius: 3px 0 0 3px;
          }
          
          /* On hover, add a black background color with a little bit see-through */
          .prev:hover,
-         .next:hover,.prev2:hover,.next2:hover {
+         .next:hover,.prev2:hover,.next2:hover,.prev3:hover,.next3:hover {
            background-color: #f9f9f9;
          }
          /* Number text (1/3 etc) */
-         .numbertext, .numbertext2 {
+         .numbertext, .numbertext2 , .numbertext3 {
            font-family: helvetica-neue, sans-serif;
            color: #2B3A2B;
            font-size: 12px;
@@ -134,27 +151,34 @@
          }
          
          /* Container for image text */
-         .caption-container,.caption-container2 {
+         .caption-container,.caption-container2 ,.caption-container3 {
            text-align: center;
            background-color: #f9f9f9;
            padding: 2px 16px;
            color: white;
          }
          
-         .row:after, .row2:after {
+         .row:after, .row2:after , .row3:after {
            content: "";
            display: table;
            clear: both;
          }
          
          /* Six columns side by side */
-         .column,.column2 {
-           float: left;
-           width: 16.66%;
-         }
+         .column,.column2{
+            float: left;
+            width: 16.66%;
+          }
          
+         /* Six columns side by side */
+         .column3,.colm{
+            float: left;
+            width: 33.33%;
+            padding-right:5px;
+          }
+           
          /* Add a transparency effect for thumnbail images */
-         .demo, .demo2 {
+         .demo, .demo2 , .demo3 {
            padding-right:5px;
          opacity: 0.6;
        }
@@ -165,9 +189,11 @@
        }
        
        .demo2:hover {
-         opacity: 1;
-       }
-       
+        opacity: 1;
+      }
+      .demo3:hover {
+       opacity: 1;
+     }
        .styleguidemore{
            padding-top:10px;
            float:right;
@@ -486,13 +512,14 @@
            padding:190px 20px 0 20px;
            grid-template-columns:auto;
            background-color: #f9f9f9;
-           grid-template-rows:auto auto auto auto ;
+           grid-template-rows:auto auto auto auto auto;
            grid-template-areas:
            "testingb"
-           "uspic1"
-           
            "sdetails1"
            "sdetails2"
+           "uspic1"
+           "uspic12"
+           
        ;
        }
        .sdetails1, .sdetails2{
@@ -521,6 +548,14 @@
            grid-area:uspic1;
        }
        .uspic1 img{
+        max-width:100%;
+        padding:20px 0 20px 0;}
+        
+       .uspic12{
+        background-color:#f9f9f9;
+           grid-area:uspic12;
+       }
+       .uspic12 img{
         max-width:100%;
         padding:20px 0 20px 0;}
         
@@ -1196,26 +1231,22 @@
   .spic2 img,
   .spic3 img,
   .uspic1 img,
+  .uspic12 img,
   .personaimage img,
   .compimage1 img,
   .iap1 img,
-  .flowpic1 img,
-  .flowpic2 img,
   .jp1 img,
   .wireimg img,
   .wireimg2 img,
   .mySlides2 img,
+  .mySlides3 img,
   .descopeimg img,
   .hifiimg img,
   .hifiimg2 img
   {
       cursor:zoom-in;
   }
-  
-
-
-         }
-       
+}
        
        
        @media only screen and (min-width: 1024px) {
@@ -1310,11 +1341,12 @@
            #testinggrid{
                padding:150px 30% 0 25%;
                grid-template-columns:1fr 1fr;
-               grid-template-rows:auto auto auto auto auto auto;
+               grid-template-rows:auto auto auto auto auto auto auto;
                grid-template-areas:
                "testingb testingb"
-               "uspic1 uspic1"
                "sdetails1 sdetails2"
+               "uspic1 uspic1"
+               "uspic12 uspic12"
            ;
            } 
 
