@@ -241,3 +241,40 @@ function openMod26() {
 function closeMod26() {
   document.getElementById("myMod26").style.display = "none";
 }
+// Open the Modal
+function openMod27() {
+  document.getElementById("myMod27").style.display = "block";
+}
+
+// Close the Modal
+function closeMod27() {
+  document.getElementById("myMod27").style.display = "none";
+}
+// Open the Modal
+function openMod28() {
+  document.getElementById("myMod28").style.display = "block";
+}
+
+// Close the Modal
+function closeMod28() {
+  document.getElementById("myMod28").style.display = "none";
+}
+
+// Open the Modal
+function openMod29() {
+  document.getElementById("myMod29").style.display = "block";
+}
+
+// Close the Modal
+function closeMod29() {
+  document.getElementById("myMod29").style.display = "none";
+}
+// Open the Modal
+function openMod30() {
+  document.getElementById("myMod30").style.display = "block";
+}
+
+// Close the Modal
+function closeMod30() {
+  document.getElementById("myMod30").style.display = "none";
+}

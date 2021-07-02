@@ -81,12 +81,12 @@
          }
          
          /* Position the image container (needed to position the left and right arrows) */
-         .container, .container2, .container3{
+         .container, .container2, .container3, .container4{
            position: relative;
          }
          
          /* Hide the images by default */
-         .mySlides, .mySlides2, .mySlides3 {
+         .mySlides, .mySlides2, .mySlides3,.mySlides4 {
            display: none;
          }
          
@@ -115,33 +115,46 @@
          /* Next & previous buttons */
          .prev3,
          .next3{
-           cursor: pointer;
-           position: absolute;
-           top: 50%;
-           width: auto;
-           padding: 16px;
-           margin-top: -75px;
-           color: #2B3A2B;
-           font-weight: bold;
-           font-size: 20px;
-           border-radius: 0 3px 3px 0;
-           user-select: none;
-           -webkit-user-select: none;
-         }
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -75px;
+            color: #2B3A2B;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }.prev4,.next4{
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: #2B3A2B;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }
          
          /* Position the "next button" to the right */
-         .next,.next2, .next3 {
+         .next,.next2, .next3,.next4 {
            right: 0;
            border-radius: 3px 0 0 3px;
          }
          
          /* On hover, add a black background color with a little bit see-through */
          .prev:hover,
-         .next:hover,.prev2:hover,.next2:hover,.prev3:hover,.next3:hover {
+         .next:hover,.prev2:hover,.next2:hover,.prev3:hover,.next3:hover,.prev4:hover,.next4:hover {
            background-color: #f9f9f9;
          }
          /* Number text (1/3 etc) */
-         .numbertext, .numbertext2 , .numbertext3 {
+         .numbertext, .numbertext2 , .numbertext3 , .numbertext4 {
            font-family: helvetica-neue, sans-serif;
            color: #2B3A2B;
            font-size: 12px;
@@ -151,14 +164,14 @@
          }
          
          /* Container for image text */
-         .caption-container,.caption-container2 ,.caption-container3 {
+         .caption-container,.caption-container2 ,.caption-container3 ,.caption-container4 {
            text-align: center;
            background-color: #f9f9f9;
            padding: 2px 16px;
            color: white;
          }
          
-         .row:after, .row2:after , .row3:after {
+         .row:after, .row2:after , .row3:after .row4:after {
            content: "";
            display: table;
            clear: both;
@@ -171,14 +184,14 @@
           }
          
          /* Six columns side by side */
-         .column3,.colm{
+         .column3,.colm,.column4{
             float: left;
             width: 33.33%;
             padding-right:5px;
           }
            
          /* Add a transparency effect for thumnbail images */
-         .demo, .demo2 , .demo3 {
+         .demo, .demo2 , .demo3,.demo4 {
            padding-right:5px;
          opacity: 0.6;
        }
@@ -194,6 +207,9 @@
       .demo3:hover {
        opacity: 1;
      }
+     .demo4:hover {
+      opacity: 1;
+    }
        .styleguidemore{
            padding-top:10px;
            float:right;
@@ -1047,7 +1063,6 @@
            grid-template-areas:
            "testingb2"
            "t12"
-           "tq12"
            "t22"
            "tq22"
        ;
@@ -1059,6 +1074,10 @@
        .t12{
            grid-area:t12;
        }
+       .t12 img{
+        max-width:100%;
+        padding:20px 0 20px 0;}
+        
        .t22{
            grid-area:t22;
        }
@@ -1237,9 +1256,9 @@
   .iap1 img,
   .jp1 img,
   .wireimg img,
-  .wireimg2 img,
   .mySlides2 img,
   .mySlides3 img,
+  .mySlides4 img,
   .descopeimg img,
   .hifiimg img,
   .hifiimg2 img
@@ -1644,7 +1663,7 @@
                grid-template-rows:auto auto auto;
                grid-template-areas:
                "testingb2 testingb2"
-               "t12 tq12"
+               "t12 t12"
                "t22 tq22"
            ;
            }
