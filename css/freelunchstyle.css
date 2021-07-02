@@ -133,7 +133,7 @@
             top: 50%;
             width: auto;
             padding: 16px;
-            margin-top: -50px;
+            margin-top: -25px;
             color: #2B3A2B;
             font-weight: bold;
             font-size: 20px;
@@ -1260,6 +1260,7 @@
   .mySlides3 img,
   .mySlides4 img,
   .descopeimg img,
+  .t12 img,
   .hifiimg img,
   .hifiimg2 img
   {
