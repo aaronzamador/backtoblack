@@ -221,11 +221,61 @@ function openModa22() {
   
   // Open the Modal
 function openModa23() {
-    document.getElementById("myModa23").style.display = "block";
+  document.getElementById("myModa23").style.display = "block";
+}
+
+// Close the Modal
+function closeModa23() {
+  document.getElementById("myModa23").style.display = "none";
+}
+
+  // Open the Modal
+  function openModa31() {
+    document.getElementById("myModa31").style.display = "block";
   }
   
   // Close the Modal
-  function closeModa23() {
-    document.getElementById("myModa23").style.display = "none";
+  function closeModa31() {
+    document.getElementById("myModa31").style.display = "none";
+  }
+  
+  // Open the Modal
+  function openModa32() {
+    document.getElementById("myModa32").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModa32() {
+    document.getElementById("myModa32").style.display = "none";
+  }
+  
+  // Open the Modal
+  function openModa33() {
+    document.getElementById("myModa33").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModa33() {
+    document.getElementById("myModa33").style.display = "none";
+  }
+  
+  // Open the Modal
+  function openModa34() {
+    document.getElementById("myModa34").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModa34() {
+    document.getElementById("myModa34").style.display = "none";
+  }
+  
+  // Open the Modal
+  function openModa35() {
+    document.getElementById("myModa35").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModa35() {
+    document.getElementById("myModa35").style.display = "none";
   }
   
