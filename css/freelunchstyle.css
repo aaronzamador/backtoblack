@@ -120,7 +120,7 @@
             top: 50%;
             width: auto;
             padding: 16px;
-            margin-top: -75px;
+            margin-top: -25px;
             color: #2B3A2B;
             font-weight: bold;
             font-size: 20px;
@@ -1221,8 +1221,9 @@
     justify-content: center;
   }
   
-  .reviewimageslide img{
+  .reviewimageslide img,.reviewimageslide2 img,.reviewimageslide3 img{
       background-color: #F2F2F2;
+      cursor:zoom-out;
   }
 
 

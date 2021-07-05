@@ -388,9 +388,10 @@
     justify-content: center;
   }
   
-  .reviewimageslide img{
-      background-color: #F2F2F2;
-  }
+  .reviewimageslide img,.reviewimageslide2 img,.reviewimageslide3 img{
+    background-color: #F2F2F2;
+    cursor:zoom-out;
+}
 
 
   /* The Close Button */
