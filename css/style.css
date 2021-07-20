@@ -383,7 +383,7 @@
     
     
     .webly{
-        line-height:25px;
+        line-height:26px;
     }
     
     
@@ -565,7 +565,7 @@
     .co{
         padding-left:23px;
         margin:0;
-        padding-top:0px;
+        padding-top:4px;
         display:flex;
     }
     .co img{
@@ -789,7 +789,7 @@
         transition: 1s;
     }
     .webly{
-        line-height:25px;
+        line-height:26px;
     }
     
     .menbase img{
