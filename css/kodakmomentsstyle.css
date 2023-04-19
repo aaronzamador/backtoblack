@@ -437,7 +437,7 @@
        
        .spic1 img, .spic2 img, .spic3 img{
            max-width:100%;
-           padding:20px 0 20px 0;
+           padding:0px 0 0px 0;
        }
        .sfin{
            margin-top:-20px;
@@ -1339,23 +1339,32 @@
                padding:20px 30% 0 25%;
            }
            #research{
-               grid-template-columns:50% 50%;
+               grid-template-columns:33% 33% 33%;
+               column-gap: 20px;
                padding:120px 30% 0 25%;
                grid-template-rows: auto auto auto auto;
                grid-template-areas:
-               "reviewback reviewback"
-               "spic1 stext1"
-               "spic2 stext2"
-               "spic3 stext3"
-               "sfin sfin"
+               "reviewback reviewback reviewback"
+               "spic1 spic2 spic3"
+               "stext1 stext2 stext3"
+               "sfin sfin sfin"
            ;
            }
-           .spic1 img, .spic2 img, .spic3img{
-               max-width:100%;
-               padding:20px 0 40px 0;
-           }
+           .spic1 img{
+            max-width:100%;
+            height: 100%;
+            padding:0px 0px 0px 0px;
+        }.spic2 img{
+            max-width:100%;
+            height: 100%;
+            padding:0px 0px 0px 0px;
+        }.spic3 img{
+            max-width:100%;
+            height: 100%;
+            padding:0px 0px 0px 0px;
+        }
            .stext1 p, .stext2 p, .stext3 p{
-               padding: 7px 0 20px 60px;
+               padding: 0px 0 20px 0px;
            }
            
            #testinggrid{
