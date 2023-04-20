@@ -32,13 +32,13 @@
            justify-content:space-around;
            z-index:5;
            margin-top:55px;
-           grid-template-columns:auto auto auto auto auto;
+           grid-template-columns:auto auto auto auto ;
            height:40px;
            text-transform:uppercase;
            grid-template-rows:1fr;
            white-space:nowrap;
            grid-template-areas:
-           "item1 item2 item3 item4 item5"
+           "item1 item2 item3 item4 "
            ;
            
        }
@@ -735,6 +735,7 @@
         grid-template-areas:
         "iaback"
         "iap1"
+        "iaback2"
         "iadetails1"
         "iadetails2"
     ;
@@ -959,7 +960,7 @@
 
     #stakeholderinterview{
         display:grid;
-        margin:-90px 0 0 0;
+        margin:-70px 0 0 0;
         padding:170px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
@@ -1014,8 +1015,6 @@
         grid-template-areas:
         "scopeback "
         "descopeimg"
-        "scopedetails1"
-        "scopedetails2"
     ;
     
     }
@@ -1062,8 +1061,6 @@
            grid-template-areas:
            "testingb2"
            "t12"
-           "t22"
-           "tq22"
        ;
        }
        
@@ -1504,22 +1501,28 @@
                grid-template-areas:
                "iaback iaback"
                "iap1 iap1"
+               "iaback2 iaback2"
                "iadetails1 iadetails2"
            ;}
            
            
            .iadetails1{
             margin-top:0px;
-            padding:40px 40px 0 0;
+            padding:0px 40px 0 0;
 
         }
 
            
-           .iadetails2{
+        .iadetails2{
             margin-top:0px;
-            padding:70px 0px 0 40px;
+            padding:30px 0px 0 40px;
 
         }
+           
+        .iaback2{
+       grid-area:iaback2;
+
+     }
 
 
 
@@ -1639,7 +1642,6 @@
             grid-template-areas:
             "scopeback scopeback"
             "descopeimg descopeimg"
-            "scopedetails1 scopedetails2"
         ;
         
         }
@@ -1674,7 +1676,6 @@
                grid-template-areas:
                "testingb2 testingb2"
                "t12 t12"
-               "t22 tq22"
            ;
            }
            
