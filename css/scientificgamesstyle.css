@@ -886,6 +886,18 @@
     ;
     
     }
+    .everything h4{
+        font-family: gopher, sans-serif;
+        font-weight:500;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        color:#2B3A2B;
+        margin-top:-15px;
+        font-size:12px;
+        padding:0 0 30px 0;
+        border-bottom:1px dotted #89a489;
+        
+    }
 
     .jback{
         grid-area:jback;
@@ -1605,18 +1617,6 @@
     max-width: 75%;
 }
 
-    .everything h4{
-        font-family: gopher, sans-serif;
-        font-weight:500;
-        text-transform:uppercase;
-        letter-spacing:2px;
-        color:#2B3A2B;
-        margin-top:-15px;
-        font-size:12px;
-        padding:0 0 30px 0;
-        border-bottom:1px dotted #89a489;
-        
-    }
 
         
 
