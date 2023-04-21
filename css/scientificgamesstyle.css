@@ -893,6 +893,7 @@
         letter-spacing:2px;
         color:#2B3A2B;
         margin-top:-15px;
+        margin-bottom:25px;
         font-size:12px;
         padding:0 0 30px 0;
         border-bottom:1px dotted #89a489;
@@ -1662,7 +1663,7 @@
             font-family: gopher, sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size:32px;
+            font-size:42px;
            margin-top:20px;
         }
         #about h3{
