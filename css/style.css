@@ -22,10 +22,10 @@
     }
     
     p{
-        font-size:14px;
+        font-size:16px;
         -webkit-font-smoothing: antialiased;
-        line-height:1.6em;
-        font-family: helvetica-neue, sans-serif;
+        line-height:1.8em;
+        font-family: space grotesk;
         color:#2B3A2B;
         font-weight: 400;
         letter-spacing:.0em;
@@ -432,9 +432,9 @@
     h3{
         
         font-family: gopher, sans-serif;
-        font-weight: 500;
+        font-weight: 400;
         font-style: normal;
-        font-size:32px;}
+        font-size:36px;}
     
     .nowrap{
         white-space:nowrap
@@ -457,6 +457,12 @@
     }
     
     h4{
+        font-family: gopher, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:20px;
+    }
+    h7{
         font-family: gopher, sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -607,6 +613,22 @@
         margin-top:-15px;
         font-size:10px;
         padding:0px 0px 0px 0px;
+    }
+    
+    .tag a{
+    
+        color:#2B3A2B;
+    }.cstag{
+        font-family: gopher, sans-serif;
+        font-weight:600;
+        letter-spacing:1px;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        color:#2B3A2B;
+        margin-top:-15px;
+        font-size:10px;
+        padding:0 0 20px 0;
+        border-bottom:1px dotted #89a489;
     }
     
     .tag a{
@@ -978,7 +1000,7 @@
         }
         
         #background{
-            padding:c60px 0 0 120px;
+            padding:60px 0 0 120px;
         }
         
         .showalittle img{
