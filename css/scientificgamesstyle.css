@@ -337,19 +337,19 @@
         margin-bottom:0;
     }
     
-       #backgroundgrid{
-           display:grid;
-           padding:60px 20px 40px 20px;
-           grid-template-columns:1fr;
-           background-color: #f9f9f9;
-           grid-template-rows:auto auto auto auto auto;
-           grid-template-areas:
-           "csbackground"
-           "sexydisplay"
-           "sexydisplay2"
-           "goal"
-           "backgroundimage";
-       
+    #backgroundgrid{
+        display:grid;
+        padding:60px 20px 40px 20px;
+        grid-template-columns:1fr;
+        background-color: #f9f9f9;
+        grid-template-rows:auto auto auto auto auto;
+        grid-template-areas:
+        "csbackground"
+        "sexydisplay"
+        "sexydisplay2"
+        "goal"
+        "backgroundimage";
+    
        }
        .casestudybackground{
            margin:0;
@@ -372,10 +372,6 @@
            width:100%;
        }
        
-    .casestudybackground{
-        margin:0;
-        grid-area:csbackground;
-    }
     
 
     
@@ -390,7 +386,96 @@
     .sexydisplay2{
         grid-area:sexydisplay2;
     }
+
+
+
+    #deliverablesgrid{
+        display:grid;
+        padding:60px 20px 40px 20px;
+        grid-template-columns:1fr;
+        background-color: #f9f9f9;
+        grid-template-rows:auto auto auto auto auto;
+        grid-template-areas:
+        "dtitle"
+        "dimage1"
+        "dgoal"
+        "dimage2"
+        "dcap";}
     
+        .dtitle{
+            margin:0;
+            grid-area:dtitle;
+        }
+        
+       
+       .dgoal{
+        margin:0;
+        padding:0px 0 80px 0;
+        grid-area:dgoal;
+    }
+    
+    .dcap{
+        margin:0;
+        padding:0px 0 80px 0;
+        grid-area:dcap;
+    }
+    
+    
+    .dimage1{
+        
+        grid-area:dimage1;
+    }
+    .dimage1 img, .dimage2 img{
+        width:100%;
+    }
+    
+    .dimage2{
+        grid-area:dimage2;
+    }
+
+
+    #configrid{
+        display:grid;
+        padding:60px 20px 40px 20px;
+        grid-template-columns:1fr;
+        background-color: #f9f9f9;
+        grid-template-rows:auto auto;
+        row-gap:60px;
+        grid-template-areas:
+        "config"
+        "cquote"}
+
+        #config{
+            grid-area:config;
+            width:100%;
+            border:1px solid #2B3A2B;
+
+        }
+        .alert{
+            padding:80px;
+        }
+        .alert h3{
+
+        margin-top:0px;
+            font-weight: 400;
+            font-size:36px;
+        }
+        .alert p{
+        font-size:14px;
+        }
+        .cquote{
+
+           grid-area:cquote;
+           margin:0;
+           height:100%;
+           padding:0px 40px 60px 40px;
+           font-size:1.3rem;
+           line-height:1.4em;
+           letter-spacing:0px;
+           font-family: 'Averia Serif Libre', Georgia;
+        }
+
+
        #research{
            display:grid;
            margin: 00px 0 0 0;
@@ -1316,6 +1401,21 @@
            .quotesource{
                padding:20px 0px 0 0px;
            }
+
+
+           #configrid{
+            display:grid;
+            padding:120px 30% 0 25%;}
+    
+            .config{
+                padding:0px 30% 0 25%;
+            }
+    
+            .cquote{
+                padding:40px 40px 60px 40px;
+            }
+
+
            #backgroundgrid{
                display:grid;
                padding:120px 0% 0px 0%;
@@ -1334,6 +1434,28 @@
                width:100%;
                padding:20px 15% 0 12%;
            }
+
+           #deliverablesgrid{
+            display:grid;
+            padding:120px 0% 0px 0%;
+        
+        }
+        
+        .dtitle{
+            padding:0px 30% 0 25%;
+        }
+        
+    
+        .dgoal{
+            padding:0px 30% 80px 25%;
+        }
+        .dcap{
+            padding:0px 30% 0px 25%;
+        }
+        .dimage1 img, .dimage2 img{
+            width:100%;
+            padding:20px 15% 0 12%;
+        }
 
        .sty2 img{
         width:100%;

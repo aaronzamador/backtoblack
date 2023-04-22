@@ -196,6 +196,11 @@
         padding-right:12px;
     }
 
+    #config img{
+        max-height:10px;
+        padding-right:12px;
+    }
+
 
     .restinfo .online:hover{cursor: pointer;}
     .link1, .co, .closethis, .gettingback{cursor: pointer;}
