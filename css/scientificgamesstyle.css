@@ -32,13 +32,13 @@
            justify-content:space-around;
            z-index:5;
            margin-top:55px;
-           grid-template-columns:auto auto auto auto auto;
+           grid-template-columns:auto auto auto;
            height:40px;
            text-transform:uppercase;
            grid-template-rows:1fr;
            white-space:nowrap;
            grid-template-areas:
-           "item1 item2 item3 item4 item5"
+           "item1 item2 item3"
            ;
            
        }
@@ -490,7 +490,12 @@
         #config{
             grid-area:config;
             width:100%;
-            border:1px solid #2B3A2B;
+            background-color: #f9f9f9;
+            border:1px dotted #2B3A2B;
+            animation-duration: 20000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+            transition: 1s;
 
         }
         .alert{
@@ -1372,6 +1377,11 @@
     color: #2B3A2B;
     text-decoration: none;
     cursor: pointer;
+  }
+  #config:hover{
+    cursor: pointer;
+    border:1px solid #2B3A2B;
+
   }
   .backgroundimage img,
   .backgroundimage2 img,
