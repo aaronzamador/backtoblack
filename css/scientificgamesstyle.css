@@ -297,7 +297,15 @@
            margin:0;
            line-height:22px;
        }
-       
+       .teamsize b{
+
+        font-family: gopher, sans-serif;
+        font-size:14px;
+       }
+       .projectscope b{
+        font-size:14px;
+        font-family: gopher, sans-serif;
+       }
        
        #quotegrid{
            display:grid;
@@ -313,6 +321,27 @@
        
        .quotetext{
            grid-area:quotetext;
+           margin:0;
+           height:100%;
+           padding:0px 40px 0 40px;
+           font-size:1.3rem;
+           line-height:1.4em;
+           letter-spacing:0px;
+           font-family: 'Averia Serif Libre', Georgia;
+       }
+       #configquote{
+           display:grid;
+           padding:60px 20px 60px 20px;
+           grid-template-columns:1fr;
+           background-color: #f9f9f9;
+           grid-template-rows:auto ;
+           grid-template-areas:
+           "configquotetext"
+           ;
+       }
+       
+       .configquotetext{
+           grid-area:configquotetext;
            margin:0;
            height:100%;
            padding:0px 40px 0 40px;
@@ -439,11 +468,10 @@
         padding:60px 20px 40px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
-        grid-template-rows:auto auto;
+        grid-template-rows: auto;
         row-gap:60px;
         grid-template-areas:
-        "config"
-        "cquote"}
+        "config"}
 
         #config{
             grid-area:config;
@@ -462,17 +490,6 @@
         }
         .alert p{
         font-size:14px;
-        }
-        .cquote{
-
-           grid-area:cquote;
-           margin:0;
-           height:100%;
-           padding:0px 40px 60px 40px;
-           font-size:1.3rem;
-           line-height:1.4em;
-           letter-spacing:0px;
-           font-family: 'Averia Serif Libre', Georgia;
         }
 
 
@@ -1394,10 +1411,14 @@
            
            
            #quotegrid{
-               padding:40px 35% 0 30%;
+               padding:40px 35% 0px 30%;
                ;
            }
            
+           #configquote{
+            padding:60px 35% 120px 30%;
+            ;
+        }
            .quotesource{
                padding:20px 0px 0 0px;
            }
@@ -1411,11 +1432,6 @@
                 padding:0px 30% 0 25%;
             }
     
-            .cquote{
-                padding:40px 40px 60px 40px;
-            }
-
-
            #backgroundgrid{
                display:grid;
                padding:120px 0% 0px 0%;
@@ -1437,7 +1453,7 @@
 
            #deliverablesgrid{
             display:grid;
-            padding:120px 0% 0px 0%;
+            padding:160px 0% 0px 0%;
         
         }
         

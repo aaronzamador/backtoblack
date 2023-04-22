@@ -390,6 +390,10 @@
     .webly{
         line-height:26px;
     }
+    .webly b{
+        font-family: gopher, sans-serif;
+        font-size:14px;
+    }
     
     
     
@@ -574,6 +578,11 @@
         padding-top:4px;
         display:flex;
     }
+    .re{
+        margin:6px 0 0 0;
+        padding-top:4px;
+        display:flex;
+    }
     .co img{
           height:10px;
           margin-top:7px;
@@ -642,9 +651,10 @@
         opacity:1;
         bottom:60px;
         width:100%;
-        padding:60px 0 0 0;
+        padding:60px 20px 0 20px;
         display:grid;
         grid-template-columns:1fr 1fr;
+        row-gap:20px;
         grid-template-rows:1fr;
         grid-template-areas:
         "socials webdev"
@@ -665,12 +675,12 @@
         padding-right:10px;
     }
     .socials{
-        padding:0 0 0 20px;
+        padding:0 0 0 0px;
         grid-area:socials;
     }
     .webdev{
         grid-area:webdev;
-        padding:0 0 0 20px;
+        padding:0 0 0 0px;
     }
     .onclick{
         opacity:0;
@@ -908,20 +918,14 @@
         ;
     }
     
-    .socials{
-        padding:0 0 0 60px;
-    }
-    .webdev{
-        padding:0 0 0 60px;
-    }
     .findme{
         padding:0 0 0 60px;
     }
     
     .footercontainer{
-        padding:40px 0 60px 0;
+        padding:40px 0 60px 5%;
         transition: .3s;
-        grid-template-columns:25% 25%;
+        grid-template-columns:25% 35%;
     
     
     }
@@ -1027,19 +1031,13 @@
             ;
         }
         
-        .socials{
-            padding:0 0 0 120px;
-        }
-        .webdev{
-            padding:0 0 0 120px;
-        }
         .findme{
             padding:0 0 0 120px;
         }
         
         .footercontainer{
             padding:40px 0 60px 0;
-            grid-template-columns:25% 25%;
+            grid-template-columns:25% 35%;
         
         
         }
