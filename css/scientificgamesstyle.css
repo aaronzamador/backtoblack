@@ -259,7 +259,7 @@
        #about{
         display:grid;
         margin:-90px 0 0 0;
-        padding:130px 20px 0 20px;
+        padding:120px 20px 00px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows: auto auto auto;
@@ -363,7 +363,7 @@
        }
        #configquote{
            display:grid;
-           padding:40px 20px 60px 20px;
+           padding:0px 20px 60px 20px;
            grid-template-columns:1fr;
            background-color: #f9f9f9;
            grid-template-rows:auto ;
@@ -400,7 +400,7 @@
     
     #backgroundgrid{
         display:grid;
-        padding:160px 20px 40px 20px;
+        padding:60px 20px 40px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows:auto auto auto auto auto;
@@ -452,7 +452,7 @@
 
     #deliverablesgrid{
         display:grid;
-        padding:120px 20px 40px 20px;
+        padding:80px 20px 0px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows:auto auto auto auto auto;
@@ -471,7 +471,7 @@
        
        .dgoal{
         margin:0;
-        padding:0px 0 80px 0;
+        padding:0px 0 60px 0;
         grid-area:dgoal;
     }
     
@@ -546,7 +546,7 @@
        #research{
            display:grid;
            margin: 00px 0 0 0;
-           padding:120px 20px 0 20px;
+           padding:60px 20px 0 20px;
            grid-template-columns:auto;
            background-color: #f9f9f9;
            grid-template-rows:auto auto auto auto auto auto auto auto;
