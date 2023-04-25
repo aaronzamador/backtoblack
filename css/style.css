@@ -251,7 +251,7 @@
     
     h1{
         font-family:gopher, sans-serif;
-        font-size:32px;
+        font-size:1.5rem;
         line-height:80px;
         font-weight: 500;
     
@@ -259,7 +259,7 @@
     
     .also{
         font-family:gopher, sans-serif;
-        font-size:32px;
+        font-size:1.5rem;
         font-weight:500;
         line-height:-80px;
     }
@@ -285,7 +285,7 @@
     h2{
     
         font-family:gopher, sans-serif;
-        font-size:24px;
+        font-size:1rem;
         font-weight:300;
     }
     
@@ -873,6 +873,9 @@
     }
     
     
+    .also{
+        font-size:32px;
+    }
     #cs{
         margin-top:-90px;
         padding-top:130px;
@@ -984,6 +987,10 @@
         
     }
     
+    h1{
+        font-size:32px;
+    
+    }
     
     .closethis{
         top:55px;
@@ -1014,6 +1021,11 @@
     }
     h4{
         font-size:20px;
+    }
+    
+    h2{
+    
+        font-size:24px;
     }
     
     .aboutmenu{
