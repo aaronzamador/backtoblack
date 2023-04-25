@@ -651,7 +651,7 @@
         transition: .3s;
         opacity:1;
         bottom:60px;
-        width:100%;
+        width:99%;
         padding:60px 0px 0 20px;
         display:grid;
         grid-template-columns:1fr 1fr;
