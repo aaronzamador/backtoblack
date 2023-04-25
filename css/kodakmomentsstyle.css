@@ -401,7 +401,7 @@
     
     #backgroundgrid{
         display:grid;
-        padding:160px 20px 40px 20px;
+        padding:160px 20px 0px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows:auto auto auto auto auto;
@@ -511,7 +511,8 @@
 
     #configrid{
         display:grid;
-        padding:60px 20px 40px 20px;
+        width:100%;
+        padding:60px 20px 40px 0px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows: auto;
@@ -531,13 +532,13 @@
 
         }
         .alert{
-            padding:80px;
+            padding:20px;
         }
         .alert h3{
 
         margin-top:0px;
             font-weight: 400;
-            font-size:36px;
+            font-size:32px;
         }
         .alert p{
         font-size:14px;
@@ -1427,6 +1428,9 @@
        @media only screen and (min-width: 1024px) {
        
        
+        .alert{
+            padding:80px;
+        }
            footer{
                background-color:#f9f9f9;}
                .rotatingm img{
@@ -1469,6 +1473,9 @@
            .quotesource{
                padding:20px 0px 0 0px;
            }
+
+
+
 
 .projecttitle{
     margin-bottom:-15px;}

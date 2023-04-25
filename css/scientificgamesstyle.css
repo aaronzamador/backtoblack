@@ -452,7 +452,7 @@
 
     #deliverablesgrid{
         display:grid;
-        padding:60px 20px 40px 20px;
+        padding:120px 20px 40px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
         grid-template-rows:auto auto auto auto auto;
@@ -499,7 +499,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:42px;
+        font-size:24px;
        margin-top:20px;
     }
     #about h3{
@@ -530,13 +530,13 @@
 
         }
         .alert{
-            padding:80px;
+            padding:20px;
         }
         .alert h3{
 
         margin-top:0px;
             font-weight: 400;
-            font-size:36px;
+            font-size:32px;
         }
         .alert p{
         font-size:14px;
@@ -1503,6 +1503,9 @@
             padding:160px 0% 0px 0%;
         
         }
+
+        h3{
+            font-size:42px;}
         
         .dtitle{
             padding:0px 30% 0 25%;
@@ -1583,6 +1586,9 @@
         ;
         }
         
+        .alert h3{
+                font-size:36px;
+            }
         
 
     
@@ -1753,6 +1759,10 @@
     
         }
         
+
+        .alert{
+            padding:80px;
+        }
             
     .modal {
         display: none;
