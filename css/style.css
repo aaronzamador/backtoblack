@@ -555,7 +555,7 @@
         font-family: gopher, sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size:16px;
+        font-size:14px;
         padding:0px 0px 0px 0px;
         margin-bottom:0px;
     }
@@ -1025,9 +1025,17 @@
     }
     
     
+    .socials{
+        padding:80px 0 0 0px;
+        grid-area:socials;
+    }
+    .webdev{
+        grid-area:webdev;
+        padding:80px 0 0 0px;
+    }
     
     h5{
-        font-size:14px;
+        font-size:16px;
     }
     }
     
