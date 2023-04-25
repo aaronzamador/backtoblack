@@ -652,7 +652,7 @@
         opacity:1;
         bottom:60px;
         width:100%;
-        padding:60px 20px 0 20px;
+        padding:60px 0px 0 20px;
         display:grid;
         grid-template-columns:1fr 1fr;
         row-gap:20px;
