@@ -21,7 +21,7 @@
         text-decoration:none;
     }
     p{
-        font-size:16px;
+        font-size:12px;
         -webkit-font-smoothing: antialiased;
         line-height:1.8em;
         font-family: space grotesk;
@@ -41,7 +41,7 @@
         background-color:#f9f9f9;
         width:100%;
         z-index:500;
-        grid-template-columns:60px 1fr 1fr;
+        grid-template-columns:60px auto 1fr;
         height:55px;
         grid-template-rows:1fr;
         grid-template-areas:
@@ -419,7 +419,7 @@
     }
     
     #intro img{
-        height:19px;
+        height:9px;
         background-color:transparent;
         animation-name: globe;
         margin-left:1px;
@@ -442,7 +442,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:36px;}
+        font-size:16px;}
     
     .nowrap{
         white-space:nowrap
@@ -468,7 +468,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:20px;
+        font-size:16px;
     }
     .workgrid h4{
         margin-top:10px;
@@ -760,6 +760,10 @@
     }
     .wrapper{
         transition: 1s;}
+
+
+    h3{
+        font-size:36px;}
     
     
     .slinks1{
@@ -870,6 +874,12 @@
         margin-top:-90px;
         padding-top:130px;
     }
+
+
+    
+    #intro img{
+        height:19px;
+    }
     
     .glimpse{
         padding:15% 30% 0 10%;
@@ -938,6 +948,16 @@
     
     }
     
+    p{
+        font-size:16px;
+        line-height:1.8em;
+        font-family: space grotesk;
+        color:#2B3A2B;
+        font-weight: 400;
+        letter-spacing:.0em;
+        font-style: normal; 
+    }
+    
     .nextproject{
         padding-right:calc(25% + 40px);
         position:absolute;
@@ -973,6 +993,12 @@
     .glimpse{
         padding:25% 20% 0 10%;
         grid-area:glimpse;
+    }
+    h4{
+        font-family: gopher, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:20px;
     }
     
     .aboutmenu{
