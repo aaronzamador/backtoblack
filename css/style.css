@@ -10,7 +10,7 @@
     }
     
     body{
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         transition:.3s  ease;
         margin: 0;
         color:#2B3A2B;
@@ -20,7 +20,6 @@
         color:#2B3A2B;
         text-decoration:none;
     }
-    
     p{
         font-size:16px;
         -webkit-font-smoothing: antialiased;
@@ -39,7 +38,7 @@
         display:grid;
         color:#2B3A2B;
         border-bottom:1px solid #2B3A2B;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         width:100%;
         z-index:500;
         grid-template-columns:60px 1fr 1fr;
@@ -103,7 +102,7 @@
         transition: .5s;
         height:100vh;
         width:calc(100% - 75px);
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-area:aboutmenu;
         z-index:450;
         overflow-y:scroll;
@@ -176,7 +175,7 @@
     
     .showimage{
         max-height:100vw;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         padding:80px 20px 40px 20px;
         grid-area:showimage;
     }
@@ -184,11 +183,11 @@
     .restinfo{
         padding:0px 0px 0 15%;
         grid-area:restinfo;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
     }
     .restinfo2{
         padding:20px 0px 60px 15%;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         grid-area:restinfo2;
     }
     .bottomabout .bouncy img{
@@ -207,7 +206,7 @@
     .sidemenu{
         position:fixed;
         height:100%;
-        background-color:#EAF1EA;
+        background-color:#f9f9f9;
         width:100%;
         top:0;
         left:100%;
@@ -305,7 +304,7 @@
         top:0;
         display:flex;
         justify-content:center;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
     }
     
     .preload img{
@@ -416,11 +415,11 @@
     }
     #intro{
         padding:120px 0 0 20px;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
     }
     
     #intro img{
-        height:17px;
+        height:19px;
         background-color:transparent;
         animation-name: globe;
         margin-left:1px;
@@ -460,7 +459,7 @@
     
     
     #background{
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         color:#2B3A2B;
         padding:60px 0 0 20px;
     }
@@ -477,12 +476,12 @@
 
 
     .bodyodyody{
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         margin-top:-15px;
         margin-bottom:0;
     }
     .showalittle{
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         width:100%;
     }
     
@@ -507,7 +506,7 @@
     }
     #casestudies{
         padding:120px 20px 80px 20px;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         transition: .3s;
         border-bottom:1px solid #2B3A2B;
     }
@@ -613,7 +612,7 @@
     .tag{
         padding-right:10px;
         font-family: gopher, sans-serif;
-        font-weight:500;
+        font-weight:400;
         letter-spacing:1px;
         text-transform:uppercase;
         letter-spacing:2px;
@@ -739,7 +738,7 @@
         z-index:506;
         position:fixed;
         height:55px;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         bottom:0;
         left:0;
         width:100%;
@@ -813,7 +812,7 @@
         right:19px;
         width:75px;
         border-radius:55%;
-        background-color:#E9F1E9;
+        background-color:#f9f9f9;
         animation-name: men;
         animation-duration: 20000ms;
         animation-iteration-count: infinite;
@@ -910,7 +909,7 @@
         height:100%;
         grid-template-columns:50% 50%;
         grid-template-rows:1fr 1fr;
-        grid-column-gap: 40px;
+        grid-column-gap: 80px;
         grid-row-gap: 80px;
         grid-template-areas:
         "first second"
