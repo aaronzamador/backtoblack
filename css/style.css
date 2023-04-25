@@ -419,7 +419,7 @@
     }
     
     #intro img{
-        height:9px;
+        height:.70rem;
         background-color:transparent;
         animation-name: globe;
         margin-left:1px;
