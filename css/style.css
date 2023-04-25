@@ -575,9 +575,11 @@
         padding-left:23px;
         margin:0;
         padding-top:4px;
+        font-size:.875rem;
         display:flex;
     }
     .re{
+        font-size:.875rem;
         margin:6px 0 0 0;
         padding-top:4px;
         display:flex;
@@ -1032,6 +1034,12 @@
     .webdev{
         grid-area:webdev;
         padding:80px 0 0 0px;
+    }
+    .co{
+        font-size:1rem;
+    }
+    .re{
+        font-size:1rem;
     }
     
     h5{
