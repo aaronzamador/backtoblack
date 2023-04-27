@@ -456,10 +456,12 @@
         padding:60px 20px 40px 20px;
         grid-template-columns:1fr;
         background-color: #f9f9f9;
-        grid-template-rows:auto auto auto auto auto;
+        grid-template-rows:auto auto auto auto auto auto auto;
         grid-template-areas:
         "dtitle"
         "dimage1"
+        "dimage3"
+        "dimage4"
         "dgoal"
         "dimage2"
         "dcap";}
@@ -487,7 +489,15 @@
         
         grid-area:dimage1;
     }
-    .dimage1 img, .dimage2 img{
+    .dimage3{
+        
+        grid-area:dimage3;
+    }
+    .dimage4{
+        
+        grid-area:dimage4;
+    }
+    .dimage1 img, .dimage2 img, .dimage3 img, .dimage4 img{
         width:100%;
     }
     
@@ -1418,7 +1428,9 @@
   }
   .sexydisplay img,
   .dimage1 img,
-  .dimage2 img
+  .dimage2 img,
+  .dimage3 img,
+  .dimage4 img
   {
       cursor:zoom-in;
   }
@@ -1523,7 +1535,7 @@
         .dcap{
             padding:0px 30% 0px 25%;
         }
-        .dimage1 img, .dimage2 img{
+        .dimage1 img, .dimage2 img, .dimage3 img, .dimage4 img{
             width:100%;
             padding:20px 15% 0 12%;
         }
