@@ -257,7 +257,7 @@
            width:100%;
        }
        #myVideo{
-        margin-top:-100px;
+        margin-top:00px;
         width:100%;
         border-bottom:1px dotted #89a489;
        }
@@ -1374,6 +1374,7 @@
        ;
        }
        
+       
        .finalback{
            grid-area:finalback;
            padding-bottom:40px;
@@ -1800,6 +1801,9 @@
     
         }
         
+       #myVideo{
+        margin-top:-100px;
+       }
             
     .modal {
         display: none;
