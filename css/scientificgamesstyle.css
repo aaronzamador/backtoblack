@@ -32,13 +32,13 @@
            justify-content:space-around;
            z-index:5;
            margin-top:55px;
-           grid-template-columns:auto auto auto;
+           grid-template-columns:auto auto auto auto;
            height:40px;
            text-transform:uppercase;
            grid-template-rows:1fr;
            white-space:nowrap;
            grid-template-areas:
-           "item1 item2 item3"
+           "item1 item2 item3 item4"
            ;
            
        }
@@ -459,6 +459,8 @@
         grid-template-areas:
         "dtitle"
         "dimage1"
+        "dimage3"
+        "dimage4"
         "dgoal"
         "dimage2"
         "dcap";}
@@ -481,6 +483,14 @@
         grid-area:dcap;
     }
     
+    .dimage1 img, .dimage3 img{
+        padding-bottom:20px;
+        width:100%;
+    }
+  .dimage2 img, .dimage4 img{
+        padding-bottom:0px;
+        width:100%;
+    }
     
     .dimage1{
         
@@ -493,9 +503,6 @@
     .dimage4{
         
         grid-area:dimage4;
-    }
-    .dimage1 img, .dimage2 img, .dimage3 img, .dimage4 img{
-        width:100%;
     }
     
     .dimage2{
@@ -846,7 +853,6 @@
        }
        .iaback{
            grid-area:iaback;
-           padding:0 0 20px 0;
        }
        .iap1{
         background-color:#f9f9f9;
@@ -882,23 +888,28 @@
        
        .iap1 img, .iap2 img, .iap3 img, .iapic img{
            max-width:100%;
-           padding:20px 0 20px 0;
+           padding:0px 0 20px 0;
        }
        
     #ideation{
         display:grid;
-        margin:-90px 0 0 0;
-        padding:150px 20px 0 20px;
+        padding:160px 20px 0 20px;
         grid-template-columns:auto;
         background-color:#f9f9f9;
-        grid-template-rows:auto auto auto auto;
+        grid-template-rows:auto auto auto auto auto;
         grid-template-areas:
         "iaback"
         "iap1"
-        "iadetails1"
-        "iadetails2"
+        "iap2"
+        "iap3"
     ;
     }
+    
+    .iap1{
+        background-color:#f9f9f9;
+           grid-area:iap1;
+       }
+    
     .iadetails1, .iadetails2{
         background-color:#f9f9f9;
         font-size:16px;
@@ -971,10 +982,6 @@
         padding:0 0 20px 0;
     }
     
-    .iap1 img, .iap2 img, .iap3 img, .iapic img{
-        max-width:100%;
-        padding:20px 0 20px 0;
-    }
        #lastfeaturegrid{
            display:grid;
            padding:40px 20px 0 20px;
@@ -1426,7 +1433,10 @@
   .dimage1 img,
   .dimage3 img,
   .dimage4 img,
-  .dimage2 img
+  .dimage2 img,
+  .iap1 img,
+  .iap2 img,
+  .iap3 img
   {
       cursor:zoom-in;
   }
@@ -1689,24 +1699,34 @@
            .iat1 p, .iat2 p, .iat3 p{
                padding:7px 0 20px 80px;
            }
-           .iap1 img, .iap2 img, .iap3 img, .iapic img{
-               max-width:100%;
-               padding:20px 0 0px 0;
-           }
            .iafin{
                padding:20px 0 0 0;
            }
            
            #ideation{
-               padding:120px 30% 0 25%;
-               grid-template-columns:50% 50%;
+               padding:120px 0% 0 0%;
+               grid-template-columns:auto;
                grid-template-rows:auto auto auto auto auto;
                grid-template-areas:
-               "iaback iaback"
-               "iap1 iap1"
-               "iadetails1 iadetails2"
+               "iaback"
+               "iap1"
+               "iap2"
+               "iap3"
            ;}
            
+       .iaback{
+        padding:0px 30% 20px 25%;
+    }
+    .iap1 img, .iap2 img{
+        width:100%;
+        padding:0px 15% 20px 12%;}
+
+       .iap3 img{
+            width:100%;
+            padding:0px 15% 0px 12%;}
+        .dgoal{
+            padding:0px 30% 80px 25%;
+        }
            
            .iadetails1{
             margin-top:0px;
