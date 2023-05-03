@@ -381,7 +381,7 @@
            grid-area:configquotetext;
            margin:0;
            height:100%;
-           padding:0px 40px 0 40px;
+           padding:0px 40px 40px 40px;
            font-size:1.3rem;
            line-height:1.4em;
            letter-spacing:0px;
