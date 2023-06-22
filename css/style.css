@@ -419,7 +419,7 @@
     }
     
     #intro img{
-        height:1.1rem;
+        height:.70rem;
         background-color:transparent;
         animation-name: globe;
         margin-left:1px;
@@ -442,7 +442,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:	2em;}
+        font-size:	1.3125em;}
     
     .nowrap{
         white-space:nowrap
@@ -468,7 +468,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:1.2em
+        font-size:1em
     }
     .workgrid h4{
         margin-top:10px;
@@ -613,15 +613,19 @@
         }
     .tag{
         padding-right:10px;
-        font-family: gopher, sans-serif;
-        font-weight:400;
-        letter-spacing:1px;
-        text-transform:uppercase;
-        letter-spacing:2px;
-        color:#2B3A2B;
         margin-top:-15px;
-        font-size:10px;
         padding:0px 0px 0px 0px;
+
+
+
+        font-size:.8750em;
+        -webkit-font-smoothing: antialiased;
+        line-height:1.8em;
+        font-family: space grotesk;
+        color:#2B3A2B;
+        font-weight: 400;
+        letter-spacing:.0em;
+        font-style: normal; 
     }
     
     .tag a{
@@ -765,7 +769,7 @@
 
 
     h3{
-        font-size:48px;
+        font-size:36px;
     }
     
     
@@ -884,7 +888,7 @@
 
     
     #intro img{
-        height:26px;
+        height:19px;
     }
     
     .glimpse{
@@ -1020,7 +1024,7 @@
         grid-area:glimpse;
     }
     h4{
-        font-size:24px;
+        font-size:20px;
     }
     
     h2{
