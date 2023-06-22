@@ -414,12 +414,12 @@
         color:#2B3A2B;
     }
     #intro{
-        padding:120px 0 0 20px;
+        padding:120px 0 0px 20px;
         background-color:#f9f9f9;
     }
     
     #intro img{
-        height:.70rem;
+        height:1.1rem;
         background-color:transparent;
         animation-name: globe;
         margin-left:1px;
@@ -442,7 +442,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:	1.3125em;}
+        font-size:	2em;}
     
     .nowrap{
         white-space:nowrap
@@ -468,7 +468,7 @@
         font-family: gopher, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:1em
+        font-size:1.2em
     }
     .workgrid h4{
         margin-top:10px;
@@ -765,7 +765,7 @@
 
 
     h3{
-        font-size:36px;
+        font-size:48px;
     }
     
     
@@ -884,7 +884,7 @@
 
     
     #intro img{
-        height:19px;
+        height:26px;
     }
     
     .glimpse{
@@ -1020,7 +1020,7 @@
         grid-area:glimpse;
     }
     h4{
-        font-size:20px;
+        font-size:24px;
     }
     
     h2{
